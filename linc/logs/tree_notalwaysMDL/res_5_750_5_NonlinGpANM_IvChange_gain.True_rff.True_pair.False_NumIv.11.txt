@@ -1,0 +1,38 @@
+*** RUN ***
+Run ID:  0
+Repeats:  10
+Seeds:  142 -- 152
+DAGs in:  logs/dags/5_750_5_NonlinGpANM_IvChange_gain.True_rff.True_pair.False_NumIv.11/
+*** RUN ***
+Run ID:  0
+Repeats:  10
+Seeds:  142 -- 152
+DAGs in:  logs/dags/5_750_5_NonlinGpANM_IvChange_gain.True_rff.True_pair.False_NumIv.11/
+*** RUN ***
+Run ID:  0
+Repeats:  10
+Seeds:  142 -- 152
+DAGs in:  logs/dags/5_750_5_NonlinGpANM_IvChange_gain.True_rff.True_pair.False_NumIv.11/
+
+Nodes: 5
+Contexts: 5
+Context samples: 750
+FunType:NonlinGpANM
+IvType:IvChange
+*** Result ***
+Counts: (43,51,143,13,10)
+F1: 0.57
+SHD: 6.4
+SID: 3.8
+SID avg: 3.8 	-var: 10.4 -std: 3.22 -cf: 1.999
+SID scaled: 0.19 	-var: 0.03 -std: 0.16 -cf: 0.1
+Gain causal orientation: 464.91 , how often:  53
+Gain anticausal orientation: 173.28 , how often:  53
+Gain causal: 2464.042 	-var: 2748234.903 -std: 1657.78 -cf: 1027.503
+Gain anticausal: 918.391 	-var: 562384.946 -std: 749.923 -cf: 464.807
+Time: 871.17
+Time per DAG: 87.12
+
+At: Thu Dec  1 18:13:06 2022 
+***
+

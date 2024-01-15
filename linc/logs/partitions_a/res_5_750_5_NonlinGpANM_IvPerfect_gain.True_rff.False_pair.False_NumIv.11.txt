@@ -1,0 +1,55 @@
+
+----------
+[NUM] Contexts: 5 Samples: 750 Nodes: 5 Seed: 142 Iters: 2 
+[VSN] Regr/Group (GP): False 
+[VSN] Regr/Pair (ILP): False 
+[TYPES] FunType: NonlinGpANM 
+[TYPES] IntervType: IvPerfect Intervs: 1 up to 1 
+----------
+Assignment context pairs -> groups:
+
+----------
+[NUM] Contexts: 5 Samples: 750 Nodes: 5 Seed: 142 Iters: 2 
+[VSN] Regr/Group (GP): False 
+[VSN] Regr/Pair (ILP): False 
+[TYPES] FunType: NonlinGpANM 
+[TYPES] IntervType: IvPerfect Intervs: 1 up to 1 
+----------
+Assignment context pairs -> groups:
+	 Vario : F1:  0.95 ( 93 , 3 , 97 , 7 )
+	 Wasserstein_ILP : F1:  0.99 ( 98 , 0 , 100 , 2 )
+	 MDL_linear : F1:  0.45 ( 29 , 0 , 100 , 71 )
+	 MDL_GP : F1:  0 ( 0 , 0 , 0 , 0 )
+	 MDL_GP(exact) : F1:  0 ( 0 , 0 , 0 , 0 )
+	 MDL_ILP_gain : F1:  1.0 ( 100 , 0 , 100 , 0 )
+	 MDL_ILP_dist : F1:  0.67 ( 100 , 100 , 0 , 0 )
+	 guess_together : F1:  0.67 ( 100 , 100 , 0 , 0 )
+	 guess_separate : F1:  0.0 ( 0 , 0 , 100 , 100 )
+
+Assignment context -> obs/interv group:
+	 Vario : 88 / 100
+	 Wasserstein_ILP : 90 / 100
+	 Wasserstein_ILP(exact) : 0 / 0
+	 MDL_linear : 25 / 100
+	 MDL_GP : 0 / 0
+	 MDL_GP(exact) : 0 / 0
+	 MDL_ILP_gain : 100 / 100
+	 MDL_ILP_dist : 30 / 100
+	 guess_together : 30 / 100
+	 guess_separate : 10 / 100
+
+Exact partition matching: 
+	 Vario: 17 / 20 	preds: [0, 18, 1, 1, 0]
+	 Wasserstein_ILP: 18 / 20 	preds: [0, 18, 2, 0, 0]
+	 Wasserstein_ILP(exact): 0 / 0 	preds: [0, 0, 0, 0, 0]
+	 MDL_linear: 2 / 20 	preds: [0, 2, 7, 4, 7]
+	 MDL_GP: 0 / 0 	preds: [0, 0, 0, 0, 0]
+	 MDL_GP(exact): 0 / 0 	preds: [0, 0, 0, 0, 0]
+	 MDL_ILP_gain: 20 / 20 	preds: [0, 20, 0, 0, 0]
+	 MDL_ILP_dist: 0 / 20 	preds: [20, 0, 0, 0, 0]
+	 guess_together: 0 / 20 	preds: [20, 0, 0, 0, 0]
+	 guess_separate: 0 / 20 	preds: [0, 0, 0, 0, 20]
+
+Time: 776.98751 seconds
+
+At: Mon Dec 12 12:03:45 2022

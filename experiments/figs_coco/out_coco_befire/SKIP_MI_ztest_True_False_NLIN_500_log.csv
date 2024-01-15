@@ -1,0 +1,623 @@
+
+
+EXPERIMENT: exp
+METHOD: MI_ztest x SKIP
+FUN_FORM: NLIN
+
+EXPERIMENT: exp
+METHOD: MI_ztest x SKIP
+FUN_FORM: NLIN
+5_1_3_1_2
+	METRIC:mi
+		oracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+5_1_4_1_2
+	METRIC:mi
+		oracle:			[tp-pair] 41.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 20.0	[f1-pair] 0.75	[f1stdev-pair] 0.29	[f1sig-pair] 0.08	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 41.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 20.0	[f1-adj] 0.75	[f1stdev-adj] 0.29	[f1sig-adj] 0.08	
+						[tp-clu] 96.0	[fp-clu] 12.0	[tn-clu] 56.0	[fn-clu] 36.0	[f1-clu] 0.77	[f1stdev-clu] 0.26	[f1sig-clu] 0.07	[jacc-clu] 0.82	[ari-clu] 0.52	[ami-clu] 0.54	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+5_1_5_1_2
+	METRIC:mi
+		oracle:			[tp-pair] 53.0	[fp-pair] 1.0	[tn-pair] 38.0	[fn-pair] 8.0	[f1-pair] 0.92	[f1stdev-pair] 0.09	[f1sig-pair] 0.01	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 61.0	[fp-adj] 7.0	[tn-adj] 28.0	[fn-adj] 0.0	[f1-adj] 0.95	[f1stdev-adj] 0.17	[f1sig-adj] 0.03	
+						[tp-clu] 132.0	[fp-clu] 12.0	[tn-clu] 56.0	[fn-clu] 0.0	[f1-clu] 0.96	[f1stdev-clu] 0.14	[f1sig-clu] 0.02	[jacc-clu] 0.94	[ari-clu] 0.9	[ami-clu] 0.9	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+5_1_6_1_2
+	METRIC:mi
+		oracle:			[tp-pair] 54.0	[fp-pair] 1.0	[tn-pair] 38.0	[fn-pair] 7.0	[f1-pair] 0.9	[f1stdev-pair] 0.19	[f1sig-pair] 0.04	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 61.0	[fp-adj] 3.0	[tn-adj] 32.0	[fn-adj] 0.0	[f1-adj] 0.97	[f1stdev-adj] 0.11	[f1sig-adj] 0.01	
+						[tp-clu] 130.0	[fp-clu] 6.0	[tn-clu] 62.0	[fn-clu] 2.0	[f1-clu] 0.96	[f1stdev-clu] 0.13	[f1sig-clu] 0.02	[jacc-clu] 0.96	[ari-clu] 0.92	[ami-clu] 0.91	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+5_1_7_1_2
+	METRIC:mi
+		oracle:			[tp-pair] 59.0	[fp-pair] 1.0	[tn-pair] 38.0	[fn-pair] 2.0	[f1-pair] 0.97	[f1stdev-pair] 0.05	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 61.0	[fp-adj] 3.0	[tn-adj] 32.0	[fn-adj] 0.0	[f1-adj] 0.97	[f1stdev-adj] 0.11	[f1sig-adj] 0.01	
+						[tp-clu] 130.0	[fp-clu] 6.0	[tn-clu] 62.0	[fn-clu] 2.0	[f1-clu] 0.96	[f1stdev-clu] 0.13	[f1sig-clu] 0.02	[jacc-clu] 0.96	[ari-clu] 0.92	[ami-clu] 0.91	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+5_1_8_1_2
+	METRIC:mi
+		oracle:			[tp-pair] 61.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 0.0	[f1-pair] 1.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 61.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 0.0	[f1-adj] 1.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 0.0	[tn-clu] 68.0	[fn-clu] 0.0	[f1-clu] 1.0	[f1stdev-clu] 0.0	[f1sig-clu] 0.0	[jacc-clu] 1.0	[ari-clu] 1.0	[ami-clu] 1.0	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+5_1_9_1_2
+	METRIC:mi
+		oracle:			[tp-pair] 61.0	[fp-pair] 2.0	[tn-pair] 37.0	[fn-pair] 0.0	[f1-pair] 0.98	[f1stdev-pair] 0.05	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 61.0	[fp-adj] 7.0	[tn-adj] 28.0	[fn-adj] 0.0	[f1-adj] 0.94	[f1stdev-adj] 0.12	[f1sig-adj] 0.02	
+						[tp-clu] 130.0	[fp-clu] 14.0	[tn-clu] 54.0	[fn-clu] 2.0	[f1-clu] 0.94	[f1stdev-clu] 0.14	[f1sig-clu] 0.02	[jacc-clu] 0.93	[ari-clu] 0.82	[ami-clu] 0.81	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+5_1_10_1_2
+	METRIC:mi
+		oracle:			[tp-pair] 61.0	[fp-pair] 4.0	[tn-pair] 35.0	[fn-pair] 0.0	[f1-pair] 0.96	[f1stdev-pair] 0.13	[f1sig-pair] 0.02	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 61.0	[fp-adj] 7.0	[tn-adj] 28.0	[fn-adj] 0.0	[f1-adj] 0.95	[f1stdev-adj] 0.17	[f1sig-adj] 0.03	
+						[tp-clu] 132.0	[fp-clu] 12.0	[tn-clu] 56.0	[fn-clu] 0.0	[f1-clu] 0.96	[f1stdev-clu] 0.14	[f1sig-clu] 0.02	[jacc-clu] 0.94	[ari-clu] 0.9	[ami-clu] 0.9	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+
+EXPERIMENT: exp
+METHOD: MI_ztest x SKIP
+FUN_FORM: NLIN
+5_1_3_1_2
+	METRIC:mi
+		oracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+5_1_4_1_2
+	METRIC:mi
+		oracle:			[tp-pair] 41.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 20.0	[f1-pair] 0.75	[f1stdev-pair] 0.29	[f1sig-pair] 0.08	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 41.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 20.0	[f1-adj] 0.75	[f1stdev-adj] 0.29	[f1sig-adj] 0.08	
+						[tp-clu] 96.0	[fp-clu] 12.0	[tn-clu] 56.0	[fn-clu] 36.0	[f1-clu] 0.77	[f1stdev-clu] 0.26	[f1sig-clu] 0.07	[jacc-clu] 0.82	[ari-clu] 0.52	[ami-clu] 0.54	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+5_1_5_1_2
+	METRIC:mi
+		oracle:			[tp-pair] 53.0	[fp-pair] 1.0	[tn-pair] 38.0	[fn-pair] 8.0	[f1-pair] 0.92	[f1stdev-pair] 0.09	[f1sig-pair] 0.01	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 61.0	[fp-adj] 7.0	[tn-adj] 28.0	[fn-adj] 0.0	[f1-adj] 0.95	[f1stdev-adj] 0.17	[f1sig-adj] 0.03	
+						[tp-clu] 132.0	[fp-clu] 12.0	[tn-clu] 56.0	[fn-clu] 0.0	[f1-clu] 0.96	[f1stdev-clu] 0.14	[f1sig-clu] 0.02	[jacc-clu] 0.94	[ari-clu] 0.9	[ami-clu] 0.9	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+5_1_6_1_2
+	METRIC:mi
+		oracle:			[tp-pair] 54.0	[fp-pair] 1.0	[tn-pair] 38.0	[fn-pair] 7.0	[f1-pair] 0.9	[f1stdev-pair] 0.19	[f1sig-pair] 0.04	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 61.0	[fp-adj] 3.0	[tn-adj] 32.0	[fn-adj] 0.0	[f1-adj] 0.97	[f1stdev-adj] 0.11	[f1sig-adj] 0.01	
+						[tp-clu] 130.0	[fp-clu] 6.0	[tn-clu] 62.0	[fn-clu] 2.0	[f1-clu] 0.96	[f1stdev-clu] 0.13	[f1sig-clu] 0.02	[jacc-clu] 0.96	[ari-clu] 0.92	[ami-clu] 0.91	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+5_1_7_1_2
+	METRIC:mi
+		oracle:			[tp-pair] 59.0	[fp-pair] 1.0	[tn-pair] 38.0	[fn-pair] 2.0	[f1-pair] 0.97	[f1stdev-pair] 0.05	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 61.0	[fp-adj] 3.0	[tn-adj] 32.0	[fn-adj] 0.0	[f1-adj] 0.97	[f1stdev-adj] 0.11	[f1sig-adj] 0.01	
+						[tp-clu] 130.0	[fp-clu] 6.0	[tn-clu] 62.0	[fn-clu] 2.0	[f1-clu] 0.96	[f1stdev-clu] 0.13	[f1sig-clu] 0.02	[jacc-clu] 0.96	[ari-clu] 0.92	[ami-clu] 0.91	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+5_1_8_1_2
+	METRIC:mi
+		oracle:			[tp-pair] 61.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 0.0	[f1-pair] 1.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 61.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 0.0	[f1-adj] 1.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 0.0	[tn-clu] 68.0	[fn-clu] 0.0	[f1-clu] 1.0	[f1stdev-clu] 0.0	[f1sig-clu] 0.0	[jacc-clu] 1.0	[ari-clu] 1.0	[ami-clu] 1.0	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+5_1_9_1_2
+	METRIC:mi
+		oracle:			[tp-pair] 61.0	[fp-pair] 2.0	[tn-pair] 37.0	[fn-pair] 0.0	[f1-pair] 0.98	[f1stdev-pair] 0.05	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 61.0	[fp-adj] 7.0	[tn-adj] 28.0	[fn-adj] 0.0	[f1-adj] 0.94	[f1stdev-adj] 0.12	[f1sig-adj] 0.02	
+						[tp-clu] 130.0	[fp-clu] 14.0	[tn-clu] 54.0	[fn-clu] 2.0	[f1-clu] 0.94	[f1stdev-clu] 0.14	[f1sig-clu] 0.02	[jacc-clu] 0.93	[ari-clu] 0.82	[ami-clu] 0.81	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+5_1_10_1_2
+	METRIC:mi
+		oracle:			[tp-pair] 61.0	[fp-pair] 4.0	[tn-pair] 35.0	[fn-pair] 0.0	[f1-pair] 0.96	[f1stdev-pair] 0.13	[f1sig-pair] 0.02	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 61.0	[fp-adj] 7.0	[tn-adj] 28.0	[fn-adj] 0.0	[f1-adj] 0.95	[f1stdev-adj] 0.17	[f1sig-adj] 0.03	
+						[tp-clu] 132.0	[fp-clu] 12.0	[tn-clu] 56.0	[fn-clu] 0.0	[f1-clu] 0.96	[f1stdev-clu] 0.14	[f1sig-clu] 0.02	[jacc-clu] 0.94	[ari-clu] 0.9	[ami-clu] 0.9	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+
+EXPERIMENT: exp
+METHOD: MI_ztest x SKIP
+FUN_FORM: NLIN
+5_1_3_1_2
+	METRIC:mi
+		oracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+5_1_4_1_2
+	METRIC:mi
+		oracle:			[tp-pair] 41.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 20.0	[f1-pair] 0.75	[f1stdev-pair] 0.29	[f1sig-pair] 0.08	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 41.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 20.0	[f1-adj] 0.75	[f1stdev-adj] 0.29	[f1sig-adj] 0.08	
+						[tp-clu] 96.0	[fp-clu] 12.0	[tn-clu] 56.0	[fn-clu] 36.0	[f1-clu] 0.77	[f1stdev-clu] 0.26	[f1sig-clu] 0.07	[jacc-clu] 0.82	[ari-clu] 0.52	[ami-clu] 0.54	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+5_1_5_1_2
+	METRIC:mi
+		oracle:			[tp-pair] 53.0	[fp-pair] 1.0	[tn-pair] 38.0	[fn-pair] 8.0	[f1-pair] 0.92	[f1stdev-pair] 0.09	[f1sig-pair] 0.01	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 61.0	[fp-adj] 7.0	[tn-adj] 28.0	[fn-adj] 0.0	[f1-adj] 0.95	[f1stdev-adj] 0.17	[f1sig-adj] 0.03	
+						[tp-clu] 132.0	[fp-clu] 12.0	[tn-clu] 56.0	[fn-clu] 0.0	[f1-clu] 0.96	[f1stdev-clu] 0.14	[f1sig-clu] 0.02	[jacc-clu] 0.94	[ari-clu] 0.9	[ami-clu] 0.9	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+5_1_6_1_2
+	METRIC:mi
+		oracle:			[tp-pair] 54.0	[fp-pair] 1.0	[tn-pair] 38.0	[fn-pair] 7.0	[f1-pair] 0.9	[f1stdev-pair] 0.19	[f1sig-pair] 0.04	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 61.0	[fp-adj] 3.0	[tn-adj] 32.0	[fn-adj] 0.0	[f1-adj] 0.97	[f1stdev-adj] 0.11	[f1sig-adj] 0.01	
+						[tp-clu] 130.0	[fp-clu] 6.0	[tn-clu] 62.0	[fn-clu] 2.0	[f1-clu] 0.96	[f1stdev-clu] 0.13	[f1sig-clu] 0.02	[jacc-clu] 0.96	[ari-clu] 0.92	[ami-clu] 0.91	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+5_1_7_1_2
+	METRIC:mi
+		oracle:			[tp-pair] 59.0	[fp-pair] 1.0	[tn-pair] 38.0	[fn-pair] 2.0	[f1-pair] 0.97	[f1stdev-pair] 0.05	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 61.0	[fp-adj] 3.0	[tn-adj] 32.0	[fn-adj] 0.0	[f1-adj] 0.97	[f1stdev-adj] 0.11	[f1sig-adj] 0.01	
+						[tp-clu] 130.0	[fp-clu] 6.0	[tn-clu] 62.0	[fn-clu] 2.0	[f1-clu] 0.96	[f1stdev-clu] 0.13	[f1sig-clu] 0.02	[jacc-clu] 0.96	[ari-clu] 0.92	[ami-clu] 0.91	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+5_1_8_1_2
+	METRIC:mi
+		oracle:			[tp-pair] 61.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 0.0	[f1-pair] 1.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 61.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 0.0	[f1-adj] 1.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 0.0	[tn-clu] 68.0	[fn-clu] 0.0	[f1-clu] 1.0	[f1stdev-clu] 0.0	[f1sig-clu] 0.0	[jacc-clu] 1.0	[ari-clu] 1.0	[ami-clu] 1.0	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+5_1_9_1_2
+	METRIC:mi
+		oracle:			[tp-pair] 61.0	[fp-pair] 2.0	[tn-pair] 37.0	[fn-pair] 0.0	[f1-pair] 0.98	[f1stdev-pair] 0.05	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 61.0	[fp-adj] 7.0	[tn-adj] 28.0	[fn-adj] 0.0	[f1-adj] 0.94	[f1stdev-adj] 0.12	[f1sig-adj] 0.02	
+						[tp-clu] 130.0	[fp-clu] 14.0	[tn-clu] 54.0	[fn-clu] 2.0	[f1-clu] 0.94	[f1stdev-clu] 0.14	[f1sig-clu] 0.02	[jacc-clu] 0.93	[ari-clu] 0.82	[ami-clu] 0.81	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+5_1_10_1_2
+	METRIC:mi
+		oracle:			[tp-pair] 61.0	[fp-pair] 4.0	[tn-pair] 35.0	[fn-pair] 0.0	[f1-pair] 0.96	[f1stdev-pair] 0.13	[f1sig-pair] 0.02	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 61.0	[fp-adj] 7.0	[tn-adj] 28.0	[fn-adj] 0.0	[f1-adj] 0.95	[f1stdev-adj] 0.17	[f1sig-adj] 0.03	
+						[tp-clu] 132.0	[fp-clu] 12.0	[tn-clu] 56.0	[fn-clu] 0.0	[f1-clu] 0.96	[f1stdev-clu] 0.14	[f1sig-clu] 0.02	[jacc-clu] 0.94	[ari-clu] 0.9	[ami-clu] 0.9	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+
+EXPERIMENT: exp
+METHOD: MI_ztest x SKIP
+FUN_FORM: NLIN
+5_1_10_0_0
+	METRIC:mi
+		oracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+5_1_10_0_1
+	METRIC:mi
+		oracle:			[tp-pair] 61.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 0.0	[f1-pair] 1.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 61.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 0.0	[f1-adj] 1.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 0.0	[tn-clu] 68.0	[fn-clu] 0.0	[f1-clu] 1.0	[f1stdev-clu] 0.0	[f1sig-clu] 0.0	[jacc-clu] 1.0	[ari-clu] 1.0	[ami-clu] 1.0	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+5_1_10_0_2
+	METRIC:mi
+		oracle:			[tp-pair] 61.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 0.0	[f1-pair] 1.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 61.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 0.0	[f1-adj] 1.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 0.0	[tn-clu] 68.0	[fn-clu] 0.0	[f1-clu] 1.0	[f1stdev-clu] 0.0	[f1sig-clu] 0.0	[jacc-clu] 1.0	[ari-clu] 1.0	[ami-clu] 1.0	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+5_1_10_0_3
+	METRIC:mi
+		oracle:			[tp-pair] 61.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 0.0	[f1-pair] 1.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 61.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 0.0	[f1-adj] 1.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 0.0	[tn-clu] 68.0	[fn-clu] 0.0	[f1-clu] 1.0	[f1stdev-clu] 0.0	[f1sig-clu] 0.0	[jacc-clu] 1.0	[ari-clu] 1.0	[ami-clu] 1.0	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+5_1_10_0_4
+	METRIC:mi
+		oracle:			[tp-pair] 61.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 0.0	[f1-pair] 1.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 61.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 0.0	[f1-adj] 1.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 0.0	[tn-clu] 68.0	[fn-clu] 0.0	[f1-clu] 1.0	[f1stdev-clu] 0.0	[f1sig-clu] 0.0	[jacc-clu] 1.0	[ari-clu] 1.0	[ami-clu] 1.0	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+5_1_10_0_5
+	METRIC:mi
+		oracle:			[tp-pair] 61.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 0.0	[f1-pair] 1.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 61.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 0.0	[f1-adj] 1.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 0.0	[tn-clu] 68.0	[fn-clu] 0.0	[f1-clu] 1.0	[f1stdev-clu] 0.0	[f1sig-clu] 0.0	[jacc-clu] 1.0	[ari-clu] 1.0	[ami-clu] 1.0	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+5_1_10_0_6
+	METRIC:mi
+		oracle:			[tp-pair] 61.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 0.0	[f1-pair] 1.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 61.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 0.0	[f1-adj] 1.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 0.0	[tn-clu] 68.0	[fn-clu] 0.0	[f1-clu] 1.0	[f1stdev-clu] 0.0	[f1sig-clu] 0.0	[jacc-clu] 1.0	[ari-clu] 1.0	[ami-clu] 1.0	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+5_1_10_0_7
+	METRIC:mi
+		oracle:			[tp-pair] 61.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 0.0	[f1-pair] 1.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 61.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 0.0	[f1-adj] 1.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 0.0	[tn-clu] 68.0	[fn-clu] 0.0	[f1-clu] 1.0	[f1stdev-clu] 0.0	[f1sig-clu] 0.0	[jacc-clu] 1.0	[ari-clu] 1.0	[ami-clu] 1.0	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+5_1_10_0_8
+	METRIC:mi
+		oracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+
+EXPERIMENT: exp
+METHOD: MI_ztest x SKIP
+FUN_FORM: NLIN
+5_1_3_1_2
+	METRIC:mi
+		oracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+5_1_4_1_2
+	METRIC:mi
+		oracle:			[tp-pair] 41.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 20.0	[f1-pair] 0.75	[f1stdev-pair] 0.29	[f1sig-pair] 0.08	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 41.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 20.0	[f1-adj] 0.75	[f1stdev-adj] 0.29	[f1sig-adj] 0.08	
+						[tp-clu] 96.0	[fp-clu] 12.0	[tn-clu] 56.0	[fn-clu] 36.0	[f1-clu] 0.77	[f1stdev-clu] 0.26	[f1sig-clu] 0.07	[jacc-clu] 0.82	[ari-clu] 0.52	[ami-clu] 0.54	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+5_1_5_1_2
+	METRIC:mi
+		oracle:			[tp-pair] 53.0	[fp-pair] 1.0	[tn-pair] 38.0	[fn-pair] 8.0	[f1-pair] 0.92	[f1stdev-pair] 0.09	[f1sig-pair] 0.01	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 61.0	[fp-adj] 7.0	[tn-adj] 28.0	[fn-adj] 0.0	[f1-adj] 0.95	[f1stdev-adj] 0.17	[f1sig-adj] 0.03	
+						[tp-clu] 132.0	[fp-clu] 12.0	[tn-clu] 56.0	[fn-clu] 0.0	[f1-clu] 0.96	[f1stdev-clu] 0.14	[f1sig-clu] 0.02	[jacc-clu] 0.94	[ari-clu] 0.9	[ami-clu] 0.9	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+5_1_6_1_2
+	METRIC:mi
+		oracle:			[tp-pair] 54.0	[fp-pair] 1.0	[tn-pair] 38.0	[fn-pair] 7.0	[f1-pair] 0.9	[f1stdev-pair] 0.19	[f1sig-pair] 0.04	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 61.0	[fp-adj] 3.0	[tn-adj] 32.0	[fn-adj] 0.0	[f1-adj] 0.97	[f1stdev-adj] 0.11	[f1sig-adj] 0.01	
+						[tp-clu] 130.0	[fp-clu] 6.0	[tn-clu] 62.0	[fn-clu] 2.0	[f1-clu] 0.96	[f1stdev-clu] 0.13	[f1sig-clu] 0.02	[jacc-clu] 0.96	[ari-clu] 0.92	[ami-clu] 0.91	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+5_1_7_1_2
+	METRIC:mi
+		oracle:			[tp-pair] 59.0	[fp-pair] 1.0	[tn-pair] 38.0	[fn-pair] 2.0	[f1-pair] 0.97	[f1stdev-pair] 0.05	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 61.0	[fp-adj] 3.0	[tn-adj] 32.0	[fn-adj] 0.0	[f1-adj] 0.97	[f1stdev-adj] 0.11	[f1sig-adj] 0.01	
+						[tp-clu] 130.0	[fp-clu] 6.0	[tn-clu] 62.0	[fn-clu] 2.0	[f1-clu] 0.96	[f1stdev-clu] 0.13	[f1sig-clu] 0.02	[jacc-clu] 0.96	[ari-clu] 0.92	[ami-clu] 0.91	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+5_1_8_1_2
+	METRIC:mi
+		oracle:			[tp-pair] 61.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 0.0	[f1-pair] 1.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 61.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 0.0	[f1-adj] 1.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 0.0	[tn-clu] 68.0	[fn-clu] 0.0	[f1-clu] 1.0	[f1stdev-clu] 0.0	[f1sig-clu] 0.0	[jacc-clu] 1.0	[ari-clu] 1.0	[ami-clu] 1.0	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+5_1_9_1_2
+	METRIC:mi
+		oracle:			[tp-pair] 61.0	[fp-pair] 2.0	[tn-pair] 37.0	[fn-pair] 0.0	[f1-pair] 0.98	[f1stdev-pair] 0.05	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 61.0	[fp-adj] 7.0	[tn-adj] 28.0	[fn-adj] 0.0	[f1-adj] 0.94	[f1stdev-adj] 0.12	[f1sig-adj] 0.02	
+						[tp-clu] 130.0	[fp-clu] 14.0	[tn-clu] 54.0	[fn-clu] 2.0	[f1-clu] 0.94	[f1stdev-clu] 0.14	[f1sig-clu] 0.02	[jacc-clu] 0.93	[ari-clu] 0.82	[ami-clu] 0.81	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+5_1_10_1_2
+	METRIC:mi
+		oracle:			[tp-pair] 61.0	[fp-pair] 4.0	[tn-pair] 35.0	[fn-pair] 0.0	[f1-pair] 0.96	[f1stdev-pair] 0.13	[f1sig-pair] 0.02	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 61.0	[fp-adj] 7.0	[tn-adj] 28.0	[fn-adj] 0.0	[f1-adj] 0.95	[f1stdev-adj] 0.17	[f1sig-adj] 0.03	
+						[tp-clu] 132.0	[fp-clu] 12.0	[tn-clu] 56.0	[fn-clu] 0.0	[f1-clu] 0.96	[f1stdev-clu] 0.14	[f1sig-clu] 0.02	[jacc-clu] 0.94	[ari-clu] 0.9	[ami-clu] 0.9	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+
+EXPERIMENT: exp
+METHOD: MI_ztest x SKIP
+FUN_FORM: NLIN
+5_1_10_0_0
+	METRIC:mi
+		oracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+5_1_10_0_1
+	METRIC:mi
+		oracle:			[tp-pair] 61.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 0.0	[f1-pair] 1.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 61.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 0.0	[f1-adj] 1.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 0.0	[tn-clu] 68.0	[fn-clu] 0.0	[f1-clu] 1.0	[f1stdev-clu] 0.0	[f1sig-clu] 0.0	[jacc-clu] 1.0	[ari-clu] 1.0	[ami-clu] 1.0	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+5_1_10_0_2
+	METRIC:mi
+		oracle:			[tp-pair] 61.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 0.0	[f1-pair] 1.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 61.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 0.0	[f1-adj] 1.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 0.0	[tn-clu] 68.0	[fn-clu] 0.0	[f1-clu] 1.0	[f1stdev-clu] 0.0	[f1sig-clu] 0.0	[jacc-clu] 1.0	[ari-clu] 1.0	[ami-clu] 1.0	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+5_1_10_0_3
+	METRIC:mi
+		oracle:			[tp-pair] 61.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 0.0	[f1-pair] 1.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 61.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 0.0	[f1-adj] 1.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 0.0	[tn-clu] 68.0	[fn-clu] 0.0	[f1-clu] 1.0	[f1stdev-clu] 0.0	[f1sig-clu] 0.0	[jacc-clu] 1.0	[ari-clu] 1.0	[ami-clu] 1.0	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+5_1_10_0_4
+	METRIC:mi
+		oracle:			[tp-pair] 61.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 0.0	[f1-pair] 1.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 61.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 0.0	[f1-adj] 1.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 0.0	[tn-clu] 68.0	[fn-clu] 0.0	[f1-clu] 1.0	[f1stdev-clu] 0.0	[f1sig-clu] 0.0	[jacc-clu] 1.0	[ari-clu] 1.0	[ami-clu] 1.0	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+5_1_10_0_5
+	METRIC:mi
+		oracle:			[tp-pair] 61.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 0.0	[f1-pair] 1.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 61.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 0.0	[f1-adj] 1.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 0.0	[tn-clu] 68.0	[fn-clu] 0.0	[f1-clu] 1.0	[f1stdev-clu] 0.0	[f1sig-clu] 0.0	[jacc-clu] 1.0	[ari-clu] 1.0	[ami-clu] 1.0	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+5_1_10_0_6
+	METRIC:mi
+		oracle:			[tp-pair] 61.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 0.0	[f1-pair] 1.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 61.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 0.0	[f1-adj] 1.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 0.0	[tn-clu] 68.0	[fn-clu] 0.0	[f1-clu] 1.0	[f1stdev-clu] 0.0	[f1sig-clu] 0.0	[jacc-clu] 1.0	[ari-clu] 1.0	[ami-clu] 1.0	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+5_1_10_0_7
+	METRIC:mi
+		oracle:			[tp-pair] 61.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 0.0	[f1-pair] 1.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 61.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 0.0	[f1-adj] 1.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 0.0	[tn-clu] 68.0	[fn-clu] 0.0	[f1-clu] 1.0	[f1stdev-clu] 0.0	[f1sig-clu] 0.0	[jacc-clu] 1.0	[ari-clu] 1.0	[ami-clu] 1.0	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+5_1_10_0_8
+	METRIC:mi
+		oracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+
+EXPERIMENT: exp
+METHOD: MI_ztest x SKIP
+FUN_FORM: NLIN
+5_1_10_0_0
+	METRIC:mi
+		oracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+5_1_10_0_1
+	METRIC:mi
+		oracle:			[tp-pair] 61.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 0.0	[f1-pair] 1.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 61.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 0.0	[f1-adj] 1.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 0.0	[tn-clu] 68.0	[fn-clu] 0.0	[f1-clu] 1.0	[f1stdev-clu] 0.0	[f1sig-clu] 0.0	[jacc-clu] 1.0	[ari-clu] 1.0	[ami-clu] 1.0	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+5_1_10_0_2
+	METRIC:mi
+		oracle:			[tp-pair] 61.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 0.0	[f1-pair] 1.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 61.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 0.0	[f1-adj] 1.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 0.0	[tn-clu] 68.0	[fn-clu] 0.0	[f1-clu] 1.0	[f1stdev-clu] 0.0	[f1sig-clu] 0.0	[jacc-clu] 1.0	[ari-clu] 1.0	[ami-clu] 1.0	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+5_1_10_0_3
+	METRIC:mi
+		oracle:			[tp-pair] 61.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 0.0	[f1-pair] 1.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 61.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 0.0	[f1-adj] 1.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 0.0	[tn-clu] 68.0	[fn-clu] 0.0	[f1-clu] 1.0	[f1stdev-clu] 0.0	[f1sig-clu] 0.0	[jacc-clu] 1.0	[ari-clu] 1.0	[ami-clu] 1.0	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+5_1_10_0_4
+	METRIC:mi
+		oracle:			[tp-pair] 61.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 0.0	[f1-pair] 1.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 61.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 0.0	[f1-adj] 1.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 0.0	[tn-clu] 68.0	[fn-clu] 0.0	[f1-clu] 1.0	[f1stdev-clu] 0.0	[f1sig-clu] 0.0	[jacc-clu] 1.0	[ari-clu] 1.0	[ami-clu] 1.0	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+5_1_10_0_5
+	METRIC:mi
+		oracle:			[tp-pair] 61.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 0.0	[f1-pair] 1.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 61.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 0.0	[f1-adj] 1.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 0.0	[tn-clu] 68.0	[fn-clu] 0.0	[f1-clu] 1.0	[f1stdev-clu] 0.0	[f1sig-clu] 0.0	[jacc-clu] 1.0	[ari-clu] 1.0	[ami-clu] 1.0	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+5_1_10_0_6
+	METRIC:mi
+		oracle:			[tp-pair] 61.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 0.0	[f1-pair] 1.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 61.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 0.0	[f1-adj] 1.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 0.0	[tn-clu] 68.0	[fn-clu] 0.0	[f1-clu] 1.0	[f1stdev-clu] 0.0	[f1sig-clu] 0.0	[jacc-clu] 1.0	[ari-clu] 1.0	[ami-clu] 1.0	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+5_1_10_0_7
+	METRIC:mi
+		oracle:			[tp-pair] 61.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 0.0	[f1-pair] 1.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 61.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 0.0	[f1-adj] 1.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 0.0	[tn-clu] 68.0	[fn-clu] 0.0	[f1-clu] 1.0	[f1stdev-clu] 0.0	[f1sig-clu] 0.0	[jacc-clu] 1.0	[ari-clu] 1.0	[ami-clu] 1.0	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+5_1_10_0_8
+	METRIC:mi
+		oracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	
+		cocoracle:			[tp-pair] 0.0	[fp-pair] 0.0	[tn-pair] 39.0	[fn-pair] 61.0	[f1-pair] 0.0	[f1stdev-pair] 0.0	[f1sig-pair] 0.0	
+						[tp-cau] 0	[fp-cau] 0	[tn-cau] 0	[fn-cau] 0	[f1-cau] 0.0	[f1stdev-cau] 0.0	[f1sig-cau] 0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp-clu] 132.0	[fp-clu] 68.0	[tn-clu] 0.0	[fn-clu] 0.0	[f1-clu] 0.77	[f1stdev-clu] 0.18	[f1sig-clu] 0.03	[jacc-clu] 0.08	[ari-clu] 0.3	[ami-clu] 0.3	

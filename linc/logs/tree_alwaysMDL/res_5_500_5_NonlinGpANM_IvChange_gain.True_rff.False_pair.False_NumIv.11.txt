@@ -1,0 +1,28 @@
+*** RUN ***
+Run ID:  0
+Repeats:  10
+Seeds:  142 -- 152
+DAGs in:  logs/dags/5_500_5_NonlinGpANM_IvChange_gain.True_rff.False_pair.False_NumIv.11/
+
+Nodes: 5
+Contexts: 5
+Context samples: 500
+FunType:NonlinGpANM
+IvType:IvChange
+*** Result ***
+Counts: (20,29,165,36,9)
+F1: 0.38
+SHD: 6.5
+SID: 9.8
+SID avg: 9.8 	-var: 19.07 -std: 4.37 -cf: 2.706
+SID scaled: 0.49 	-var: 0.05 -std: 0.22 -cf: 0.14
+Gain causal orientation: 16.3 , how often:  29
+Gain anticausal orientation: 1.76 , how often:  29
+Gain causal: 47.258 	-var: 3078.653 -std: 55.486 -cf: 34.39
+Gain anticausal: 5.116 	-var: 2139.755 -std: 46.257 -cf: 28.671
+Time: 6427.59
+Time per DAG: 642.73
+
+At: Wed Nov 30 18:53:53 2022 
+***
+

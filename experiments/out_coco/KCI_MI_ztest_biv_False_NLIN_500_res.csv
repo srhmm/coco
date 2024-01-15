@@ -1,0 +1,25 @@
+
+
+EXPERIMENT: KCI_MI_ztest_biv_False_NLIN_500
+TESTS: MI_ztest x KCI
+METHODS: ['MethodType.ORACLE', 'MethodType.ORACLE_DAG', 'MethodType.COCO']
+
+EXPERIMENT: KCI_MI_ztest_biv_False_NLIN_500
+TESTS: MI_ztest x KCI
+METHODS: ['MethodType.ORACLE', 'MethodType.ORACLE_DAG', 'MethodType.COCO']
+
+EXPERIMENT: KCI_MI_ztest_biv_False_NLIN_500
+TESTS: MI_ztest x KCI
+METHODS: ['MethodType.ORACLE', 'MethodType.ORACLE_DAG', 'MethodType.COCO']
+
+EXPERIMENT: KCI_MI_ztest_biv_False_NLIN_500
+TESTS: MI_ztest x KCI
+METHODS: ['MethodType.ORACLE', 'MethodType.ORACLE_DAG', 'MethodType.COCO']
+
+EXPERIMENT: KCI_MI_ztest_biv_False_NLIN_500
+TESTS: MI_ztest x KCI
+METHODS: ['MethodType.ORACLE', 'MethodType.ORACLE_DAG', 'MethodType.COCO']
+
+EXPERIMENT: KCI_MI_ztest_biv_False_NLIN_500
+TESTS: MI_ztest x KCI
+METHODS: ['MethodType.ORACLE', 'MethodType.ORACLE_DAG', 'MethodType.COCO']

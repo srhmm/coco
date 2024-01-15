@@ -1,0 +1,24 @@
+{
+    "id": "92C13A03",
+    "path": "~/impls/coco/jci/fci/pcalgjci.R",
+    "project_path": null,
+    "type": "r_source",
+    "hash": "125704477",
+    "contents": "",
+    "dirty": false,
+    "created": 1697035902855.0,
+    "source_on_save": false,
+    "relative_order": 3,
+    "properties": {
+        "cursorPosition": "99,3",
+        "scrollLine": "97"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1697040058,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1697040058,
+    "read_only": false,
+    "read_only_alternatives": []
+}

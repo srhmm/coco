@@ -1,0 +1,5 @@
+*** RUN ***
+Run ID:  0
+Repeats:  10
+Seeds:  142 -- 152
+DAGs in:  logs/dags/5_750_5_NonlinGpANM_IvPerfect_gain.True_rff.False_pair.False_NumIv.11/

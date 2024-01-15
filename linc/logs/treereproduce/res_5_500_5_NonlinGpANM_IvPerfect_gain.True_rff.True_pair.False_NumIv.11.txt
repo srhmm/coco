@@ -1,0 +1,22 @@
+*** RUN ***
+Run ID:  1
+Repeats:  10
+Seeds:  42 -- 52
+DAGs in:  dagsreproduce/C5N5/
+
+Nodes: 5
+Contexts: 5
+Context samples: 500
+FunType:NonlinGpANM
+IvType:IvPerfect
+*** Result ***
+Counts: (31,43,159,17,13)
+F1: 0.51
+Asymm. for causal: 5074.36 , how often:  31
+Asymm. for anticausal: -349.37 , how often:  13
+Time: 417.93
+Time per DAG: 3.96
+
+At: Tue Nov 29 13:38:59 2022 
+***
+

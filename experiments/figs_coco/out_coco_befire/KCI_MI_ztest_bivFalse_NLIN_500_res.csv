@@ -1,0 +1,1394 @@
+
+
+EXPERIMENT: exp
+TESTS: MI_ztest x KCI
+METHODS: MethodType.FCI_JCI, MethodType.FCI_JCI_FULL, MethodType.FCI_POOLED, MethodType.FCI_POOLED_FULL, MethodType.FCI_CONTEXT, MethodType.FCI_CONTEXT_FULL, 
+FUN_FORM: NLIN
+
+EXPERIMENT: exp
+TESTS: MI_ztest x KCI
+METHODS: MethodType.FCI_JCI, MethodType.FCI_JCI_FULL, MethodType.FCI_POOLED, MethodType.FCI_POOLED_FULL, MethodType.FCI_CONTEXT, MethodType.FCI_CONTEXT_FULL, 
+FUN_FORM: NLIN
+
+EXPERIMENT: exp
+TESTS: MI_ztest x KCI
+METHODS: MethodType.FCI_JCI, MethodType.FCI_JCI_FULL, MethodType.FCI_POOLED, MethodType.FCI_POOLED_FULL, MethodType.FCI_CONTEXT, MethodType.FCI_CONTEXT_FULL, 
+FUN_FORM: NLIN
+
+EXPERIMENT: exp
+TESTS: MI_ztest x KCI
+METHODS: MethodType.FCI_JCI, MethodType.FCI_JCI_FULL, MethodType.FCI_POOLED, MethodType.FCI_POOLED_FULL, MethodType.FCI_CONTEXT, MethodType.FCI_CONTEXT_FULL, 
+FUN_FORM: NLIN
+
+EXPERIMENT: exp
+TESTS: MI_ztest x KCI
+METHODS: MethodType.FCI_JCI, MethodType.FCI_JCI_FULL, MethodType.FCI_POOLED, MethodType.FCI_POOLED_FULL, MethodType.FCI_CONTEXT, MethodType.FCI_CONTEXT_FULL, 
+FUN_FORM: NLIN
+
+EXPERIMENT: exp
+TESTS: MI_ztest x KCI
+METHODS: MethodType.FCI_JCI, MethodType.FCI_JCI_FULL, MethodType.FCI_POOLED, MethodType.FCI_POOLED_FULL, MethodType.FCI_CONTEXT, MethodType.FCI_CONTEXT_FULL, 
+FUN_FORM: NLIN
+
+EXPERIMENT: exp
+TESTS: MI_ztest x KCI
+METHODS: MethodType.FCI_JCI, MethodType.FCI_JCI_FULL, MethodType.FCI_POOLED, MethodType.FCI_POOLED_FULL, MethodType.FCI_CONTEXT, MethodType.FCI_CONTEXT_FULL, 
+FUN_FORM: NLIN
+
+EXPERIMENT: exp
+TESTS: MI_ztest x KCI
+METHODS: MethodType.FCI_JCI, MethodType.FCI_JCI_FULL, MethodType.FCI_POOLED, MethodType.FCI_POOLED_FULL, MethodType.FCI_CONTEXT, MethodType.FCI_CONTEXT_FULL, 
+FUN_FORM: NLIN
+
+EXPERIMENT: exp
+TESTS: MI_ztest x KCI
+METHODS: MethodType.FCI_JCI, MethodType.FCI_JCI_FULL, MethodType.FCI_POOLED, MethodType.FCI_POOLED_FULL, MethodType.FCI_CONTEXT, MethodType.FCI_CONTEXT_FULL, 
+FUN_FORM: NLIN
+
+EXPERIMENT: exp
+TESTS: MI_ztest x KCI
+METHODS: MethodType.FCI_JCI, MethodType.FCI_JCI_FULL, MethodType.FCI_POOLED, MethodType.FCI_POOLED_FULL, MethodType.FCI_CONTEXT, MethodType.FCI_CONTEXT_FULL, 
+FUN_FORM: NLIN
+
+EXPERIMENT: exp
+TESTS: MI_ztest x KCI
+METHODS: MethodType.FCI_JCI, MethodType.FCI_JCI_FULL, MethodType.FCI_POOLED, MethodType.FCI_POOLED_FULL, MethodType.FCI_CONTEXT, MethodType.FCI_CONTEXT_FULL, 
+FUN_FORM: NLIN
+
+EXPERIMENT: exp
+TESTS: MI_ztest x KCI
+METHODS: MethodType.FCI_JCI, MethodType.FCI_JCI_FULL, MethodType.FCI_POOLED, MethodType.FCI_POOLED_FULL, MethodType.FCI_CONTEXT, MethodType.FCI_CONTEXT_FULL, 
+FUN_FORM: NLIN
+
+EXPERIMENT: exp
+TESTS: MI_ztest x KCI
+METHODS: MethodType.FCI_JCI, MethodType.FCI_JCI_FULL, MethodType.FCI_POOLED, MethodType.FCI_POOLED_FULL, MethodType.FCI_CONTEXT, MethodType.FCI_CONTEXT_FULL, 
+FUN_FORM: NLIN
+
+EXPERIMENT: exp
+TESTS: MI_ztest x KCI
+METHODS: MethodType.FCI_JCI, MethodType.FCI_JCI_FULL, MethodType.FCI_POOLED, MethodType.FCI_POOLED_FULL, MethodType.FCI_CONTEXT, MethodType.FCI_CONTEXT_FULL, 
+FUN_FORM: NLIN
+
+EXPERIMENT: exp
+TESTS: MI_ztest x KCI
+METHODS: MethodType.FCI_JCI, MethodType.FCI_JCI_FULL, MethodType.FCI_POOLED, MethodType.FCI_POOLED_FULL, MethodType.FCI_CONTEXT, MethodType.FCI_CONTEXT_FULL, 
+FUN_FORM: NLIN
+
+EXPERIMENT: exp
+TESTS: MI_ztest x KCI
+METHODS: MethodType.FCI_JCI, MethodType.FCI_JCI_FULL, MethodType.FCI_POOLED, MethodType.FCI_POOLED_FULL, MethodType.FCI_CONTEXT, MethodType.FCI_CONTEXT_FULL, 
+FUN_FORM: NLIN
+
+EXPERIMENT: exp
+TESTS: MI_ztest x KCI
+METHODS: MethodType.FCI_JCI, MethodType.FCI_JCI_FULL, MethodType.FCI_POOLED, MethodType.FCI_POOLED_FULL, MethodType.FCI_CONTEXT, MethodType.FCI_CONTEXT_FULL, 
+FUN_FORM: NLIN
+
+MethodType.FCI_JCI
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			5_1_3_1_2			[f1-p] 0.08 	+-0.15 (0.02) 			[f1-cau] 0.21 	+-0.26 (0.07) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_4_1_2			[f1-p] 0.13 	+-0.22 (0.05) 			[f1-cau] 0.16 	+-0.22 (0.05) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_5_1_2			[f1-p] 0.16 	+-0.22 (0.05) 			[f1-cau] 0.2 	+-0.22 (0.05) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_6_1_2			[f1-p] 0.13 	+-0.19 (0.04) 			[f1-cau] 0.17 	+-0.22 (0.05) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_7_1_2			[f1-p] 0.13 	+-0.2 (0.04) 			[f1-cau] 0.22 	+-0.28 (0.08) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_8_1_2			[f1-p] 0.24 	+-0.21 (0.04) 			[f1-cau] 0.2 	+-0.26 (0.07) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_9_1_2			[f1-p] 0.17 	+-0.19 (0.04) 			[f1-cau] 0.17 	+-0.24 (0.06) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_1_2			[f1-p] 0.19 	+-0.2 (0.04) 			[f1-cau] 0.23 	+-0.25 (0.06) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 290.0	[fp-pairs] 124.0	[tn-pairs] 1284.0	[fn-pairs] 2302.0	[f1-pairs] 0.19	+-0.31(1.58)
+				[tp-adj] 0	[fp-adj] 0	[tn-adj] 0	[fn-adj] 0	[f1-adj] 1	+-0(0.0)
+				[tp-caus] 92.0	[fp-caus] 270.0	[tn-caus] 3226.0	[fn-caus] 412.0	[f1-caus] 0.21	+-0(0.0)
+				[tp] 0	[fp] 0	[tn] 0	[fn] 0	[f1] 1	+-0(0.0)
+				[jacc] 0.0	[ari] 0.0	[ami] 0.0
+
+MethodType.FCI_JCI_FULL
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			5_1_3_1_2			[f1-p] 0.07 	+-0.15 (0.02) 			[f1-cau] 0.15 	+-0.26 (0.07) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_4_1_2			[f1-p] 0.15 	+-0.22 (0.05) 			[f1-cau] 0.09 	+-0.17 (0.03) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_5_1_2			[f1-p] 0.16 	+-0.22 (0.05) 			[f1-cau] 0.11 	+-0.17 (0.03) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_6_1_2			[f1-p] 0.15 	+-0.2 (0.04) 			[f1-cau] 0.11 	+-0.21 (0.04) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_7_1_2			[f1-p] 0.15 	+-0.2 (0.04) 			[f1-cau] 0.09 	+-0.16 (0.03) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_8_1_2			[f1-p] 0.22 	+-0.22 (0.05) 			[f1-cau] 0.09 	+-0.17 (0.03) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_9_1_2			[f1-p] 0.16 	+-0.17 (0.03) 			[f1-cau] 0.09 	+-0.17 (0.03) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_1_2			[f1-p] 0.17 	+-0.21 (0.04) 			[f1-cau] 0.12 	+-0.23 (0.05) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 292.0	[fp-pairs] 114.0	[tn-pairs] 1294.0	[fn-pairs] 2300.0	[f1-pairs] 0.19	+-0.32(1.59)
+				[tp-adj] 0	[fp-adj] 0	[tn-adj] 0	[fn-adj] 0	[f1-adj] 1	+-0(0.0)
+				[tp-caus] 52.0	[fp-caus] 219.0	[tn-caus] 3277.0	[fn-caus] 452.0	[f1-caus] 0.13	+-0(0.0)
+				[tp] 0	[fp] 0	[tn] 0	[fn] 0	[f1] 1	+-0(0.0)
+				[jacc] 0.0	[ari] 0.0	[ami] 0.0
+
+MethodType.FCI_POOLED
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			5_1_3_1_2			[f1-p] 0.04 	+-0.11 (0.01) 			[f1-cau] 0.16 	+-0.25 (0.06) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_4_1_2			[f1-p] 0.07 	+-0.16 (0.03) 			[f1-cau] 0.1 	+-0.19 (0.03) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_5_1_2			[f1-p] 0.07 	+-0.16 (0.03) 			[f1-cau] 0.13 	+-0.22 (0.05) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_6_1_2			[f1-p] 0.02 	+-0.07 (0.01) 			[f1-cau] 0.14 	+-0.21 (0.04) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_7_1_2			[f1-p] 0.07 	+-0.16 (0.02) 			[f1-cau] 0.1 	+-0.19 (0.03) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_8_1_2			[f1-p] 0.05 	+-0.1 (0.01) 			[f1-cau] 0.1 	+-0.19 (0.03) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_9_1_2			[f1-p] 0.06 	+-0.14 (0.02) 			[f1-cau] 0.08 	+-0.16 (0.02) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_1_2			[f1-p] 0.07 	+-0.12 (0.01) 			[f1-cau] 0.11 	+-0.22 (0.05) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 88.0	[fp-pairs] 66.0	[tn-pairs] 1342.0	[fn-pairs] 2504.0	[f1-pairs] 0.06	+-0.14(1.02)
+				[tp-adj] 0	[fp-adj] 0	[tn-adj] 0	[fn-adj] 0	[f1-adj] 1	+-0(0.0)
+				[tp-caus] 55.0	[fp-caus] 61.0	[tn-caus] 3435.0	[fn-caus] 449.0	[f1-caus] 0.18	+-0(0.0)
+				[tp] 0	[fp] 0	[tn] 0	[fn] 0	[f1] 1	+-0(0.0)
+				[jacc] 0.0	[ari] 0.0	[ami] 0.0
+
+MethodType.FCI_POOLED_FULL
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			5_1_3_1_2			[f1-p] 0.03 	+-0.1 (0.01) 			[f1-cau] 0.11 	+-0.23 (0.05) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_4_1_2			[f1-p] 0.08 	+-0.2 (0.04) 			[f1-cau] 0.06 	+-0.21 (0.04) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_5_1_2			[f1-p] 0.08 	+-0.16 (0.03) 			[f1-cau] 0.1 	+-0.24 (0.06) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_6_1_2			[f1-p] 0.03 	+-0.11 (0.01) 			[f1-cau] 0.05 	+-0.17 (0.03) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_7_1_2			[f1-p] 0.08 	+-0.2 (0.04) 			[f1-cau] 0.04 	+-0.2 (0.04) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_8_1_2			[f1-p] 0.08 	+-0.18 (0.03) 			[f1-cau] 0.07 	+-0.19 (0.04) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_9_1_2			[f1-p] 0.03 	+-0.11 (0.01) 			[f1-cau] 0.02 	+-0.1 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_1_2			[f1-p] 0.09 	+-0.17 (0.03) 			[f1-cau] 0.04 	+-0.11 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 102.0	[fp-pairs] 90.0	[tn-pairs] 1318.0	[fn-pairs] 2490.0	[f1-pairs] 0.07	+-0.2(1.24)
+				[tp-adj] 0	[fp-adj] 0	[tn-adj] 0	[fn-adj] 0	[f1-adj] 1	+-0(0.0)
+				[tp-caus] 37.0	[fp-caus] 119.0	[tn-caus] 3377.0	[fn-caus] 467.0	[f1-caus] 0.11	+-0(0.0)
+				[tp] 0	[fp] 0	[tn] 0	[fn] 0	[f1] 1	+-0(0.0)
+				[jacc] 0.0	[ari] 0.0	[ami] 0.0
+
+MethodType.FCI_CONTEXT
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			5_1_3_1_2			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.19 	+-0.26 (0.07) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_4_1_2			[f1-p] 0.02 	+-0.07 (0.01) 			[f1-cau] 0.16 	+-0.25 (0.06) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_5_1_2			[f1-p] 0.02 	+-0.07 (0.0) 			[f1-cau] 0.19 	+-0.26 (0.07) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_6_1_2			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.17 	+-0.27 (0.07) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_7_1_2			[f1-p] 0.05 	+-0.13 (0.02) 			[f1-cau] 0.16 	+-0.25 (0.06) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_8_1_2			[f1-p] 0.04 	+-0.14 (0.02) 			[f1-cau] 0.17 	+-0.27 (0.07) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_9_1_2			[f1-p] 0.03 	+-0.11 (0.01) 			[f1-cau] 0.15 	+-0.23 (0.05) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_1_2			[f1-p] 0.02 	+-0.07 (0.0) 			[f1-cau] 0.16 	+-0.25 (0.06) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 24.0	[fp-pairs] 32.0	[tn-pairs] 1376.0	[fn-pairs] 2568.0	[f1-pairs] 0.02	+-0.06(0.6)
+				[tp-adj] 0	[fp-adj] 0	[tn-adj] 0	[fn-adj] 0	[f1-adj] 1	+-0(0.0)
+				[tp-caus] 77.0	[fp-caus] 27.0	[tn-caus] 3469.0	[fn-caus] 427.0	[f1-caus] 0.25	+-0(0.0)
+				[tp] 0	[fp] 0	[tn] 0	[fn] 0	[f1] 1	+-0(0.0)
+				[jacc] 0.0	[ari] 0.0	[ami] 0.0
+
+MethodType.FCI_CONTEXT_FULL
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			5_1_3_1_2			[f1-p] 0.01 	+-0.05 (0.0) 			[f1-cau] 0.01 	+-0.06 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_4_1_2			[f1-p] 0.01 	+-0.05 (0.0) 			[f1-cau] 0.05 	+-0.17 (0.03) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_5_1_2			[f1-p] 0.01 	+-0.05 (0.0) 			[f1-cau] 0.05 	+-0.13 (0.02) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_6_1_2			[f1-p] 0.01 	+-0.05 (0.0) 			[f1-cau] 0.03 	+-0.08 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_7_1_2			[f1-p] 0.06 	+-0.15 (0.02) 			[f1-cau] 0.09 	+-0.2 (0.04) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_8_1_2			[f1-p] 0.04 	+-0.12 (0.01) 			[f1-cau] 0.01 	+-0.06 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_9_1_2			[f1-p] 0.08 	+-0.18 (0.03) 			[f1-cau] 0.04 	+-0.12 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_1_2			[f1-p] 0.07 	+-0.16 (0.02) 			[f1-cau] 0.07 	+-0.15 (0.02) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 54.0	[fp-pairs] 20.0	[tn-pairs] 1388.0	[fn-pairs] 2538.0	[f1-pairs] 0.04	+-0.1(0.81)
+				[tp-adj] 0	[fp-adj] 0	[tn-adj] 0	[fn-adj] 0	[f1-adj] 1	+-0(0.0)
+				[tp-caus] 26.0	[fp-caus] 26.0	[tn-caus] 3470.0	[fn-caus] 478.0	[f1-caus] 0.09	+-0(0.0)
+				[tp] 0	[fp] 0	[tn] 0	[fn] 0	[f1] 1	+-0(0.0)
+				[jacc] 0.0	[ari] 0.0	[ami] 0.0
+
+EXPERIMENT: exp
+TESTS: MI_ztest x KCI
+METHODS: MethodType.FCI_JCI, MethodType.FCI_JCI_FULL, MethodType.FCI_POOLED, MethodType.FCI_POOLED_FULL, MethodType.FCI_CONTEXT, MethodType.FCI_CONTEXT_FULL, 
+FUN_FORM: NLIN
+
+MethodType.FCI_JCI
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			5_1_3_1_2			[f1-p] 0.08 	+-0.15 (0.02) 			[f1-cau] 0.21 	+-0.26 (0.07) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_4_1_2			[f1-p] 0.13 	+-0.22 (0.05) 			[f1-cau] 0.16 	+-0.22 (0.05) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_5_1_2			[f1-p] 0.16 	+-0.22 (0.05) 			[f1-cau] 0.2 	+-0.22 (0.05) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_6_1_2			[f1-p] 0.13 	+-0.19 (0.04) 			[f1-cau] 0.17 	+-0.22 (0.05) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_7_1_2			[f1-p] 0.13 	+-0.2 (0.04) 			[f1-cau] 0.22 	+-0.28 (0.08) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_8_1_2			[f1-p] 0.24 	+-0.21 (0.04) 			[f1-cau] 0.2 	+-0.26 (0.07) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_9_1_2			[f1-p] 0.17 	+-0.19 (0.04) 			[f1-cau] 0.17 	+-0.24 (0.06) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_1_2			[f1-p] 0.19 	+-0.2 (0.04) 			[f1-cau] 0.23 	+-0.25 (0.06) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 290.0	[fp-pairs] 124.0	[tn-pairs] 1284.0	[fn-pairs] 2302.0	[f1-pairs] 0.19	+-0.31(1.58)
+				[tp-adj] 0	[fp-adj] 0	[tn-adj] 0	[fn-adj] 0	[f1-adj] 1	+-0(0.0)
+				[tp-caus] 92.0	[fp-caus] 270.0	[tn-caus] 3226.0	[fn-caus] 412.0	[f1-caus] 0.21	+-0(0.0)
+				[tp] 0	[fp] 0	[tn] 0	[fn] 0	[f1] 1	+-0(0.0)
+				[jacc] 0.0	[ari] 0.0	[ami] 0.0
+
+MethodType.FCI_JCI_FULL
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			5_1_3_1_2			[f1-p] 0.07 	+-0.15 (0.02) 			[f1-cau] 0.15 	+-0.26 (0.07) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_4_1_2			[f1-p] 0.15 	+-0.22 (0.05) 			[f1-cau] 0.09 	+-0.17 (0.03) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_5_1_2			[f1-p] 0.16 	+-0.22 (0.05) 			[f1-cau] 0.11 	+-0.17 (0.03) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_6_1_2			[f1-p] 0.15 	+-0.2 (0.04) 			[f1-cau] 0.11 	+-0.21 (0.04) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_7_1_2			[f1-p] 0.15 	+-0.2 (0.04) 			[f1-cau] 0.09 	+-0.16 (0.03) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_8_1_2			[f1-p] 0.22 	+-0.22 (0.05) 			[f1-cau] 0.09 	+-0.17 (0.03) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_9_1_2			[f1-p] 0.16 	+-0.17 (0.03) 			[f1-cau] 0.09 	+-0.17 (0.03) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_1_2			[f1-p] 0.17 	+-0.21 (0.04) 			[f1-cau] 0.12 	+-0.23 (0.05) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 292.0	[fp-pairs] 114.0	[tn-pairs] 1294.0	[fn-pairs] 2300.0	[f1-pairs] 0.19	+-0.32(1.59)
+				[tp-adj] 0	[fp-adj] 0	[tn-adj] 0	[fn-adj] 0	[f1-adj] 1	+-0(0.0)
+				[tp-caus] 52.0	[fp-caus] 219.0	[tn-caus] 3277.0	[fn-caus] 452.0	[f1-caus] 0.13	+-0(0.0)
+				[tp] 0	[fp] 0	[tn] 0	[fn] 0	[f1] 1	+-0(0.0)
+				[jacc] 0.0	[ari] 0.0	[ami] 0.0
+
+MethodType.FCI_POOLED
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			5_1_3_1_2			[f1-p] 0.04 	+-0.11 (0.01) 			[f1-cau] 0.16 	+-0.25 (0.06) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_4_1_2			[f1-p] 0.07 	+-0.16 (0.03) 			[f1-cau] 0.1 	+-0.19 (0.03) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_5_1_2			[f1-p] 0.07 	+-0.16 (0.03) 			[f1-cau] 0.13 	+-0.22 (0.05) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_6_1_2			[f1-p] 0.02 	+-0.07 (0.01) 			[f1-cau] 0.14 	+-0.21 (0.04) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_7_1_2			[f1-p] 0.07 	+-0.16 (0.02) 			[f1-cau] 0.1 	+-0.19 (0.03) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_8_1_2			[f1-p] 0.05 	+-0.1 (0.01) 			[f1-cau] 0.1 	+-0.19 (0.03) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_9_1_2			[f1-p] 0.06 	+-0.14 (0.02) 			[f1-cau] 0.08 	+-0.16 (0.02) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_1_2			[f1-p] 0.07 	+-0.12 (0.01) 			[f1-cau] 0.11 	+-0.22 (0.05) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 88.0	[fp-pairs] 66.0	[tn-pairs] 1342.0	[fn-pairs] 2504.0	[f1-pairs] 0.06	+-0.14(1.02)
+				[tp-adj] 0	[fp-adj] 0	[tn-adj] 0	[fn-adj] 0	[f1-adj] 1	+-0(0.0)
+				[tp-caus] 55.0	[fp-caus] 61.0	[tn-caus] 3435.0	[fn-caus] 449.0	[f1-caus] 0.18	+-0(0.0)
+				[tp] 0	[fp] 0	[tn] 0	[fn] 0	[f1] 1	+-0(0.0)
+				[jacc] 0.0	[ari] 0.0	[ami] 0.0
+
+MethodType.FCI_POOLED_FULL
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			5_1_3_1_2			[f1-p] 0.03 	+-0.1 (0.01) 			[f1-cau] 0.11 	+-0.23 (0.05) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_4_1_2			[f1-p] 0.08 	+-0.2 (0.04) 			[f1-cau] 0.06 	+-0.21 (0.04) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_5_1_2			[f1-p] 0.08 	+-0.16 (0.03) 			[f1-cau] 0.1 	+-0.24 (0.06) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_6_1_2			[f1-p] 0.03 	+-0.11 (0.01) 			[f1-cau] 0.05 	+-0.17 (0.03) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_7_1_2			[f1-p] 0.08 	+-0.2 (0.04) 			[f1-cau] 0.04 	+-0.2 (0.04) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_8_1_2			[f1-p] 0.08 	+-0.18 (0.03) 			[f1-cau] 0.07 	+-0.19 (0.04) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_9_1_2			[f1-p] 0.03 	+-0.11 (0.01) 			[f1-cau] 0.02 	+-0.1 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_1_2			[f1-p] 0.09 	+-0.17 (0.03) 			[f1-cau] 0.04 	+-0.11 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 102.0	[fp-pairs] 90.0	[tn-pairs] 1318.0	[fn-pairs] 2490.0	[f1-pairs] 0.07	+-0.2(1.24)
+				[tp-adj] 0	[fp-adj] 0	[tn-adj] 0	[fn-adj] 0	[f1-adj] 1	+-0(0.0)
+				[tp-caus] 37.0	[fp-caus] 119.0	[tn-caus] 3377.0	[fn-caus] 467.0	[f1-caus] 0.11	+-0(0.0)
+				[tp] 0	[fp] 0	[tn] 0	[fn] 0	[f1] 1	+-0(0.0)
+				[jacc] 0.0	[ari] 0.0	[ami] 0.0
+
+MethodType.FCI_CONTEXT
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			5_1_3_1_2			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.19 	+-0.26 (0.07) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_4_1_2			[f1-p] 0.02 	+-0.07 (0.01) 			[f1-cau] 0.16 	+-0.25 (0.06) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_5_1_2			[f1-p] 0.02 	+-0.07 (0.0) 			[f1-cau] 0.19 	+-0.26 (0.07) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_6_1_2			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.17 	+-0.27 (0.07) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_7_1_2			[f1-p] 0.05 	+-0.13 (0.02) 			[f1-cau] 0.16 	+-0.25 (0.06) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_8_1_2			[f1-p] 0.04 	+-0.14 (0.02) 			[f1-cau] 0.17 	+-0.27 (0.07) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_9_1_2			[f1-p] 0.03 	+-0.11 (0.01) 			[f1-cau] 0.15 	+-0.23 (0.05) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_1_2			[f1-p] 0.02 	+-0.07 (0.0) 			[f1-cau] 0.16 	+-0.25 (0.06) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 24.0	[fp-pairs] 32.0	[tn-pairs] 1376.0	[fn-pairs] 2568.0	[f1-pairs] 0.02	+-0.06(0.6)
+				[tp-adj] 0	[fp-adj] 0	[tn-adj] 0	[fn-adj] 0	[f1-adj] 1	+-0(0.0)
+				[tp-caus] 77.0	[fp-caus] 27.0	[tn-caus] 3469.0	[fn-caus] 427.0	[f1-caus] 0.25	+-0(0.0)
+				[tp] 0	[fp] 0	[tn] 0	[fn] 0	[f1] 1	+-0(0.0)
+				[jacc] 0.0	[ari] 0.0	[ami] 0.0
+
+MethodType.FCI_CONTEXT_FULL
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			5_1_3_1_2			[f1-p] 0.01 	+-0.05 (0.0) 			[f1-cau] 0.01 	+-0.06 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_4_1_2			[f1-p] 0.01 	+-0.05 (0.0) 			[f1-cau] 0.05 	+-0.17 (0.03) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_5_1_2			[f1-p] 0.01 	+-0.05 (0.0) 			[f1-cau] 0.05 	+-0.13 (0.02) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_6_1_2			[f1-p] 0.01 	+-0.05 (0.0) 			[f1-cau] 0.03 	+-0.08 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_7_1_2			[f1-p] 0.06 	+-0.15 (0.02) 			[f1-cau] 0.09 	+-0.2 (0.04) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_8_1_2			[f1-p] 0.04 	+-0.12 (0.01) 			[f1-cau] 0.01 	+-0.06 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_9_1_2			[f1-p] 0.08 	+-0.18 (0.03) 			[f1-cau] 0.04 	+-0.12 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_1_2			[f1-p] 0.07 	+-0.16 (0.02) 			[f1-cau] 0.07 	+-0.15 (0.02) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 54.0	[fp-pairs] 20.0	[tn-pairs] 1388.0	[fn-pairs] 2538.0	[f1-pairs] 0.04	+-0.1(0.81)
+				[tp-adj] 0	[fp-adj] 0	[tn-adj] 0	[fn-adj] 0	[f1-adj] 1	+-0(0.0)
+				[tp-caus] 26.0	[fp-caus] 26.0	[tn-caus] 3470.0	[fn-caus] 478.0	[f1-caus] 0.09	+-0(0.0)
+				[tp] 0	[fp] 0	[tn] 0	[fn] 0	[f1] 1	+-0(0.0)
+				[jacc] 0.0	[ari] 0.0	[ami] 0.0
+
+EXPERIMENT: exp
+TESTS: MI_ztest x KCI
+METHODS: MethodType.ORACLE, 
+FUN_FORM: NLIN
+
+MethodType.ORACLE
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			2_1_6_1_2			[f1-p] 0.95 	+-0.22 (0.05) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 1.0 	+-0.0 (0.0) 			[jacc] 0.95 			[f1-a] 0.95 	+-0.22 (0.05) 	
+			3_1_6_1_2			[f1-p] 0.96 	+-0.13 (0.02) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.95 	+-0.15 (0.02) 			[jacc] 0.96 			[f1-a] 0.95 	+-0.15 (0.02) 	
+			4_1_6_1_2			[f1-p] 0.85 	+-0.26 (0.07) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.9 	+-0.21 (0.05) 			[jacc] 0.88 			[f1-a] 0.86 	+-0.29 (0.09) 	
+			5_1_6_1_2			[f1-p] 0.85 	+-0.19 (0.04) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.9 	+-0.19 (0.04) 			[jacc] 0.9 			[f1-a] 0.9 	+-0.19 (0.04) 	
+			6_1_6_1_2			[f1-p] 0.78 	+-0.27 (0.08) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.84 	+-0.17 (0.03) 			[jacc] 0.82 			[f1-a] 0.81 	+-0.26 (0.07) 	
+			7_1_6_1_2			[f1-p] 0.87 	+-0.14 (0.02) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.88 	+-0.19 (0.04) 			[jacc] 0.88 			[f1-a] 0.86 	+-0.22 (0.05) 	
+			8_1_6_1_2			[f1-p] 0.86 	+-0.19 (0.04) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.9 	+-0.19 (0.04) 			[jacc] 0.87 			[f1-a] 0.87 	+-0.25 (0.06) 	
+			9_1_6_1_2			[f1-p] 0.83 	+-0.17 (0.03) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.84 	+-0.15 (0.02) 			[jacc] 0.86 			[f1-a] 0.82 	+-0.19 (0.04) 	
+			10_1_6_1_2			[f1-p] 0.84 	+-0.19 (0.04) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.86 	+-0.19 (0.04) 			[jacc] 0.85 			[f1-a] 0.82 	+-0.26 (0.07) 	
+			2_1_10_1_2			[f1-p] 1.0 	+-0.0 (0.0) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 1.0 	+-0.0 (0.0) 			[jacc] 1.0 			[f1-a] 1.0 	+-0.0 (0.0) 	
+			3_1_10_1_2			[f1-p] 0.92 	+-0.18 (0.03) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.92 	+-0.18 (0.03) 			[jacc] 0.92 			[f1-a] 0.92 	+-0.18 (0.03) 	
+			4_1_10_1_2			[f1-p] 0.87 	+-0.22 (0.05) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.85 	+-0.24 (0.06) 			[jacc] 0.86 			[f1-a] 0.86 	+-0.24 (0.06) 	
+			5_1_10_1_2			[f1-p] 0.91 	+-0.16 (0.03) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.9 	+-0.18 (0.03) 			[jacc] 0.9 			[f1-a] 0.9 	+-0.18 (0.03) 	
+			6_1_10_1_2			[f1-p] 0.88 	+-0.22 (0.05) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.89 	+-0.2 (0.04) 			[jacc] 0.88 			[f1-a] 0.87 	+-0.25 (0.06) 	
+			7_1_10_1_2			[f1-p] 0.78 	+-0.23 (0.05) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.78 	+-0.19 (0.03) 			[jacc] 0.76 			[f1-a] 0.75 	+-0.24 (0.06) 	
+			8_1_10_1_2			[f1-p] 0.83 	+-0.17 (0.03) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.78 	+-0.18 (0.03) 			[jacc] 0.74 			[f1-a] 0.75 	+-0.23 (0.05) 	
+			9_1_10_1_2			[f1-p] 0.77 	+-0.25 (0.06) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.76 	+-0.19 (0.03) 			[jacc] 0.74 			[f1-a] 0.7 	+-0.27 (0.08) 	
+			10_1_10_1_2			[f1-p] 0.84 	+-0.19 (0.03) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.83 	+-0.15 (0.02) 			[jacc] 0.82 			[f1-a] 0.8 	+-0.22 (0.05) 	
+	OVERALL
+		x_x_x	[tp-pairs] 2644.0	[fp-pairs] 499.0	[tn-pairs] 3301.0	[fn-pairs] 156.0	[f1-pairs] 0.89	+-0.71(3.4)
+				[tp-adj] 2783.0	[fp-adj] 862.0	[tn-adj] 2342.0	[fn-adj] 17.0	[f1-adj] 0.86	+-0.9(3.87)
+				[tp-caus] 0	[fp-caus] 0	[tn-caus] 0	[fn-caus] 0	[f1-caus] 1	+-0.55(2.95)
+				[tp] 6986.0	[fp] 1534.0	[tn] 3930.0	[fn] 750.0	[f1] 0.86	+-0.55(2.95)
+				[jacc] 0.87	[ari] 0.73	[ami] 0.73
+
+EXPERIMENT: exp
+TESTS: MI_ztest x KCI
+METHODS: MethodType.ORACLE, 
+FUN_FORM: NLIN
+
+MethodType.ORACLE
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			5_1_10_0_0			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.77 	+-0.18 (0.03) 			[jacc] 0.09 			[f1-a] 0.0 	+-0.0 (0.0) 	
+			5_1_10_0_1			[f1-p] 1.0 	+-0.0 (0.0) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 1.0 	+-0.0 (0.0) 			[jacc] 1.0 			[f1-a] 1.0 	+-0.0 (0.0) 	
+			5_1_10_0_2			[f1-p] 1.0 	+-0.0 (0.0) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 1.0 	+-0.0 (0.0) 			[jacc] 1.0 			[f1-a] 1.0 	+-0.0 (0.0) 	
+			5_1_10_0_3			[f1-p] 1.0 	+-0.0 (0.0) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 1.0 	+-0.0 (0.0) 			[jacc] 1.0 			[f1-a] 1.0 	+-0.0 (0.0) 	
+			5_1_10_0_4			[f1-p] 1.0 	+-0.0 (0.0) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 1.0 	+-0.0 (0.0) 			[jacc] 1.0 			[f1-a] 1.0 	+-0.0 (0.0) 	
+			5_1_10_0_5			[f1-p] 1.0 	+-0.0 (0.0) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 1.0 	+-0.0 (0.0) 			[jacc] 1.0 			[f1-a] 1.0 	+-0.0 (0.0) 	
+			5_1_10_0_6			[f1-p] 1.0 	+-0.0 (0.0) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 1.0 	+-0.0 (0.0) 			[jacc] 1.0 			[f1-a] 1.0 	+-0.0 (0.0) 	
+			5_1_10_0_7			[f1-p] 1.0 	+-0.0 (0.0) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 1.0 	+-0.0 (0.0) 			[jacc] 1.0 			[f1-a] 1.0 	+-0.0 (0.0) 	
+			5_1_10_0_8			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.77 	+-0.18 (0.03) 			[jacc] 0.09 			[f1-a] 0.0 	+-0.0 (0.0) 	
+			10_1_10_0_0			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.75 	+-0.15 (0.02) 			[jacc] 0.17 			[f1-a] 0.0 	+-0.0 (0.0) 	
+			10_1_10_0_1			[f1-p] 1.0 	+-0.0 (0.0) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 1.0 	+-0.0 (0.0) 			[jacc] 1.0 			[f1-a] 1.0 	+-0.0 (0.0) 	
+			10_1_10_0_2			[f1-p] 1.0 	+-0.0 (0.0) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 1.0 	+-0.0 (0.0) 			[jacc] 1.0 			[f1-a] 1.0 	+-0.0 (0.0) 	
+			10_1_10_0_3			[f1-p] 1.0 	+-0.0 (0.0) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 1.0 	+-0.0 (0.0) 			[jacc] 1.0 			[f1-a] 1.0 	+-0.0 (0.0) 	
+			10_1_10_0_4			[f1-p] 1.0 	+-0.0 (0.0) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 1.0 	+-0.0 (0.0) 			[jacc] 1.0 			[f1-a] 1.0 	+-0.0 (0.0) 	
+			10_1_10_0_5			[f1-p] 1.0 	+-0.0 (0.0) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 1.0 	+-0.0 (0.0) 			[jacc] 1.0 			[f1-a] 1.0 	+-0.0 (0.0) 	
+			10_1_10_0_6			[f1-p] 1.0 	+-0.0 (0.0) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 1.0 	+-0.0 (0.0) 			[jacc] 1.0 			[f1-a] 1.0 	+-0.0 (0.0) 	
+			10_1_10_0_7			[f1-p] 1.0 	+-0.0 (0.0) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 1.0 	+-0.0 (0.0) 			[jacc] 1.0 			[f1-a] 1.0 	+-0.0 (0.0) 	
+			10_1_10_0_8			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.75 	+-0.15 (0.02) 			[jacc] 0.17 			[f1-a] 0.0 	+-0.0 (0.0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 3787.0	[fp-pairs] 0.0	[tn-pairs] 5031.0	[fn-pairs] 1082.0	[f1-pairs] 0.88	+-0.0(0.0)
+				[tp-adj] 3787.0	[fp-adj] 0.0	[tn-adj] 3681.0	[fn-adj] 1082.0	[f1-adj] 0.88	+-0.0(0.0)
+				[tp-caus] 0	[fp-caus] 0	[tn-caus] 0	[fn-caus] 0	[f1-caus] 1	+-0.11(0.67)
+				[tp] 12438.0	[fp] 1636.0	[tn] 5726.0	[fn] 0.0	[f1] 0.94	+-0.11(0.67)
+				[jacc] 0.81	[ari] 0.84	[ami] 0.84
+
+EXPERIMENT: exp
+TESTS: MI_ztest x KCI
+METHODS: MethodType.ORACLE, 
+FUN_FORM: NLIN
+
+MethodType.ORACLE
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			5_1_10_0_1			[f1-p] 1.0 	+-0.0 (0.0) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 1.0 	+-0.0 (0.0) 			[jacc] 1.0 			[f1-a] 1.0 	+-0.0 (0.0) 	
+			5_1_10_1_2			[f1-p] 0.9 	+-0.17 (0.03) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.87 	+-0.2 (0.04) 			[jacc] 0.85 			[f1-a] 0.86 	+-0.23 (0.05) 	
+			5_1_10_2_3			[f1-p] 0.87 	+-0.18 (0.03) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.83 	+-0.21 (0.04) 			[jacc] 0.8 			[f1-a] 0.82 	+-0.23 (0.05) 	
+			5_1_10_3_4			[f1-p] 0.87 	+-0.19 (0.04) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.86 	+-0.2 (0.04) 			[jacc] 0.83 			[f1-a] 0.85 	+-0.22 (0.05) 	
+			5_1_10_4_5			[f1-p] 0.9 	+-0.15 (0.02) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.88 	+-0.2 (0.04) 			[jacc] 0.85 			[f1-a] 0.87 	+-0.22 (0.05) 	
+			5_1_10_5_6			[f1-p] 0.76 	+-0.28 (0.08) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.8 	+-0.25 (0.06) 			[jacc] 0.79 			[f1-a] 0.76 	+-0.31 (0.1) 	
+			5_1_10_6_7			[f1-p] 0.69 	+-0.37 (0.14) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.76 	+-0.23 (0.06) 			[jacc] 0.72 			[f1-a] 0.66 	+-0.38 (0.14) 	
+			5_1_10_7_8			[f1-p] 0.5 	+-0.35 (0.12) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.64 	+-0.24 (0.06) 			[jacc] 0.57 			[f1-a] 0.47 	+-0.34 (0.12) 	
+			5_1_10_8_9			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.79 	+-0.19 (0.04) 			[jacc] 0.07 			[f1-a] 0.0 	+-0.0 (0.0) 	
+			10_1_10_0_1			[f1-p] 1.0 	+-0.0 (0.0) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 1.0 	+-0.0 (0.0) 			[jacc] 1.0 			[f1-a] 1.0 	+-0.0 (0.0) 	
+			10_1_10_1_2			[f1-p] 0.83 	+-0.21 (0.04) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.81 	+-0.17 (0.03) 			[jacc] 0.78 			[f1-a] 0.77 	+-0.25 (0.06) 	
+			10_1_10_2_3			[f1-p] 0.81 	+-0.23 (0.05) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.81 	+-0.18 (0.03) 			[jacc] 0.79 			[f1-a] 0.78 	+-0.26 (0.07) 	
+			10_1_10_3_4			[f1-p] 0.83 	+-0.22 (0.05) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.81 	+-0.19 (0.04) 			[jacc] 0.79 			[f1-a] 0.78 	+-0.26 (0.07) 	
+			10_1_10_4_5			[f1-p] 0.82 	+-0.2 (0.04) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.81 	+-0.18 (0.03) 			[jacc] 0.78 			[f1-a] 0.77 	+-0.26 (0.07) 	
+			10_1_10_5_6			[f1-p] 0.63 	+-0.29 (0.08) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.72 	+-0.19 (0.03) 			[jacc] 0.71 			[f1-a] 0.68 	+-0.26 (0.07) 	
+			10_1_10_6_7			[f1-p] 0.67 	+-0.23 (0.05) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.7 	+-0.18 (0.03) 			[jacc] 0.7 			[f1-a] 0.63 	+-0.27 (0.07) 	
+			10_1_10_7_8			[f1-p] 0.43 	+-0.27 (0.07) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.61 	+-0.12 (0.01) 			[jacc] 0.55 			[f1-a] 0.42 	+-0.27 (0.08) 	
+			10_1_10_8_9			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.74 	+-0.15 (0.02) 			[jacc] 0.17 			[f1-a] 0.0 	+-0.0 (0.0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 3628.0	[fp-pairs] 525.0	[tn-pairs] 4506.0	[fn-pairs] 1241.0	[f1-pairs] 0.8	+-0.85(3.34)
+				[tp-adj] 3783.0	[fp-adj] 1065.0	[tn-adj] 3248.0	[fn-adj] 1086.0	[f1-adj] 0.78	+-1.05(3.79)
+				[tp-caus] 0	[fp-caus] 0	[tn-caus] 0	[fn-caus] 0	[f1-caus] 1	+-0.61(3.08)
+				[tp] 10600.0	[fp] 3102.0	[tn] 4260.0	[fn] 1838.0	[f1] 0.81	+-0.61(3.08)
+				[jacc] 0.71	[ari] 0.53	[ami] 0.53
+
+EXPERIMENT: exp
+TESTS: MI_ztest x KCI
+METHODS: MethodType.ORACLE, 
+FUN_FORM: NLIN
+
+MethodType.ORACLE
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			2_1_6_1_2			[f1-p] 0.95 	+-0.22 (0.05) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 1.0 	+-0.0 (0.0) 			[jacc] 0.95 			[f1-a] 0.95 	+-0.22 (0.05) 	
+			3_1_6_1_2			[f1-p] 0.96 	+-0.13 (0.02) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.95 	+-0.15 (0.02) 			[jacc] 0.96 			[f1-a] 0.95 	+-0.15 (0.02) 	
+			4_1_6_1_2			[f1-p] 0.85 	+-0.26 (0.07) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.9 	+-0.21 (0.05) 			[jacc] 0.88 			[f1-a] 0.86 	+-0.29 (0.09) 	
+			5_1_6_1_2			[f1-p] 0.85 	+-0.19 (0.04) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.9 	+-0.19 (0.04) 			[jacc] 0.9 			[f1-a] 0.9 	+-0.19 (0.04) 	
+			6_1_6_1_2			[f1-p] 0.78 	+-0.27 (0.08) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.84 	+-0.17 (0.03) 			[jacc] 0.82 			[f1-a] 0.81 	+-0.26 (0.07) 	
+			7_1_6_1_2			[f1-p] 0.87 	+-0.14 (0.02) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.88 	+-0.19 (0.04) 			[jacc] 0.88 			[f1-a] 0.86 	+-0.22 (0.05) 	
+			8_1_6_1_2			[f1-p] 0.86 	+-0.19 (0.04) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.9 	+-0.19 (0.04) 			[jacc] 0.87 			[f1-a] 0.87 	+-0.25 (0.06) 	
+			9_1_6_1_2			[f1-p] 0.83 	+-0.17 (0.03) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.84 	+-0.15 (0.02) 			[jacc] 0.86 			[f1-a] 0.82 	+-0.19 (0.04) 	
+			10_1_6_1_2			[f1-p] 0.84 	+-0.19 (0.04) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.86 	+-0.19 (0.04) 			[jacc] 0.85 			[f1-a] 0.82 	+-0.26 (0.07) 	
+	OVERALL
+		x_x_x	[tp-pairs] 1244.0	[fp-pairs] 154.0	[tn-pairs] 1746.0	[fn-pairs] 156.0	[f1-pairs] 0.89	+-0.37(1.78)
+				[tp-adj] 1383.0	[fp-adj] 328.0	[tn-adj] 1232.0	[fn-adj] 17.0	[f1-adj] 0.89	+-0.48(2.05)
+				[tp-caus] 0	[fp-caus] 0	[tn-caus] 0	[fn-caus] 0	[f1-caus] 1	+-0.26(1.44)
+				[tp] 3538.0	[fp] 602.0	[tn] 2130.0	[fn] 330.0	[f1] 0.88	+-0.26(1.44)
+				[jacc] 0.88	[ari] 0.78	[ami] 0.78
+
+EXPERIMENT: exp
+TESTS: MI_ztest x KCI
+METHODS: MethodType.ORACLE, 
+FUN_FORM: NLIN
+
+MethodType.ORACLE
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			5_1_10_0_0			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.77 	+-0.18 (0.03) 			[jacc] 0.09 			[f1-a] 0.0 	+-0.0 (0.0) 	
+			5_1_10_0_1			[f1-p] 1.0 	+-0.0 (0.0) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 1.0 	+-0.0 (0.0) 			[jacc] 1.0 			[f1-a] 1.0 	+-0.0 (0.0) 	
+			5_1_10_0_2			[f1-p] 1.0 	+-0.0 (0.0) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 1.0 	+-0.0 (0.0) 			[jacc] 1.0 			[f1-a] 1.0 	+-0.0 (0.0) 	
+			5_1_10_0_3			[f1-p] 1.0 	+-0.0 (0.0) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 1.0 	+-0.0 (0.0) 			[jacc] 1.0 			[f1-a] 1.0 	+-0.0 (0.0) 	
+			5_1_10_0_4			[f1-p] 1.0 	+-0.0 (0.0) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 1.0 	+-0.0 (0.0) 			[jacc] 1.0 			[f1-a] 1.0 	+-0.0 (0.0) 	
+			5_1_10_0_5			[f1-p] 1.0 	+-0.0 (0.0) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 1.0 	+-0.0 (0.0) 			[jacc] 1.0 			[f1-a] 1.0 	+-0.0 (0.0) 	
+			5_1_10_0_6			[f1-p] 1.0 	+-0.0 (0.0) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 1.0 	+-0.0 (0.0) 			[jacc] 1.0 			[f1-a] 1.0 	+-0.0 (0.0) 	
+			5_1_10_0_7			[f1-p] 1.0 	+-0.0 (0.0) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 1.0 	+-0.0 (0.0) 			[jacc] 1.0 			[f1-a] 1.0 	+-0.0 (0.0) 	
+			5_1_10_0_8			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.77 	+-0.18 (0.03) 			[jacc] 0.09 			[f1-a] 0.0 	+-0.0 (0.0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 861.0	[fp-pairs] 0.0	[tn-pairs] 693.0	[fn-pairs] 246.0	[f1-pairs] 0.88	+-0.0(0.0)
+				[tp-adj] 861.0	[fp-adj] 0.0	[tn-adj] 594.0	[fn-adj] 246.0	[f1-adj] 0.88	+-0.0(0.0)
+				[tp-caus] 0	[fp-caus] 0	[tn-caus] 0	[fn-caus] 0	[f1-caus] 1	+-0.07(0.37)
+				[tp] 2412.0	[fp] 264.0	[tn] 924.0	[fn] 0.0	[f1] 0.95	+-0.07(0.37)
+				[jacc] 0.8	[ari] 0.86	[ami] 0.86
+
+EXPERIMENT: exp
+TESTS: MI_ztest x KCI
+METHODS: MethodType.ORACLE, 
+FUN_FORM: NLIN
+
+MethodType.ORACLE
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			5_1_10_0_1			[f1-p] 1.0 	+-0.0 (0.0) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 1.0 	+-0.0 (0.0) 			[jacc] 1.0 			[f1-a] 1.0 	+-0.0 (0.0) 	
+			5_1_10_1_2			[f1-p] 0.9 	+-0.17 (0.03) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.87 	+-0.2 (0.04) 			[jacc] 0.85 			[f1-a] 0.86 	+-0.23 (0.05) 	
+			5_1_10_2_3			[f1-p] 0.87 	+-0.18 (0.03) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.83 	+-0.21 (0.04) 			[jacc] 0.8 			[f1-a] 0.82 	+-0.23 (0.05) 	
+			5_1_10_3_4			[f1-p] 0.87 	+-0.19 (0.04) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.86 	+-0.2 (0.04) 			[jacc] 0.83 			[f1-a] 0.85 	+-0.22 (0.05) 	
+			5_1_10_4_5			[f1-p] 0.9 	+-0.15 (0.02) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.88 	+-0.2 (0.04) 			[jacc] 0.85 			[f1-a] 0.87 	+-0.22 (0.05) 	
+			5_1_10_5_6			[f1-p] 0.76 	+-0.28 (0.08) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.8 	+-0.25 (0.06) 			[jacc] 0.79 			[f1-a] 0.76 	+-0.31 (0.1) 	
+			5_1_10_6_7			[f1-p] 0.69 	+-0.37 (0.14) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.76 	+-0.23 (0.06) 			[jacc] 0.72 			[f1-a] 0.66 	+-0.38 (0.14) 	
+			5_1_10_7_8			[f1-p] 0.5 	+-0.35 (0.12) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.64 	+-0.24 (0.06) 			[jacc] 0.57 			[f1-a] 0.47 	+-0.34 (0.12) 	
+			5_1_10_8_9			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.79 	+-0.19 (0.04) 			[jacc] 0.07 			[f1-a] 0.0 	+-0.0 (0.0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 852.0	[fp-pairs] 88.0	[tn-pairs] 605.0	[fn-pairs] 255.0	[f1-pairs] 0.83	+-0.46(1.7)
+				[tp-adj] 875.0	[fp-adj] 183.0	[tn-adj] 455.0	[fn-adj] 232.0	[f1-adj] 0.81	+-0.57(1.94)
+				[tp-caus] 0	[fp-caus] 0	[tn-caus] 0	[fn-caus] 0	[f1-caus] 1	+-0.37(1.72)
+				[tp] 2194.0	[fp] 542.0	[tn] 646.0	[fn] 218.0	[f1] 0.85	+-0.37(1.72)
+				[jacc] 0.72	[ari] 0.59	[ami] 0.59
+
+EXPERIMENT: exp
+TESTS: MI_ztest x KCI
+METHODS: MethodType.FCI_JCI, MethodType.FCI_JCI_FULL, MethodType.FCI_POOLED, MethodType.FCI_POOLED_FULL, MethodType.FCI_CONTEXT, MethodType.FCI_CONTEXT_FULL, 
+FUN_FORM: NLIN
+
+EXPERIMENT: exp
+TESTS: MI_ztest x KCI
+METHODS: MethodType.FCI_JCI, MethodType.FCI_JCI_FULL, MethodType.FCI_POOLED, MethodType.FCI_POOLED_FULL, MethodType.FCI_CONTEXT, MethodType.FCI_CONTEXT_FULL, 
+FUN_FORM: NLIN
+
+MethodType.FCI_JCI
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			2_1_6_1_2			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.55 	+-0.51 (0.26) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			3_1_6_1_2			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.2 	+-0.41 (0.17) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			4_1_6_1_2			[f1-p] 0.03 	+-0.09 (0.01) 			[f1-cau] 0.13 	+-0.33 (0.11) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_6_1_2			[f1-p] 0.09 	+-0.19 (0.04) 			[f1-cau] 0.04 	+-0.12 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			6_1_6_1_2			[f1-p] 0.12 	+-0.13 (0.02) 			[f1-cau] 0.04 	+-0.09 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			7_1_6_1_2			[f1-p] 0.11 	+-0.14 (0.02) 			[f1-cau] 0.03 	+-0.1 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			8_1_6_1_2			[f1-p] 0.1 	+-0.11 (0.01) 			[f1-cau] 0.06 	+-0.12 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			9_1_6_1_2			[f1-p] 0.15 	+-0.16 (0.03) 			[f1-cau] 0.03 	+-0.06 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			10_1_6_1_2			[f1-p] 0.14 	+-0.13 (0.02) 			[f1-cau] 0.04 	+-0.08 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 304.0	[fp-pairs] 552.0	[tn-pairs] 3607.0	[fn-pairs] 3217.0	[f1-pairs] 0.14	+-0.13(0.94)
+				[tp-adj] 0	[fp-adj] 0	[tn-adj] 0	[fn-adj] 0	[f1-adj] 1	+-0(0.0)
+				[tp-caus] 31.0	[fp-caus] 182.0	[tn-caus] 6464.0	[fn-caus] 1003.0	[f1-caus] 0.05	+-0(0.0)
+				[tp] 0	[fp] 0	[tn] 0	[fn] 0	[f1] 1	+-0(0.0)
+				[jacc] 0.0	[ari] 0.0	[ami] 0.0
+
+MethodType.FCI_JCI_FULL
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			2_1_6_1_2			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.55 	+-0.51 (0.26) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			3_1_6_1_2			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.2 	+-0.41 (0.17) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			4_1_6_1_2			[f1-p] 0.03 	+-0.09 (0.01) 			[f1-cau] 0.1 	+-0.31 (0.09) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_6_1_2			[f1-p] 0.11 	+-0.19 (0.04) 			[f1-cau] 0.03 	+-0.08 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			6_1_6_1_2			[f1-p] 0.15 	+-0.15 (0.02) 			[f1-cau] 0.0 	+-0.0 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			7_1_6_1_2			[f1-p] 0.13 	+-0.15 (0.02) 			[f1-cau] 0.0 	+-0.0 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			8_1_6_1_2			[f1-p] 0.11 	+-0.1 (0.01) 			[f1-cau] 0.04 	+-0.08 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			9_1_6_1_2			[f1-p] 0.14 	+-0.15 (0.02) 			[f1-cau] 0.02 	+-0.05 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			10_1_6_1_2			[f1-p] 0.17 	+-0.13 (0.02) 			[f1-cau] 0.01 	+-0.03 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 356.0	[fp-pairs] 662.0	[tn-pairs] 3497.0	[fn-pairs] 3165.0	[f1-pairs] 0.16	+-0.14(0.96)
+				[tp-adj] 0	[fp-adj] 0	[tn-adj] 0	[fn-adj] 0	[f1-adj] 1	+-0(0.0)
+				[tp-caus] 12.0	[fp-caus] 84.0	[tn-caus] 6562.0	[fn-caus] 1022.0	[f1-caus] 0.02	+-0(0.0)
+				[tp] 0	[fp] 0	[tn] 0	[fn] 0	[f1] 1	+-0(0.0)
+				[jacc] 0.0	[ari] 0.0	[ami] 0.0
+
+MethodType.FCI_POOLED
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			2_1_6_1_2			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.55 	+-0.51 (0.26) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			3_1_6_1_2			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.2 	+-0.41 (0.17) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			4_1_6_1_2			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.13 	+-0.33 (0.11) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_6_1_2			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.02 	+-0.07 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			6_1_6_1_2			[f1-p] 0.04 	+-0.08 (0.01) 			[f1-cau] 0.03 	+-0.08 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			7_1_6_1_2			[f1-p] 0.03 	+-0.09 (0.01) 			[f1-cau] 0.03 	+-0.09 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			8_1_6_1_2			[f1-p] 0.01 	+-0.03 (0.0) 			[f1-cau] 0.03 	+-0.07 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			9_1_6_1_2			[f1-p] 0.07 	+-0.11 (0.01) 			[f1-cau] 0.02 	+-0.05 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			10_1_6_1_2			[f1-p] 0.06 	+-0.08 (0.01) 			[f1-cau] 0.05 	+-0.1 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 86.0	[fp-pairs] 124.0	[tn-pairs] 4035.0	[fn-pairs] 3435.0	[f1-pairs] 0.05	+-0.03(0.39)
+				[tp-adj] 0	[fp-adj] 0	[tn-adj] 0	[fn-adj] 0	[f1-adj] 1	+-0(0.0)
+				[tp-caus] 24.0	[fp-caus] 109.0	[tn-caus] 6537.0	[fn-caus] 1010.0	[f1-caus] 0.04	+-0(0.0)
+				[tp] 0	[fp] 0	[tn] 0	[fn] 0	[f1] 1	+-0(0.0)
+				[jacc] 0.0	[ari] 0.0	[ami] 0.0
+
+MethodType.FCI_POOLED_FULL
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			2_1_6_1_2			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.55 	+-0.51 (0.26) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			3_1_6_1_2			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.2 	+-0.41 (0.17) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			4_1_6_1_2			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.1 	+-0.31 (0.09) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_6_1_2			[f1-p] 0.03 	+-0.1 (0.01) 			[f1-cau] 0.0 	+-0.0 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			6_1_6_1_2			[f1-p] 0.11 	+-0.16 (0.02) 			[f1-cau] 0.01 	+-0.06 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			7_1_6_1_2			[f1-p] 0.1 	+-0.14 (0.02) 			[f1-cau] 0.04 	+-0.13 (0.02) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			8_1_6_1_2			[f1-p] 0.06 	+-0.11 (0.01) 			[f1-cau] 0.01 	+-0.03 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			9_1_6_1_2			[f1-p] 0.13 	+-0.13 (0.02) 			[f1-cau] 0.03 	+-0.07 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			10_1_6_1_2			[f1-p] 0.21 	+-0.12 (0.01) 			[f1-cau] 0.01 	+-0.03 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 320.0	[fp-pairs] 552.0	[tn-pairs] 3607.0	[fn-pairs] 3201.0	[f1-pairs] 0.15	+-0.1(0.76)
+				[tp-adj] 0	[fp-adj] 0	[tn-adj] 0	[fn-adj] 0	[f1-adj] 1	+-0(0.0)
+				[tp-caus] 13.0	[fp-caus] 62.0	[tn-caus] 6584.0	[fn-caus] 1021.0	[f1-caus] 0.02	+-0(0.0)
+				[tp] 0	[fp] 0	[tn] 0	[fn] 0	[f1] 1	+-0(0.0)
+				[jacc] 0.0	[ari] 0.0	[ami] 0.0
+
+MethodType.FCI_CONTEXT
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			2_1_6_1_2			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.55 	+-0.51 (0.26) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			3_1_6_1_2			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.2 	+-0.41 (0.17) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			4_1_6_1_2			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.1 	+-0.31 (0.09) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_6_1_2			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.02 	+-0.09 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			6_1_6_1_2			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.03 	+-0.08 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			7_1_6_1_2			[f1-p] 0.06 	+-0.15 (0.02) 			[f1-cau] 0.02 	+-0.08 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			8_1_6_1_2			[f1-p] 0.02 	+-0.05 (0.0) 			[f1-cau] 0.05 	+-0.1 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			9_1_6_1_2			[f1-p] 0.05 	+-0.08 (0.01) 			[f1-cau] 0.04 	+-0.07 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			10_1_6_1_2			[f1-p] 0.05 	+-0.09 (0.01) 			[f1-cau] 0.03 	+-0.06 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 64.0	[fp-pairs] 20.0	[tn-pairs] 4139.0	[fn-pairs] 3457.0	[f1-pairs] 0.04	+-0.04(0.38)
+				[tp-adj] 0	[fp-adj] 0	[tn-adj] 0	[fn-adj] 0	[f1-adj] 1	+-0(0.0)
+				[tp-caus] 20.0	[fp-caus] 50.0	[tn-caus] 6596.0	[fn-caus] 1014.0	[f1-caus] 0.04	+-0(0.0)
+				[tp] 0	[fp] 0	[tn] 0	[fn] 0	[f1] 1	+-0(0.0)
+				[jacc] 0.0	[ari] 0.0	[ami] 0.0
+
+MethodType.FCI_CONTEXT_FULL
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			2_1_6_1_2			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.55 	+-0.51 (0.26) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			3_1_6_1_2			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.2 	+-0.41 (0.17) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			4_1_6_1_2			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.1 	+-0.31 (0.09) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_6_1_2			[f1-p] 0.01 	+-0.03 (0.0) 			[f1-cau] 0.0 	+-0.0 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			6_1_6_1_2			[f1-p] 0.08 	+-0.17 (0.03) 			[f1-cau] 0.0 	+-0.0 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			7_1_6_1_2			[f1-p] 0.1 	+-0.17 (0.03) 			[f1-cau] 0.0 	+-0.0 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			8_1_6_1_2			[f1-p] 0.11 	+-0.14 (0.02) 			[f1-cau] 0.01 	+-0.04 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			9_1_6_1_2			[f1-p] 0.12 	+-0.13 (0.02) 			[f1-cau] 0.02 	+-0.04 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			10_1_6_1_2			[f1-p] 0.16 	+-0.13 (0.02) 			[f1-cau] 0.01 	+-0.03 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 206.0	[fp-pairs] 114.0	[tn-pairs] 4045.0	[fn-pairs] 3315.0	[f1-pairs] 0.11	+-0.12(0.78)
+				[tp-adj] 0	[fp-adj] 0	[tn-adj] 0	[fn-adj] 0	[f1-adj] 1	+-0(0.0)
+				[tp-caus] 6.0	[fp-caus] 22.0	[tn-caus] 6624.0	[fn-caus] 1028.0	[f1-caus] 0.01	+-0(0.0)
+				[tp] 0	[fp] 0	[tn] 0	[fn] 0	[f1] 1	+-0(0.0)
+				[jacc] 0.0	[ari] 0.0	[ami] 0.0
+
+EXPERIMENT: exp
+TESTS: MI_ztest x KCI
+METHODS: MethodType.FCI_JCI, MethodType.FCI_JCI_FULL, MethodType.FCI_POOLED, MethodType.FCI_POOLED_FULL, MethodType.FCI_CONTEXT, MethodType.FCI_CONTEXT_FULL, 
+FUN_FORM: NLIN
+
+EXPERIMENT: exp
+TESTS: MI_ztest x KCI
+METHODS: MethodType.ORACLE_DAG, 
+FUN_FORM: NLIN
+
+EXPERIMENT: exp
+TESTS: MI_ztest x KCI
+METHODS: MethodType.FCI_JCI, MethodType.FCI_JCI_FULL, MethodType.FCI_POOLED, MethodType.FCI_POOLED_FULL, MethodType.FCI_CONTEXT, MethodType.FCI_CONTEXT_FULL, 
+FUN_FORM: NLIN
+
+MethodType.FCI_JCI
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			2_1_6_1_2			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.6 	+-0.5 (0.25) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			3_1_6_1_2			[f1-p] 0.05 	+-0.16 (0.02) 			[f1-cau] 0.35 	+-0.46 (0.22) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			4_1_6_1_2			[f1-p] 0.21 	+-0.26 (0.07) 			[f1-cau] 0.11 	+-0.21 (0.04) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_6_1_2			[f1-p] 0.13 	+-0.19 (0.04) 			[f1-cau] 0.17 	+-0.22 (0.05) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			6_1_6_1_2			[f1-p] 0.2 	+-0.21 (0.04) 			[f1-cau] 0.16 	+-0.17 (0.03) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			7_1_6_1_2			[f1-p] 0.19 	+-0.17 (0.03) 			[f1-cau] 0.25 	+-0.17 (0.03) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			8_1_6_1_2			[f1-p] 0.16 	+-0.13 (0.02) 			[f1-cau] 0.18 	+-0.14 (0.02) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			9_1_6_1_2			[f1-p] 0.15 	+-0.15 (0.02) 			[f1-cau] 0.16 	+-0.15 (0.02) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			10_1_6_1_2			[f1-p] 0.18 	+-0.14 (0.02) 			[f1-cau] 0.2 	+-0.11 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 442.0	[fp-pairs] 402.0	[tn-pairs] 3757.0	[fn-pairs] 3079.0	[f1-pairs] 0.2	+-0.26(1.39)
+				[tp-adj] 0	[fp-adj] 0	[tn-adj] 0	[fn-adj] 0	[f1-adj] 1	+-0(0.0)
+				[tp-caus] 171.0	[fp-caus] 526.0	[tn-caus] 6120.0	[fn-caus] 863.0	[f1-caus] 0.2	+-0(0.0)
+				[tp] 0	[fp] 0	[tn] 0	[fn] 0	[f1] 1	+-0(0.0)
+				[jacc] 0.0	[ari] 0.0	[ami] 0.0
+
+MethodType.FCI_JCI_FULL
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			2_1_6_1_2			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.55 	+-0.51 (0.26) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			3_1_6_1_2			[f1-p] 0.03 	+-0.14 (0.02) 			[f1-cau] 0.34 	+-0.46 (0.21) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			4_1_6_1_2			[f1-p] 0.12 	+-0.21 (0.04) 			[f1-cau] 0.13 	+-0.27 (0.07) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_6_1_2			[f1-p] 0.15 	+-0.2 (0.04) 			[f1-cau] 0.11 	+-0.21 (0.04) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			6_1_6_1_2			[f1-p] 0.15 	+-0.19 (0.04) 			[f1-cau] 0.13 	+-0.14 (0.02) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			7_1_6_1_2			[f1-p] 0.23 	+-0.15 (0.02) 			[f1-cau] 0.2 	+-0.15 (0.02) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			8_1_6_1_2			[f1-p] 0.19 	+-0.16 (0.02) 			[f1-cau] 0.15 	+-0.13 (0.02) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			9_1_6_1_2			[f1-p] 0.17 	+-0.16 (0.03) 			[f1-cau] 0.12 	+-0.12 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			10_1_6_1_2			[f1-p] 0.22 	+-0.17 (0.03) 			[f1-cau] 0.13 	+-0.11 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 514.0	[fp-pairs] 470.0	[tn-pairs] 3689.0	[fn-pairs] 3007.0	[f1-pairs] 0.23	+-0.24(1.37)
+				[tp-adj] 0	[fp-adj] 0	[tn-adj] 0	[fn-adj] 0	[f1-adj] 1	+-0(0.0)
+				[tp-caus] 120.0	[fp-caus] 424.0	[tn-caus] 6222.0	[fn-caus] 914.0	[f1-caus] 0.15	+-0(0.0)
+				[tp] 0	[fp] 0	[tn] 0	[fn] 0	[f1] 1	+-0(0.0)
+				[jacc] 0.0	[ari] 0.0	[ami] 0.0
+
+MethodType.FCI_POOLED
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			2_1_6_1_2			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.55 	+-0.51 (0.26) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			3_1_6_1_2			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.2 	+-0.41 (0.17) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			4_1_6_1_2			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.17 	+-0.33 (0.11) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_6_1_2			[f1-p] 0.02 	+-0.07 (0.01) 			[f1-cau] 0.14 	+-0.21 (0.04) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			6_1_6_1_2			[f1-p] 0.03 	+-0.09 (0.01) 			[f1-cau] 0.14 	+-0.19 (0.04) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			7_1_6_1_2			[f1-p] 0.03 	+-0.06 (0.0) 			[f1-cau] 0.1 	+-0.15 (0.02) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			8_1_6_1_2			[f1-p] 0.08 	+-0.16 (0.03) 			[f1-cau] 0.09 	+-0.11 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			9_1_6_1_2			[f1-p] 0.05 	+-0.09 (0.01) 			[f1-cau] 0.11 	+-0.12 (0.02) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			10_1_6_1_2			[f1-p] 0.09 	+-0.12 (0.01) 			[f1-cau] 0.11 	+-0.11 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 122.0	[fp-pairs] 204.0	[tn-pairs] 3955.0	[fn-pairs] 3399.0	[f1-pairs] 0.06	+-0.07(0.6)
+				[tp-adj] 0	[fp-adj] 0	[tn-adj] 0	[fn-adj] 0	[f1-adj] 1	+-0(0.0)
+				[tp-caus] 87.0	[fp-caus] 267.0	[tn-caus] 6379.0	[fn-caus] 947.0	[f1-caus] 0.13	+-0(0.0)
+				[tp] 0	[fp] 0	[tn] 0	[fn] 0	[f1] 1	+-0(0.0)
+				[jacc] 0.0	[ari] 0.0	[ami] 0.0
+
+MethodType.FCI_POOLED_FULL
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			2_1_6_1_2			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.55 	+-0.51 (0.26) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			3_1_6_1_2			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.2 	+-0.41 (0.17) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			4_1_6_1_2			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.1 	+-0.31 (0.09) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_6_1_2			[f1-p] 0.03 	+-0.11 (0.01) 			[f1-cau] 0.05 	+-0.17 (0.03) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			6_1_6_1_2			[f1-p] 0.1 	+-0.19 (0.04) 			[f1-cau] 0.09 	+-0.14 (0.02) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			7_1_6_1_2			[f1-p] 0.1 	+-0.12 (0.01) 			[f1-cau] 0.13 	+-0.18 (0.03) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			8_1_6_1_2			[f1-p] 0.2 	+-0.18 (0.03) 			[f1-cau] 0.1 	+-0.18 (0.03) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			9_1_6_1_2			[f1-p] 0.23 	+-0.17 (0.03) 			[f1-cau] 0.16 	+-0.18 (0.03) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			10_1_6_1_2			[f1-p] 0.26 	+-0.16 (0.03) 			[f1-cau] 0.13 	+-0.1 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 444.0	[fp-pairs] 446.0	[tn-pairs] 3713.0	[fn-pairs] 3077.0	[f1-pairs] 0.2	+-0.15(0.92)
+				[tp-adj] 0	[fp-adj] 0	[tn-adj] 0	[fn-adj] 0	[f1-adj] 1	+-0(0.0)
+				[tp-caus] 98.0	[fp-caus] 343.0	[tn-caus] 6303.0	[fn-caus] 936.0	[f1-caus] 0.13	+-0(0.0)
+				[tp] 0	[fp] 0	[tn] 0	[fn] 0	[f1] 1	+-0(0.0)
+				[jacc] 0.0	[ari] 0.0	[ami] 0.0
+
+MethodType.FCI_CONTEXT
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			2_1_6_1_2			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.55 	+-0.51 (0.26) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			3_1_6_1_2			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.2 	+-0.41 (0.17) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			4_1_6_1_2			[f1-p] 0.04 	+-0.11 (0.01) 			[f1-cau] 0.17 	+-0.33 (0.11) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_6_1_2			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.17 	+-0.27 (0.07) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			6_1_6_1_2			[f1-p] 0.05 	+-0.1 (0.01) 			[f1-cau] 0.14 	+-0.17 (0.03) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			7_1_6_1_2			[f1-p] 0.06 	+-0.13 (0.02) 			[f1-cau] 0.16 	+-0.17 (0.03) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			8_1_6_1_2			[f1-p] 0.06 	+-0.13 (0.02) 			[f1-cau] 0.14 	+-0.15 (0.02) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			9_1_6_1_2			[f1-p] 0.07 	+-0.1 (0.01) 			[f1-cau] 0.15 	+-0.15 (0.02) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			10_1_6_1_2			[f1-p] 0.07 	+-0.1 (0.01) 			[f1-cau] 0.16 	+-0.12 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 112.0	[fp-pairs] 82.0	[tn-pairs] 4077.0	[fn-pairs] 3409.0	[f1-pairs] 0.06	+-0.08(0.67)
+				[tp-adj] 0	[fp-adj] 0	[tn-adj] 0	[fn-adj] 0	[f1-adj] 1	+-0(0.0)
+				[tp-caus] 113.0	[fp-caus] 144.0	[tn-caus] 6502.0	[fn-caus] 921.0	[f1-caus] 0.18	+-0(0.0)
+				[tp] 0	[fp] 0	[tn] 0	[fn] 0	[f1] 1	+-0(0.0)
+				[jacc] 0.0	[ari] 0.0	[ami] 0.0
+
+MethodType.FCI_CONTEXT_FULL
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			2_1_6_1_2			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.55 	+-0.51 (0.26) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			3_1_6_1_2			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.2 	+-0.41 (0.17) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			4_1_6_1_2			[f1-p] 0.02 	+-0.08 (0.01) 			[f1-cau] 0.1 	+-0.31 (0.09) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_6_1_2			[f1-p] 0.01 	+-0.05 (0.0) 			[f1-cau] 0.03 	+-0.08 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			6_1_6_1_2			[f1-p] 0.21 	+-0.24 (0.06) 			[f1-cau] 0.21 	+-0.19 (0.03) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			7_1_6_1_2			[f1-p] 0.16 	+-0.21 (0.04) 			[f1-cau] 0.17 	+-0.24 (0.06) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			8_1_6_1_2			[f1-p] 0.24 	+-0.18 (0.03) 			[f1-cau] 0.23 	+-0.16 (0.03) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			9_1_6_1_2			[f1-p] 0.17 	+-0.15 (0.02) 			[f1-cau] 0.17 	+-0.13 (0.02) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			10_1_6_1_2			[f1-p] 0.24 	+-0.13 (0.02) 			[f1-cau] 0.26 	+-0.13 (0.02) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 352.0	[fp-pairs] 206.0	[tn-pairs] 3953.0	[fn-pairs] 3169.0	[f1-pairs] 0.17	+-0.18(1.04)
+				[tp-adj] 0	[fp-adj] 0	[tn-adj] 0	[fn-adj] 0	[f1-adj] 1	+-0(0.0)
+				[tp-caus] 161.0	[fp-caus] 234.0	[tn-caus] 6412.0	[fn-caus] 873.0	[f1-caus] 0.23	+-0(0.0)
+				[tp] 0	[fp] 0	[tn] 0	[fn] 0	[f1] 1	+-0(0.0)
+				[jacc] 0.0	[ari] 0.0	[ami] 0.0
+
+EXPERIMENT: exp
+TESTS: MI_ztest x KCI
+METHODS: MethodType.FCI_JCI, MethodType.FCI_JCI_FULL, MethodType.FCI_POOLED, MethodType.FCI_POOLED_FULL, MethodType.FCI_CONTEXT, MethodType.FCI_CONTEXT_FULL, 
+FUN_FORM: NLIN
+
+EXPERIMENT: exp
+TESTS: MI_ztest x KCI
+METHODS: MethodType.ORACLE_DAG, 
+FUN_FORM: NLIN
+
+EXPERIMENT: exp
+TESTS: MI_ztest x KCI
+METHODS: MethodType.ORACLE, 
+FUN_FORM: NLIN
+
+EXPERIMENT: exp
+TESTS: MI_ztest x KCI
+METHODS: MethodType.FCI_JCI, MethodType.FCI_JCI_FULL, MethodType.FCI_POOLED, MethodType.FCI_POOLED_FULL, MethodType.FCI_CONTEXT, MethodType.FCI_CONTEXT_FULL, 
+FUN_FORM: NLIN
+
+EXPERIMENT: exp
+TESTS: MI_ztest x KCI
+METHODS: MethodType.ORACLE, 
+FUN_FORM: NLIN
+
+MethodType.ORACLE
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			5_1_10_0_1			[f1-p] 1.0 	+-0.0 (0.0) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 1.0 	+-0.0 (0.0) 			[jacc] 1.0 			[f1-a] 1.0 	+-0.0 (0.0) 	
+			5_1_10_1_2			[f1-p] 0.9 	+-0.17 (0.03) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.87 	+-0.2 (0.04) 			[jacc] 0.85 			[f1-a] 0.86 	+-0.23 (0.05) 	
+			5_1_10_2_3			[f1-p] 0.87 	+-0.18 (0.03) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.83 	+-0.21 (0.04) 			[jacc] 0.8 			[f1-a] 0.82 	+-0.23 (0.05) 	
+			5_1_10_3_4			[f1-p] 0.87 	+-0.19 (0.04) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.86 	+-0.2 (0.04) 			[jacc] 0.83 			[f1-a] 0.85 	+-0.22 (0.05) 	
+			5_1_10_4_5			[f1-p] 0.9 	+-0.15 (0.02) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.88 	+-0.2 (0.04) 			[jacc] 0.85 			[f1-a] 0.87 	+-0.22 (0.05) 	
+			5_1_10_5_6			[f1-p] 0.76 	+-0.28 (0.08) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.8 	+-0.25 (0.06) 			[jacc] 0.79 			[f1-a] 0.76 	+-0.31 (0.1) 	
+			5_1_10_6_7			[f1-p] 0.69 	+-0.37 (0.14) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.76 	+-0.23 (0.06) 			[jacc] 0.72 			[f1-a] 0.66 	+-0.38 (0.14) 	
+			5_1_10_7_8			[f1-p] 0.5 	+-0.35 (0.12) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.64 	+-0.24 (0.06) 			[jacc] 0.57 			[f1-a] 0.47 	+-0.34 (0.12) 	
+			5_1_10_8_9			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.79 	+-0.19 (0.04) 			[jacc] 0.07 			[f1-a] 0.0 	+-0.0 (0.0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 852.0	[fp-pairs] 88.0	[tn-pairs] 605.0	[fn-pairs] 255.0	[f1-pairs] 0.83	+-0.46(1.7)
+				[tp-adj] 875.0	[fp-adj] 183.0	[tn-adj] 455.0	[fn-adj] 232.0	[f1-adj] 0.81	+-0.57(1.94)
+				[tp-caus] 0	[fp-caus] 0	[tn-caus] 0	[fn-caus] 0	[f1-caus] 1	+-0.37(1.72)
+				[tp] 2194.0	[fp] 542.0	[tn] 646.0	[fn] 218.0	[f1] 0.85	+-0.37(1.72)
+				[jacc] 0.72	[ari] 0.59	[ami] 0.59
+
+EXPERIMENT: exp
+TESTS: MI_ztest x KCI
+METHODS: MethodType.ORACLE_DAG, 
+FUN_FORM: NLIN
+
+EXPERIMENT: exp
+TESTS: MI_ztest x KCI
+METHODS: MethodType.ORACLE_DAG, 
+FUN_FORM: NLIN
+
+EXPERIMENT: exp
+TESTS: MI_ztest x KCI
+METHODS: MethodType.ORACLE_DAG, 
+FUN_FORM: NLIN
+
+EXPERIMENT: exp
+TESTS: MI_ztest x KCI
+METHODS: MethodType.FCI_JCI, MethodType.FCI_JCI_FULL, MethodType.FCI_POOLED, MethodType.FCI_POOLED_FULL, MethodType.FCI_CONTEXT, MethodType.FCI_CONTEXT_FULL, 
+FUN_FORM: NLIN
+
+EXPERIMENT: exp
+TESTS: MI_ztest x KCI
+METHODS: MethodType.FCI_JCI, MethodType.FCI_JCI_FULL, MethodType.FCI_POOLED, MethodType.FCI_POOLED_FULL, MethodType.FCI_CONTEXT, MethodType.FCI_CONTEXT_FULL, 
+FUN_FORM: NLIN
+
+MethodType.FCI_JCI
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			5_1_10_0_0			[f1-p] 0.12 	+-0.15 (0.02) 			[f1-cau] 0.07 	+-0.14 (0.02) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_1			[f1-p] 0.12 	+-0.17 (0.03) 			[f1-cau] 0.07 	+-0.15 (0.02) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_2			[f1-p] 0.22 	+-0.17 (0.03) 			[f1-cau] 0.06 	+-0.15 (0.02) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_3			[f1-p] 0.15 	+-0.17 (0.03) 			[f1-cau] 0.04 	+-0.11 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_4			[f1-p] 0.17 	+-0.2 (0.04) 			[f1-cau] 0.06 	+-0.12 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_5			[f1-p] 0.2 	+-0.25 (0.06) 			[f1-cau] 0.04 	+-0.1 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_6			[f1-p] 0.22 	+-0.22 (0.05) 			[f1-cau] 0.04 	+-0.11 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_7			[f1-p] 0.11 	+-0.22 (0.05) 			[f1-cau] 0.04 	+-0.11 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_8			[f1-p] 0.1 	+-0.18 (0.03) 			[f1-cau] 0.03 	+-0.09 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 286.0	[fp-pairs] 154.0	[tn-pairs] 1430.0	[fn-pairs] 2630.0	[f1-pairs] 0.17	+-0.35(1.74)
+				[tp-adj] 0	[fp-adj] 0	[tn-adj] 0	[fn-adj] 0	[f1-adj] 1	+-0(0.0)
+				[tp-caus] 28.0	[fp-caus] 73.0	[tn-caus] 3860.0	[fn-caus] 539.0	[f1-caus] 0.08	+-0(0.0)
+				[tp] 0	[fp] 0	[tn] 0	[fn] 0	[f1] 1	+-0(0.0)
+				[jacc] 0.0	[ari] 0.0	[ami] 0.0
+
+MethodType.FCI_JCI_FULL
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			5_1_10_0_0			[f1-p] 0.14 	+-0.17 (0.03) 			[f1-cau] 0.02 	+-0.07 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_1			[f1-p] 0.1 	+-0.17 (0.03) 			[f1-cau] 0.02 	+-0.07 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_2			[f1-p] 0.14 	+-0.16 (0.03) 			[f1-cau] 0.0 	+-0.0 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_3			[f1-p] 0.07 	+-0.16 (0.03) 			[f1-cau] 0.0 	+-0.0 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_4			[f1-p] 0.11 	+-0.18 (0.03) 			[f1-cau] 0.03 	+-0.09 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_5			[f1-p] 0.12 	+-0.19 (0.04) 			[f1-cau] 0.01 	+-0.06 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_6			[f1-p] 0.14 	+-0.18 (0.03) 			[f1-cau] 0.0 	+-0.0 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_7			[f1-p] 0.05 	+-0.13 (0.02) 			[f1-cau] 0.03 	+-0.1 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_8			[f1-p] 0.08 	+-0.14 (0.02) 			[f1-cau] 0.02 	+-0.11 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 212.0	[fp-pairs] 158.0	[tn-pairs] 1426.0	[fn-pairs] 2704.0	[f1-pairs] 0.13	+-0.25(1.48)
+				[tp-adj] 0	[fp-adj] 0	[tn-adj] 0	[fn-adj] 0	[f1-adj] 1	+-0(0.0)
+				[tp-caus] 10.0	[fp-caus] 24.0	[tn-caus] 3909.0	[fn-caus] 557.0	[f1-caus] 0.03	+-0(0.0)
+				[tp] 0	[fp] 0	[tn] 0	[fn] 0	[f1] 1	+-0(0.0)
+				[jacc] 0.0	[ari] 0.0	[ami] 0.0
+
+MethodType.FCI_POOLED
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			5_1_10_0_0			[f1-p] 0.06 	+-0.14 (0.02) 			[f1-cau] 0.05 	+-0.13 (0.02) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_1			[f1-p] 0.06 	+-0.12 (0.02) 			[f1-cau] 0.05 	+-0.13 (0.02) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_2			[f1-p] 0.05 	+-0.12 (0.02) 			[f1-cau] 0.05 	+-0.13 (0.02) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_3			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.02 	+-0.07 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_4			[f1-p] 0.03 	+-0.15 (0.02) 			[f1-cau] 0.03 	+-0.1 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_5			[f1-p] 0.03 	+-0.15 (0.02) 			[f1-cau] 0.03 	+-0.1 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_6			[f1-p] 0.04 	+-0.15 (0.02) 			[f1-cau] 0.02 	+-0.07 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_7			[f1-p] 0.03 	+-0.15 (0.02) 			[f1-cau] 0.02 	+-0.07 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_8			[f1-p] 0.03 	+-0.15 (0.02) 			[f1-cau] 0.02 	+-0.07 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 42.0	[fp-pairs] 62.0	[tn-pairs] 1522.0	[fn-pairs] 2874.0	[f1-pairs] 0.03	+-0.16(1.14)
+				[tp-adj] 0	[fp-adj] 0	[tn-adj] 0	[fn-adj] 0	[f1-adj] 1	+-0(0.0)
+				[tp-caus] 17.0	[fp-caus] 19.0	[tn-caus] 3914.0	[fn-caus] 550.0	[f1-caus] 0.06	+-0(0.0)
+				[tp] 0	[fp] 0	[tn] 0	[fn] 0	[f1] 1	+-0(0.0)
+				[jacc] 0.0	[ari] 0.0	[ami] 0.0
+
+MethodType.FCI_POOLED_FULL
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			5_1_10_0_0			[f1-p] 0.14 	+-0.17 (0.03) 			[f1-cau] 0.02 	+-0.07 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_1			[f1-p] 0.08 	+-0.15 (0.02) 			[f1-cau] 0.02 	+-0.07 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_2			[f1-p] 0.09 	+-0.13 (0.02) 			[f1-cau] 0.0 	+-0.0 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_3			[f1-p] 0.05 	+-0.14 (0.02) 			[f1-cau] 0.0 	+-0.0 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_4			[f1-p] 0.04 	+-0.12 (0.01) 			[f1-cau] 0.0 	+-0.0 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_5			[f1-p] 0.07 	+-0.18 (0.03) 			[f1-cau] 0.01 	+-0.06 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_6			[f1-p] 0.04 	+-0.12 (0.01) 			[f1-cau] 0.0 	+-0.0 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_7			[f1-p] 0.02 	+-0.11 (0.01) 			[f1-cau] 0.01 	+-0.06 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_8			[f1-p] 0.03 	+-0.12 (0.01) 			[f1-cau] 0.01 	+-0.06 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 116.0	[fp-pairs] 122.0	[tn-pairs] 1462.0	[fn-pairs] 2800.0	[f1-pairs] 0.07	+-0.17(1.23)
+				[tp-adj] 0	[fp-adj] 0	[tn-adj] 0	[fn-adj] 0	[f1-adj] 1	+-0(0.0)
+				[tp-caus] 5.0	[fp-caus] 19.0	[tn-caus] 3914.0	[fn-caus] 562.0	[f1-caus] 0.02	+-0(0.0)
+				[tp] 0	[fp] 0	[tn] 0	[fn] 0	[f1] 1	+-0(0.0)
+				[jacc] 0.0	[ari] 0.0	[ami] 0.0
+
+MethodType.FCI_CONTEXT
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			5_1_10_0_0			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.02 	+-0.09 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_1			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.04 	+-0.11 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_2			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.04 	+-0.11 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_3			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.04 	+-0.11 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_4			[f1-p] 0.04 	+-0.15 (0.02) 			[f1-cau] 0.04 	+-0.11 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_5			[f1-p] 0.06 	+-0.17 (0.03) 			[f1-cau] 0.04 	+-0.11 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_6			[f1-p] 0.08 	+-0.19 (0.04) 			[f1-cau] 0.04 	+-0.11 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_7			[f1-p] 0.08 	+-0.19 (0.04) 			[f1-cau] 0.04 	+-0.11 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_8			[f1-p] 0.08 	+-0.19 (0.04) 			[f1-cau] 0.04 	+-0.11 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 46.0	[fp-pairs] 4.0	[tn-pairs] 1580.0	[fn-pairs] 2870.0	[f1-pairs] 0.03	+-0.16(0.89)
+				[tp-adj] 0	[fp-adj] 0	[tn-adj] 0	[fn-adj] 0	[f1-adj] 1	+-0(0.0)
+				[tp-caus] 17.0	[fp-caus] 6.0	[tn-caus] 3927.0	[fn-caus] 550.0	[f1-caus] 0.06	+-0(0.0)
+				[tp] 0	[fp] 0	[tn] 0	[fn] 0	[f1] 1	+-0(0.0)
+				[jacc] 0.0	[ari] 0.0	[ami] 0.0
+
+MethodType.FCI_CONTEXT_FULL
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			5_1_10_0_0			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.0 	+-0.0 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_1			[f1-p] 0.01 	+-0.03 (0.0) 			[f1-cau] 0.0 	+-0.0 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_2			[f1-p] 0.01 	+-0.03 (0.0) 			[f1-cau] 0.0 	+-0.0 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_3			[f1-p] 0.01 	+-0.03 (0.0) 			[f1-cau] 0.0 	+-0.0 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_4			[f1-p] 0.05 	+-0.15 (0.02) 			[f1-cau] 0.0 	+-0.0 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_5			[f1-p] 0.07 	+-0.17 (0.03) 			[f1-cau] 0.0 	+-0.0 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_6			[f1-p] 0.09 	+-0.19 (0.03) 			[f1-cau] 0.0 	+-0.0 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_7			[f1-p] 0.09 	+-0.19 (0.03) 			[f1-cau] 0.0 	+-0.0 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_8			[f1-p] 0.1 	+-0.18 (0.03) 			[f1-cau] 0.0 	+-0.0 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 70.0	[fp-pairs] 4.0	[tn-pairs] 1580.0	[fn-pairs] 2846.0	[f1-pairs] 0.05	+-0.16(0.98)
+				[tp-adj] 0	[fp-adj] 0	[tn-adj] 0	[fn-adj] 0	[f1-adj] 1	+-0(0.0)
+				[tp-caus] 0.0	[fp-caus] 0.0	[tn-caus] 3933.0	[fn-caus] 567.0	[f1-caus] 0.0	+-0(0.0)
+				[tp] 0	[fp] 0	[tn] 0	[fn] 0	[f1] 1	+-0(0.0)
+				[jacc] 0.0	[ari] 0.0	[ami] 0.0
+
+EXPERIMENT: exp
+TESTS: MI_ztest x KCI
+METHODS: MethodType.FCI_JCI, MethodType.FCI_JCI_FULL, MethodType.FCI_POOLED, MethodType.FCI_POOLED_FULL, MethodType.FCI_CONTEXT, MethodType.FCI_CONTEXT_FULL, 
+FUN_FORM: NLIN
+
+EXPERIMENT: exp
+TESTS: MI_ztest x KCI
+METHODS: MethodType.FCI_JCI, MethodType.FCI_JCI_FULL, MethodType.FCI_POOLED, MethodType.FCI_POOLED_FULL, MethodType.FCI_CONTEXT, MethodType.FCI_CONTEXT_FULL, 
+FUN_FORM: NLIN
+
+MethodType.FCI_JCI
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			5_1_10_0_0			[f1-p] 0.12 	+-0.15 (0.02) 			[f1-cau] 0.07 	+-0.14 (0.02) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_1			[f1-p] 0.12 	+-0.17 (0.03) 			[f1-cau] 0.07 	+-0.15 (0.02) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_2			[f1-p] 0.22 	+-0.17 (0.03) 			[f1-cau] 0.06 	+-0.15 (0.02) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_3			[f1-p] 0.15 	+-0.17 (0.03) 			[f1-cau] 0.04 	+-0.11 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_4			[f1-p] 0.17 	+-0.2 (0.04) 			[f1-cau] 0.06 	+-0.12 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_5			[f1-p] 0.2 	+-0.25 (0.06) 			[f1-cau] 0.04 	+-0.1 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_6			[f1-p] 0.22 	+-0.22 (0.05) 			[f1-cau] 0.04 	+-0.11 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_7			[f1-p] 0.11 	+-0.22 (0.05) 			[f1-cau] 0.04 	+-0.11 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_8			[f1-p] 0.1 	+-0.18 (0.03) 			[f1-cau] 0.03 	+-0.09 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 286.0	[fp-pairs] 154.0	[tn-pairs] 1430.0	[fn-pairs] 2630.0	[f1-pairs] 0.17	+-0.35(1.74)
+				[tp-adj] 0	[fp-adj] 0	[tn-adj] 0	[fn-adj] 0	[f1-adj] 1	+-0(0.0)
+				[tp-caus] 28.0	[fp-caus] 73.0	[tn-caus] 3860.0	[fn-caus] 539.0	[f1-caus] 0.08	+-0(0.0)
+				[tp] 0	[fp] 0	[tn] 0	[fn] 0	[f1] 1	+-0(0.0)
+				[jacc] 0.0	[ari] 0.0	[ami] 0.0
+
+MethodType.FCI_JCI_FULL
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			5_1_10_0_0			[f1-p] 0.14 	+-0.17 (0.03) 			[f1-cau] 0.02 	+-0.07 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_1			[f1-p] 0.1 	+-0.17 (0.03) 			[f1-cau] 0.02 	+-0.07 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_2			[f1-p] 0.14 	+-0.16 (0.03) 			[f1-cau] 0.0 	+-0.0 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_3			[f1-p] 0.07 	+-0.16 (0.03) 			[f1-cau] 0.0 	+-0.0 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_4			[f1-p] 0.11 	+-0.18 (0.03) 			[f1-cau] 0.03 	+-0.09 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_5			[f1-p] 0.12 	+-0.19 (0.04) 			[f1-cau] 0.01 	+-0.06 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_6			[f1-p] 0.14 	+-0.18 (0.03) 			[f1-cau] 0.0 	+-0.0 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_7			[f1-p] 0.05 	+-0.13 (0.02) 			[f1-cau] 0.03 	+-0.1 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_8			[f1-p] 0.08 	+-0.14 (0.02) 			[f1-cau] 0.02 	+-0.11 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 212.0	[fp-pairs] 158.0	[tn-pairs] 1426.0	[fn-pairs] 2704.0	[f1-pairs] 0.13	+-0.25(1.48)
+				[tp-adj] 0	[fp-adj] 0	[tn-adj] 0	[fn-adj] 0	[f1-adj] 1	+-0(0.0)
+				[tp-caus] 10.0	[fp-caus] 24.0	[tn-caus] 3909.0	[fn-caus] 557.0	[f1-caus] 0.03	+-0(0.0)
+				[tp] 0	[fp] 0	[tn] 0	[fn] 0	[f1] 1	+-0(0.0)
+				[jacc] 0.0	[ari] 0.0	[ami] 0.0
+
+MethodType.FCI_POOLED
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			5_1_10_0_0			[f1-p] 0.06 	+-0.14 (0.02) 			[f1-cau] 0.05 	+-0.13 (0.02) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_1			[f1-p] 0.06 	+-0.12 (0.02) 			[f1-cau] 0.05 	+-0.13 (0.02) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_2			[f1-p] 0.05 	+-0.12 (0.02) 			[f1-cau] 0.05 	+-0.13 (0.02) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_3			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.02 	+-0.07 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_4			[f1-p] 0.03 	+-0.15 (0.02) 			[f1-cau] 0.03 	+-0.1 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_5			[f1-p] 0.03 	+-0.15 (0.02) 			[f1-cau] 0.03 	+-0.1 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_6			[f1-p] 0.04 	+-0.15 (0.02) 			[f1-cau] 0.02 	+-0.07 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_7			[f1-p] 0.03 	+-0.15 (0.02) 			[f1-cau] 0.02 	+-0.07 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_8			[f1-p] 0.03 	+-0.15 (0.02) 			[f1-cau] 0.02 	+-0.07 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 42.0	[fp-pairs] 62.0	[tn-pairs] 1522.0	[fn-pairs] 2874.0	[f1-pairs] 0.03	+-0.16(1.14)
+				[tp-adj] 0	[fp-adj] 0	[tn-adj] 0	[fn-adj] 0	[f1-adj] 1	+-0(0.0)
+				[tp-caus] 17.0	[fp-caus] 19.0	[tn-caus] 3914.0	[fn-caus] 550.0	[f1-caus] 0.06	+-0(0.0)
+				[tp] 0	[fp] 0	[tn] 0	[fn] 0	[f1] 1	+-0(0.0)
+				[jacc] 0.0	[ari] 0.0	[ami] 0.0
+
+MethodType.FCI_POOLED_FULL
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			5_1_10_0_0			[f1-p] 0.14 	+-0.17 (0.03) 			[f1-cau] 0.02 	+-0.07 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_1			[f1-p] 0.08 	+-0.15 (0.02) 			[f1-cau] 0.02 	+-0.07 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_2			[f1-p] 0.09 	+-0.13 (0.02) 			[f1-cau] 0.0 	+-0.0 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_3			[f1-p] 0.05 	+-0.14 (0.02) 			[f1-cau] 0.0 	+-0.0 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_4			[f1-p] 0.04 	+-0.12 (0.01) 			[f1-cau] 0.0 	+-0.0 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_5			[f1-p] 0.07 	+-0.18 (0.03) 			[f1-cau] 0.01 	+-0.06 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_6			[f1-p] 0.04 	+-0.12 (0.01) 			[f1-cau] 0.0 	+-0.0 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_7			[f1-p] 0.02 	+-0.11 (0.01) 			[f1-cau] 0.01 	+-0.06 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_8			[f1-p] 0.03 	+-0.12 (0.01) 			[f1-cau] 0.01 	+-0.06 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 116.0	[fp-pairs] 122.0	[tn-pairs] 1462.0	[fn-pairs] 2800.0	[f1-pairs] 0.07	+-0.17(1.23)
+				[tp-adj] 0	[fp-adj] 0	[tn-adj] 0	[fn-adj] 0	[f1-adj] 1	+-0(0.0)
+				[tp-caus] 5.0	[fp-caus] 19.0	[tn-caus] 3914.0	[fn-caus] 562.0	[f1-caus] 0.02	+-0(0.0)
+				[tp] 0	[fp] 0	[tn] 0	[fn] 0	[f1] 1	+-0(0.0)
+				[jacc] 0.0	[ari] 0.0	[ami] 0.0
+
+MethodType.FCI_CONTEXT
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			5_1_10_0_0			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.02 	+-0.09 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_1			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.04 	+-0.11 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_2			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.04 	+-0.11 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_3			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.04 	+-0.11 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_4			[f1-p] 0.04 	+-0.15 (0.02) 			[f1-cau] 0.04 	+-0.11 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_5			[f1-p] 0.06 	+-0.17 (0.03) 			[f1-cau] 0.04 	+-0.11 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_6			[f1-p] 0.08 	+-0.19 (0.04) 			[f1-cau] 0.04 	+-0.11 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_7			[f1-p] 0.08 	+-0.19 (0.04) 			[f1-cau] 0.04 	+-0.11 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_8			[f1-p] 0.08 	+-0.19 (0.04) 			[f1-cau] 0.04 	+-0.11 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 46.0	[fp-pairs] 4.0	[tn-pairs] 1580.0	[fn-pairs] 2870.0	[f1-pairs] 0.03	+-0.16(0.89)
+				[tp-adj] 0	[fp-adj] 0	[tn-adj] 0	[fn-adj] 0	[f1-adj] 1	+-0(0.0)
+				[tp-caus] 17.0	[fp-caus] 6.0	[tn-caus] 3927.0	[fn-caus] 550.0	[f1-caus] 0.06	+-0(0.0)
+				[tp] 0	[fp] 0	[tn] 0	[fn] 0	[f1] 1	+-0(0.0)
+				[jacc] 0.0	[ari] 0.0	[ami] 0.0
+
+MethodType.FCI_CONTEXT_FULL
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			5_1_10_0_0			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.0 	+-0.0 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_1			[f1-p] 0.01 	+-0.03 (0.0) 			[f1-cau] 0.0 	+-0.0 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_2			[f1-p] 0.01 	+-0.03 (0.0) 			[f1-cau] 0.0 	+-0.0 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_3			[f1-p] 0.01 	+-0.03 (0.0) 			[f1-cau] 0.0 	+-0.0 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_4			[f1-p] 0.05 	+-0.15 (0.02) 			[f1-cau] 0.0 	+-0.0 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_5			[f1-p] 0.07 	+-0.17 (0.03) 			[f1-cau] 0.0 	+-0.0 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_6			[f1-p] 0.09 	+-0.19 (0.03) 			[f1-cau] 0.0 	+-0.0 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_7			[f1-p] 0.09 	+-0.19 (0.03) 			[f1-cau] 0.0 	+-0.0 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_0_8			[f1-p] 0.1 	+-0.18 (0.03) 			[f1-cau] 0.0 	+-0.0 (0.0) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 70.0	[fp-pairs] 4.0	[tn-pairs] 1580.0	[fn-pairs] 2846.0	[f1-pairs] 0.05	+-0.16(0.98)
+				[tp-adj] 0	[fp-adj] 0	[tn-adj] 0	[fn-adj] 0	[f1-adj] 1	+-0(0.0)
+				[tp-caus] 0.0	[fp-caus] 0.0	[tn-caus] 3933.0	[fn-caus] 567.0	[f1-caus] 0.0	+-0(0.0)
+				[tp] 0	[fp] 0	[tn] 0	[fn] 0	[f1] 1	+-0(0.0)
+				[jacc] 0.0	[ari] 0.0	[ami] 0.0
+
+EXPERIMENT: exp
+TESTS: MI_ztest x KCI
+METHODS: MethodType.FCI_JCI, MethodType.FCI_JCI_FULL, MethodType.FCI_POOLED, MethodType.FCI_POOLED_FULL, MethodType.FCI_CONTEXT, MethodType.FCI_CONTEXT_FULL, 
+FUN_FORM: NLIN
+
+EXPERIMENT: exp
+TESTS: MI_ztest x KCI
+METHODS: MethodType.FCI_JCI, MethodType.FCI_JCI_FULL, MethodType.FCI_POOLED, MethodType.FCI_POOLED_FULL, MethodType.FCI_CONTEXT, MethodType.FCI_CONTEXT_FULL, 
+FUN_FORM: NLIN
+
+EXPERIMENT: exp
+TESTS: MI_ztest x KCI
+METHODS: MethodType.FCI_JCI, MethodType.FCI_JCI_FULL, MethodType.FCI_POOLED, MethodType.FCI_POOLED_FULL, MethodType.FCI_CONTEXT, MethodType.FCI_CONTEXT_FULL, 
+FUN_FORM: NLIN
+
+MethodType.FCI_JCI
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			5_1_10_0_1			[f1-p] 0.16 	+-0.21 (0.04) 			[f1-cau] 0.25 	+-0.3 (0.09) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_1_2			[f1-p] 0.07 	+-0.14 (0.02) 			[f1-cau] 0.17 	+-0.28 (0.08) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_2_3			[f1-p] 0.2 	+-0.23 (0.05) 			[f1-cau] 0.16 	+-0.27 (0.07) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_3_4			[f1-p] 0.18 	+-0.22 (0.05) 			[f1-cau] 0.16 	+-0.2 (0.04) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_4_5			[f1-p] 0.18 	+-0.23 (0.05) 			[f1-cau] 0.15 	+-0.25 (0.06) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_5_6			[f1-p] 0.2 	+-0.23 (0.05) 			[f1-cau] 0.12 	+-0.18 (0.03) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_6_7			[f1-p] 0.19 	+-0.22 (0.05) 			[f1-cau] 0.07 	+-0.14 (0.02) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_7_8			[f1-p] 0.22 	+-0.26 (0.07) 			[f1-cau] 0.14 	+-0.27 (0.07) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_8_9			[f1-p] 0.21 	+-0.22 (0.05) 			[f1-cau] 0.18 	+-0.28 (0.08) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 352.0	[fp-pairs] 120.0	[tn-pairs] 2031.0	[fn-pairs] 1997.0	[f1-pairs] 0.25	+-0.43(1.96)
+				[tp-adj] 0	[fp-adj] 0	[tn-adj] 0	[fn-adj] 0	[f1-adj] 1	+-0(0.0)
+				[tp-caus] 92.0	[fp-caus] 399.0	[tn-caus] 3624.0	[fn-caus] 385.0	[f1-caus] 0.19	+-0(0.0)
+				[tp] 0	[fp] 0	[tn] 0	[fn] 0	[f1] 1	+-0(0.0)
+				[jacc] 0.0	[ari] 0.0	[ami] 0.0
+
+MethodType.FCI_JCI_FULL
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			5_1_10_0_1			[f1-p] 0.14 	+-0.21 (0.05) 			[f1-cau] 0.09 	+-0.25 (0.06) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_1_2			[f1-p] 0.08 	+-0.18 (0.03) 			[f1-cau] 0.18 	+-0.27 (0.07) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_2_3			[f1-p] 0.17 	+-0.23 (0.05) 			[f1-cau] 0.19 	+-0.29 (0.08) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_3_4			[f1-p] 0.22 	+-0.24 (0.06) 			[f1-cau] 0.21 	+-0.32 (0.1) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_4_5			[f1-p] 0.15 	+-0.22 (0.05) 			[f1-cau] 0.17 	+-0.26 (0.07) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_5_6			[f1-p] 0.17 	+-0.24 (0.06) 			[f1-cau] 0.06 	+-0.12 (0.01) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_6_7			[f1-p] 0.21 	+-0.25 (0.06) 			[f1-cau] 0.16 	+-0.32 (0.1) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_7_8			[f1-p] 0.26 	+-0.24 (0.06) 			[f1-cau] 0.14 	+-0.26 (0.07) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_8_9			[f1-p] 0.22 	+-0.23 (0.05) 			[f1-cau] 0.15 	+-0.25 (0.06) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 338.0	[fp-pairs] 106.0	[tn-pairs] 2045.0	[fn-pairs] 2011.0	[f1-pairs] 0.24	+-0.47(2.04)
+				[tp-adj] 0	[fp-adj] 0	[tn-adj] 0	[fn-adj] 0	[f1-adj] 1	+-0(0.0)
+				[tp-caus] 65.0	[fp-caus] 313.0	[tn-caus] 3710.0	[fn-caus] 412.0	[f1-caus] 0.15	+-0(0.0)
+				[tp] 0	[fp] 0	[tn] 0	[fn] 0	[f1] 1	+-0(0.0)
+				[jacc] 0.0	[ari] 0.0	[ami] 0.0
+
+MethodType.FCI_POOLED
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			5_1_10_0_1			[f1-p] 0.01 	+-0.06 (0.0) 			[f1-cau] 0.12 	+-0.27 (0.07) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_1_2			[f1-p] 0.07 	+-0.13 (0.02) 			[f1-cau] 0.17 	+-0.29 (0.08) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_2_3			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.16 	+-0.3 (0.09) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_3_4			[f1-p] 0.03 	+-0.08 (0.01) 			[f1-cau] 0.13 	+-0.27 (0.07) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_4_5			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.14 	+-0.27 (0.08) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_5_6			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.12 	+-0.26 (0.07) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_6_7			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.12 	+-0.26 (0.07) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_7_8			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.12 	+-0.26 (0.07) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_8_9			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.12 	+-0.26 (0.07) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 28.0	[fp-pairs] 14.0	[tn-pairs] 2137.0	[fn-pairs] 2321.0	[f1-pairs] 0.02	+-0.03(0.28)
+				[tp-adj] 0	[fp-adj] 0	[tn-adj] 0	[fn-adj] 0	[f1-adj] 1	+-0(0.0)
+				[tp-caus] 45.0	[fp-caus] 58.0	[tn-caus] 3965.0	[fn-caus] 432.0	[f1-caus] 0.16	+-0(0.0)
+				[tp] 0	[fp] 0	[tn] 0	[fn] 0	[f1] 1	+-0(0.0)
+				[jacc] 0.0	[ari] 0.0	[ami] 0.0
+
+MethodType.FCI_POOLED_FULL
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			5_1_10_0_1			[f1-p] 0.07 	+-0.16 (0.03) 			[f1-cau] 0.11 	+-0.27 (0.07) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_1_2			[f1-p] 0.03 	+-0.14 (0.02) 			[f1-cau] 0.05 	+-0.22 (0.05) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_2_3			[f1-p] 0.06 	+-0.15 (0.02) 			[f1-cau] 0.05 	+-0.22 (0.05) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_3_4			[f1-p] 0.02 	+-0.11 (0.01) 			[f1-cau] 0.06 	+-0.23 (0.05) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_4_5			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.05 	+-0.22 (0.05) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_5_6			[f1-p] 0.05 	+-0.16 (0.02) 			[f1-cau] 0.05 	+-0.22 (0.05) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_6_7			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.05 	+-0.22 (0.05) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_7_8			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.05 	+-0.22 (0.05) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_8_9			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.06 	+-0.23 (0.05) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 40.0	[fp-pairs] 98.0	[tn-pairs] 2053.0	[fn-pairs] 2309.0	[f1-pairs] 0.03	+-0.1(0.71)
+				[tp-adj] 0	[fp-adj] 0	[tn-adj] 0	[fn-adj] 0	[f1-adj] 1	+-0(0.0)
+				[tp-caus] 5.0	[fp-caus] 50.0	[tn-caus] 3973.0	[fn-caus] 472.0	[f1-caus] 0.02	+-0(0.0)
+				[tp] 0	[fp] 0	[tn] 0	[fn] 0	[f1] 1	+-0(0.0)
+				[jacc] 0.0	[ari] 0.0	[ami] 0.0
+
+MethodType.FCI_CONTEXT
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			5_1_10_0_1			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.16 	+-0.3 (0.09) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_1_2			[f1-p] 0.04 	+-0.1 (0.01) 			[f1-cau] 0.16 	+-0.3 (0.09) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_2_3			[f1-p] 0.04 	+-0.1 (0.01) 			[f1-cau] 0.16 	+-0.3 (0.09) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_3_4			[f1-p] 0.02 	+-0.07 (0.0) 			[f1-cau] 0.16 	+-0.31 (0.09) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_4_5			[f1-p] 0.03 	+-0.1 (0.01) 			[f1-cau] 0.16 	+-0.31 (0.09) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_5_6			[f1-p] 0.03 	+-0.1 (0.01) 			[f1-cau] 0.18 	+-0.3 (0.09) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_6_7			[f1-p] 0.01 	+-0.06 (0.0) 			[f1-cau] 0.16 	+-0.31 (0.09) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_7_8			[f1-p] 0.02 	+-0.07 (0.0) 			[f1-cau] 0.18 	+-0.31 (0.09) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_8_9			[f1-p] 0.02 	+-0.07 (0.0) 			[f1-cau] 0.16 	+-0.31 (0.09) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 50.0	[fp-pairs] 2.0	[tn-pairs] 2149.0	[fn-pairs] 2299.0	[f1-pairs] 0.04	+-0.06(0.67)
+				[tp-adj] 0	[fp-adj] 0	[tn-adj] 0	[fn-adj] 0	[f1-adj] 1	+-0(0.0)
+				[tp-caus] 65.0	[fp-caus] 36.0	[tn-caus] 3987.0	[fn-caus] 412.0	[f1-caus] 0.22	+-0(0.0)
+				[tp] 0	[fp] 0	[tn] 0	[fn] 0	[f1] 1	+-0(0.0)
+				[jacc] 0.0	[ari] 0.0	[ami] 0.0
+
+MethodType.FCI_CONTEXT_FULL
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			5_1_10_0_1			[f1-p] 0.03 	+-0.09 (0.01) 			[f1-cau] 0.14 	+-0.28 (0.08) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_1_2			[f1-p] 0.09 	+-0.19 (0.04) 			[f1-cau] 0.14 	+-0.28 (0.08) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_2_3			[f1-p] 0.13 	+-0.2 (0.04) 			[f1-cau] 0.14 	+-0.28 (0.08) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_3_4			[f1-p] 0.11 	+-0.19 (0.04) 			[f1-cau] 0.15 	+-0.28 (0.08) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_4_5			[f1-p] 0.14 	+-0.2 (0.04) 			[f1-cau] 0.14 	+-0.28 (0.08) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_5_6			[f1-p] 0.12 	+-0.2 (0.04) 			[f1-cau] 0.14 	+-0.28 (0.08) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_6_7			[f1-p] 0.11 	+-0.2 (0.04) 			[f1-cau] 0.17 	+-0.28 (0.08) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_7_8			[f1-p] 0.11 	+-0.19 (0.04) 			[f1-cau] 0.17 	+-0.28 (0.08) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_10_8_9			[f1-p] 0.08 	+-0.16 (0.02) 			[f1-cau] 0.14 	+-0.28 (0.08) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 188.0	[fp-pairs] 54.0	[tn-pairs] 2097.0	[fn-pairs] 2161.0	[f1-pairs] 0.15	+-0.3(1.61)
+				[tp-adj] 0	[fp-adj] 0	[tn-adj] 0	[fn-adj] 0	[f1-adj] 1	+-0(0.0)
+				[tp-caus] 59.0	[fp-caus] 67.0	[tn-caus] 3956.0	[fn-caus] 418.0	[f1-caus] 0.2	+-0(0.0)
+				[tp] 0	[fp] 0	[tn] 0	[fn] 0	[f1] 1	+-0(0.0)
+				[jacc] 0.0	[ari] 0.0	[ami] 0.0
+
+MethodType.ORACLE_DAG
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			5_1_10_0_1			[f1-p] 0.95 	+-0.14 (0.02) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.94 	+-0.15 (0.02) 			[jacc] 0.96 			[f1-a] 0.95 	+-0.14 (0.02) 	
+			5_1_10_1_2			[f1-p] 0.85 	+-0.18 (0.03) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.86 	+-0.2 (0.04) 			[jacc] 0.86 			[f1-a] 0.87 	+-0.2 (0.04) 	
+			5_1_10_2_3			[f1-p] 0.83 	+-0.19 (0.04) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.85 	+-0.19 (0.04) 			[jacc] 0.82 			[f1-a] 0.84 	+-0.23 (0.05) 	
+			5_1_10_3_4			[f1-p] 0.73 	+-0.3 (0.09) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.77 	+-0.24 (0.06) 			[jacc] 0.78 			[f1-a] 0.74 	+-0.3 (0.09) 	
+			5_1_10_4_5			[f1-p] 0.73 	+-0.29 (0.08) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.82 	+-0.22 (0.05) 			[jacc] 0.76 			[f1-a] 0.76 	+-0.32 (0.1) 	
+			5_1_10_5_6			[f1-p] 0.59 	+-0.38 (0.15) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.81 	+-0.23 (0.05) 			[jacc] 0.68 			[f1-a] 0.65 	+-0.4 (0.16) 	
+			5_1_10_6_7			[f1-p] 0.51 	+-0.41 (0.16) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.71 	+-0.27 (0.07) 			[jacc] 0.61 			[f1-a] 0.52 	+-0.42 (0.18) 	
+			5_1_10_7_8			[f1-p] 0.35 	+-0.31 (0.1) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.63 	+-0.16 (0.02) 			[jacc] 0.47 			[f1-a] 0.38 	+-0.3 (0.09) 	
+			5_1_10_8_9			[f1-p] 0.05 	+-0.1 (0.01) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.64 	+-0.22 (0.05) 			[jacc] 0.19 			[f1-a] 0.05 	+-0.1 (0.01) 	
+	OVERALL
+		x_x_x	[tp-pairs] 678.0	[fp-pairs] 73.0	[tn-pairs] 620.0	[fn-pairs] 429.0	[f1-pairs] 0.73	+-0.67(2.29)
+				[tp-adj] 759.0	[fp-adj] 157.0	[tn-adj] 478.0	[fn-adj] 348.0	[f1-adj] 0.75	+-0.74(2.41)
+				[tp-caus] 0	[fp-caus] 0	[tn-caus] 0	[fn-caus] 0	[f1-caus] 1	+-0.41(1.89)
+				[tp] 2038.0	[fp] 554.0	[tn] 634.0	[fn] 374.0	[f1] 0.81	+-0.41(1.89)
+				[jacc] 0.68	[ari] 0.49	[ami] 0.49
+
+EXPERIMENT: exp
+TESTS: MI_ztest x KCI
+METHODS: MethodType.FCI_JCI, MethodType.FCI_JCI_FULL, MethodType.FCI_POOLED, MethodType.FCI_POOLED_FULL, MethodType.FCI_CONTEXT, MethodType.FCI_CONTEXT_FULL, 
+FUN_FORM: NLIN
+
+EXPERIMENT: exp
+TESTS: MI_ztest x KCI
+METHODS: MethodType.FCI_JCI, MethodType.FCI_JCI_FULL, MethodType.FCI_POOLED, MethodType.FCI_POOLED_FULL, MethodType.FCI_CONTEXT, MethodType.FCI_CONTEXT_FULL, 
+FUN_FORM: NLIN
+
+EXPERIMENT: exp
+TESTS: MI_ztest x KCI
+METHODS: MethodType.ORACLE, 
+FUN_FORM: NLIN
+
+MethodType.ORACLE
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			5_1_15_1_2			[f1-p] 0.87 	+-0.18 (0.03) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.87 	+-0.18 (0.03) 			[jacc] 0.83 			[f1-a] 0.86 	+-0.19 (0.04) 	
+			5_1_20_1_2			[f1-p] 0.88 	+-0.2 (0.04) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.87 	+-0.22 (0.05) 			[jacc] 0.87 			[f1-a] 0.86 	+-0.23 (0.05) 	
+	OVERALL
+		x_x_x	[tp-pairs] 122.0	[fp-pairs] 25.0	[tn-pairs] 53.0	[fn-pairs] 0.0	[f1-pairs] 0.91	+-0.07(0.38)
+				[tp-adj] 122.0	[fp-adj] 30.0	[tn-adj] 44.0	[fn-adj] 0.0	[f1-adj] 0.89	+-0.09(0.42)
+				[tp-caus] 0	[fp-caus] 0	[tn-caus] 0	[fn-caus] 0	[f1-caus] 1	+-0.08(0.4)
+				[tp] 256.0	[fp] 56.0	[tn] 80.0	[fn] 8.0	[f1] 0.89	+-0.08(0.4)
+				[jacc] 0.85	[ari] 0.68	[ami] 0.68
+
+EXPERIMENT: exp
+TESTS: MI_ztest x KCI
+METHODS: MethodType.ORACLE, 
+FUN_FORM: NLIN
+
+MethodType.ORACLE
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			15_1_6_1_2			[f1-p] 0.87 	+-0.16 (0.03) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.85 	+-0.17 (0.03) 			[jacc] 0.83 			[f1-a] 0.81 	+-0.25 (0.06) 	
+			20_1_6_1_2			[f1-p] 0.76 	+-0.21 (0.04) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.7 	+-0.13 (0.02) 			[jacc] 0.66 			[f1-a] 0.58 	+-0.29 (0.08) 	
+	OVERALL
+		x_x_x	[tp-pairs] 896.0	[fp-pairs] 132.0	[tn-pairs] 1841.0	[fn-pairs] 81.0	[f1-pairs] 0.89	+-0.07(0.37)
+				[tp-adj] 972.0	[fp-adj] 566.0	[tn-adj] 1138.0	[fn-adj] 5.0	[f1-adj] 0.77	+-0.14(0.53)
+				[tp-caus] 0	[fp-caus] 0	[tn-caus] 0	[fn-caus] 0	[f1-caus] 1	+-0.05(0.31)
+				[tp] 2722.0	[fp] 910.0	[tn] 1538.0	[fn] 730.0	[f1] 0.77	+-0.05(0.31)
+				[jacc] 0.74	[ari] 0.48	[ami] 0.5
+
+EXPERIMENT: exp
+TESTS: MI_ztest x KCI
+METHODS: MethodType.ORACLE_DAG, MethodType.COCO, 
+FUN_FORM: NLIN
+
+MethodType.ORACLE_DAG
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			5_1_15_1_2			[f1-p] 0.88 	+-0.17 (0.03) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.87 	+-0.18 (0.03) 			[jacc] 0.83 			[f1-a] 0.86 	+-0.19 (0.04) 	
+			5_1_20_1_2			[f1-p] 0.87 	+-0.19 (0.04) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.87 	+-0.21 (0.04) 			[jacc] 0.9 			[f1-a] 0.88 	+-0.19 (0.04) 	
+	OVERALL
+		x_x_x	[tp-pairs] 121.0	[fp-pairs] 23.0	[tn-pairs] 55.0	[fn-pairs] 1.0	[f1-pairs] 0.91	+-0.06(0.36)
+				[tp-adj] 122.0	[fp-adj] 26.0	[tn-adj] 48.0	[fn-adj] 0.0	[f1-adj] 0.9	+-0.07(0.39)
+				[tp-caus] 0	[fp-caus] 0	[tn-caus] 0	[fn-caus] 0	[f1-caus] 1	+-0.08(0.39)
+				[tp] 254.0	[fp] 50.0	[tn] 86.0	[fn] 10.0	[f1] 0.89	+-0.08(0.39)
+				[jacc] 0.86	[ari] 0.69	[ami] 0.68
+
+MethodType.COCO
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			5_1_15_1_2			[f1-p] 0.85 	+-0.21 (0.04) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.86 	+-0.19 (0.03) 			[jacc] 0.8 			[f1-a] 0.84 	+-0.23 (0.05) 	
+			5_1_20_1_2			[f1-p] 0.85 	+-0.22 (0.05) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.87 	+-0.22 (0.05) 			[jacc] 0.87 			[f1-a] 0.86 	+-0.23 (0.05) 	
+	OVERALL
+		x_x_x	[tp-pairs] 121.0	[fp-pairs] 32.0	[tn-pairs] 46.0	[fn-pairs] 1.0	[f1-pairs] 0.88	+-0.09(0.43)
+				[tp-adj] 122.0	[fp-adj] 34.0	[tn-adj] 40.0	[fn-adj] 0.0	[f1-adj] 0.88	+-0.1(0.45)
+				[tp-caus] 0	[fp-caus] 0	[tn-caus] 0	[fn-caus] 0	[f1-caus] 1	+-0.08(0.4)
+				[tp] 258.0	[fp] 62.0	[tn] 74.0	[fn] 6.0	[f1] 0.88	+-0.08(0.4)
+				[jacc] 0.83	[ari] 0.67	[ami] 0.67
+
+EXPERIMENT: exp
+TESTS: MI_ztest x KCI
+METHODS: MethodType.ORACLE_DAG, MethodType.COCO, 
+FUN_FORM: NLIN
+
+MethodType.ORACLE_DAG
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			15_1_6_1_2			[f1-p] 0.68 	+-0.21 (0.04) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.73 	+-0.13 (0.02) 			[jacc] 0.66 			[f1-a] 0.65 	+-0.25 (0.06) 	
+			20_1_6_1_2			[f1-p] 0.49 	+-0.25 (0.06) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.65 	+-0.12 (0.01) 			[jacc] 0.52 			[f1-a] 0.47 	+-0.3 (0.09) 	
+	OVERALL
+		x_x_x	[tp-pairs] 611.0	[fp-pairs] 264.0	[tn-pairs] 1709.0	[fn-pairs] 366.0	[f1-pairs] 0.66	+-0.11(0.46)
+				[tp-adj] 850.0	[fp-adj] 852.0	[tn-adj] 968.0	[fn-adj] 127.0	[f1-adj] 0.63	+-0.15(0.55)
+				[tp-caus] 0	[fp-caus] 0	[tn-caus] 0	[fn-caus] 0	[f1-caus] 1	+-0.03(0.24)
+				[tp] 2520.0	[fp] 1350.0	[tn] 1098.0	[fn] 932.0	[f1] 0.69	+-0.03(0.24)
+				[jacc] 0.59	[ari] 0.21	[ami] 0.22
+
+MethodType.COCO
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			15_1_6_1_2			[f1-p] 0.65 	+-0.19 (0.03) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.71 	+-0.13 (0.02) 			[jacc] 0.62 			[f1-a] 0.62 	+-0.25 (0.06) 	
+			20_1_6_1_2			[f1-p] 0.47 	+-0.25 (0.06) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.66 	+-0.11 (0.01) 			[jacc] 0.49 			[f1-a] 0.46 	+-0.3 (0.09) 	
+	OVERALL
+		x_x_x	[tp-pairs] 614.0	[fp-pairs] 321.0	[tn-pairs] 1652.0	[fn-pairs] 363.0	[f1-pairs] 0.64	+-0.09(0.43)
+				[tp-adj] 858.0	[fp-adj] 971.0	[tn-adj] 875.0	[fn-adj] 119.0	[f1-adj] 0.61	+-0.15(0.55)
+				[tp-caus] 0	[fp-caus] 0	[tn-caus] 0	[fn-caus] 0	[f1-caus] 1	+-0.03(0.24)
+				[tp] 2572.0	[fp] 1486.0	[tn] 962.0	[fn] 880.0	[f1] 0.68	+-0.03(0.24)
+				[jacc] 0.55	[ari] 0.16	[ami] 0.16
+
+EXPERIMENT: exp
+TESTS: MI_ztest x KCI
+METHODS: MethodType.ORACLE, 
+FUN_FORM: NLIN
+
+MethodType.ORACLE
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			5_1_15_1_2			[f1-p] 0.87 	+-0.18 (0.03) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.87 	+-0.18 (0.03) 			[jacc] 0.83 			[f1-a] 0.86 	+-0.19 (0.04) 	
+			5_1_20_1_2			[f1-p] 0.88 	+-0.2 (0.04) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.87 	+-0.22 (0.05) 			[jacc] 0.87 			[f1-a] 0.86 	+-0.23 (0.05) 	
+	OVERALL
+		x_x_x	[tp-pairs] 122.0	[fp-pairs] 25.0	[tn-pairs] 53.0	[fn-pairs] 0.0	[f1-pairs] 0.91	+-0.07(0.38)
+				[tp-adj] 122.0	[fp-adj] 30.0	[tn-adj] 44.0	[fn-adj] 0.0	[f1-adj] 0.89	+-0.09(0.42)
+				[tp-caus] 0	[fp-caus] 0	[tn-caus] 0	[fn-caus] 0	[f1-caus] 1	+-0.08(0.4)
+				[tp] 256.0	[fp] 56.0	[tn] 80.0	[fn] 8.0	[f1] 0.89	+-0.08(0.4)
+				[jacc] 0.85	[ari] 0.68	[ami] 0.68
+
+EXPERIMENT: exp
+TESTS: MI_ztest x KCI
+METHODS: MethodType.ORACLE, 
+FUN_FORM: NLIN
+
+MethodType.ORACLE
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			15_1_6_1_2			[f1-p] 0.87 	+-0.16 (0.03) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.85 	+-0.17 (0.03) 			[jacc] 0.83 			[f1-a] 0.81 	+-0.25 (0.06) 	
+			20_1_6_1_2			[f1-p] 0.76 	+-0.21 (0.04) 			[f1-cau] 0.0 	+-0.0 (0) 			[f1-clu] 0.7 	+-0.13 (0.02) 			[jacc] 0.66 			[f1-a] 0.58 	+-0.29 (0.08) 	
+	OVERALL
+		x_x_x	[tp-pairs] 896.0	[fp-pairs] 132.0	[tn-pairs] 1841.0	[fn-pairs] 81.0	[f1-pairs] 0.89	+-0.07(0.37)
+				[tp-adj] 972.0	[fp-adj] 566.0	[tn-adj] 1138.0	[fn-adj] 5.0	[f1-adj] 0.77	+-0.14(0.53)
+				[tp-caus] 0	[fp-caus] 0	[tn-caus] 0	[fn-caus] 0	[f1-caus] 1	+-0.05(0.31)
+				[tp] 2722.0	[fp] 910.0	[tn] 1538.0	[fn] 730.0	[f1] 0.77	+-0.05(0.31)
+				[jacc] 0.74	[ari] 0.48	[ami] 0.5
+
+MethodType.FCI_JCI
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			5_1_15_1_2			[f1-p] 0.19 	+-0.2 (0.04) 			[f1-cau] 0.1 	+-0.25 (0.06) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_20_1_2			[f1-p] 0.19 	+-0.18 (0.03) 			[f1-cau] 0.1 	+-0.24 (0.06) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 86.0	[fp-pairs] 70.0	[tn-pairs] 408.0	[fn-pairs] 436.0	[f1-pairs] 0.25	+-0.07(0.38)
+				[tp-adj] 0	[fp-adj] 0	[tn-adj] 0	[fn-adj] 0	[f1-adj] 1	+-0(0.0)
+				[tp-caus] 6.0	[fp-caus] 22.0	[tn-caus] 872.0	[fn-caus] 100.0	[f1-caus] 0.09	+-0(0.0)
+				[tp] 0	[fp] 0	[tn] 0	[fn] 0	[f1] 1	+-0(0.0)
+				[jacc] 0.0	[ari] 0.0	[ami] 0.0
+
+MethodType.FCI_JCI_FULL
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			5_1_15_1_2			[f1-p] 0.15 	+-0.18 (0.03) 			[f1-cau] 0.09 	+-0.25 (0.06) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_20_1_2			[f1-p] 0.11 	+-0.15 (0.02) 			[f1-cau] 0.07 	+-0.23 (0.05) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 58.0	[fp-pairs] 50.0	[tn-pairs] 428.0	[fn-pairs] 464.0	[f1-pairs] 0.18	+-0.05(0.32)
+				[tp-adj] 0	[fp-adj] 0	[tn-adj] 0	[fn-adj] 0	[f1-adj] 1	+-0(0.0)
+				[tp-caus] 3.0	[fp-caus] 10.0	[tn-caus] 884.0	[fn-caus] 103.0	[f1-caus] 0.05	+-0(0.0)
+				[tp] 0	[fp] 0	[tn] 0	[fn] 0	[f1] 1	+-0(0.0)
+				[jacc] 0.0	[ari] 0.0	[ami] 0.0
+
+MethodType.FCI_POOLED
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			5_1_15_1_2			[f1-p] 0.04 	+-0.09 (0.01) 			[f1-cau] 0.07 	+-0.24 (0.06) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_20_1_2			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.07 	+-0.24 (0.06) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 8.0	[fp-pairs] 24.0	[tn-pairs] 454.0	[fn-pairs] 514.0	[f1-pairs] 0.03	+-0.01(0.09)
+				[tp-adj] 0	[fp-adj] 0	[tn-adj] 0	[fn-adj] 0	[f1-adj] 1	+-0(0.0)
+				[tp-caus] 2.0	[fp-caus] 9.0	[tn-caus] 885.0	[fn-caus] 104.0	[f1-caus] 0.03	+-0(0.0)
+				[tp] 0	[fp] 0	[tn] 0	[fn] 0	[f1] 1	+-0(0.0)
+				[jacc] 0.0	[ari] 0.0	[ami] 0.0
+
+MethodType.FCI_POOLED_FULL
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			5_1_15_1_2			[f1-p] 0.09 	+-0.16 (0.03) 			[f1-cau] 0.05 	+-0.22 (0.05) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_20_1_2			[f1-p] 0.1 	+-0.19 (0.04) 			[f1-cau] 0.05 	+-0.22 (0.05) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 46.0	[fp-pairs] 30.0	[tn-pairs] 448.0	[fn-pairs] 476.0	[f1-pairs] 0.15	+-0.06(0.35)
+				[tp-adj] 0	[fp-adj] 0	[tn-adj] 0	[fn-adj] 0	[f1-adj] 1	+-0(0.0)
+				[tp-caus] 0.0	[fp-caus] 6.0	[tn-caus] 888.0	[fn-caus] 106.0	[f1-caus] 0.0	+-0(0.0)
+				[tp] 0	[fp] 0	[tn] 0	[fn] 0	[f1] 1	+-0(0.0)
+				[jacc] 0.0	[ari] 0.0	[ami] 0.0
+
+MethodType.FCI_CONTEXT
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			5_1_15_1_2			[f1-p] 0.02 	+-0.07 (0.0) 			[f1-cau] 0.08 	+-0.24 (0.06) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_20_1_2			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.08 	+-0.24 (0.06) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 4.0	[fp-pairs] 0.0	[tn-pairs] 478.0	[fn-pairs] 518.0	[f1-pairs] 0.02	+-0.0(0.07)
+				[tp-adj] 0	[fp-adj] 0	[tn-adj] 0	[fn-adj] 0	[f1-adj] 1	+-0(0.0)
+				[tp-caus] 2.0	[fp-caus] 2.0	[tn-caus] 892.0	[fn-caus] 104.0	[f1-caus] 0.04	+-0(0.0)
+				[tp] 0	[fp] 0	[tn] 0	[fn] 0	[f1] 1	+-0(0.0)
+				[jacc] 0.0	[ari] 0.0	[ami] 0.0
+
+MethodType.FCI_CONTEXT_FULL
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			5_1_15_1_2			[f1-p] 0.02 	+-0.07 (0.0) 			[f1-cau] 0.05 	+-0.22 (0.05) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+			5_1_20_1_2			[f1-p] 0.03 	+-0.08 (0.01) 			[f1-cau] 0.05 	+-0.22 (0.05) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 12.0	[fp-pairs] 0.0	[tn-pairs] 478.0	[fn-pairs] 510.0	[f1-pairs] 0.04	+-0.01(0.15)
+				[tp-adj] 0	[fp-adj] 0	[tn-adj] 0	[fn-adj] 0	[f1-adj] 1	+-0(0.0)
+				[tp-caus] 0.0	[fp-caus] 0.0	[tn-caus] 894.0	[fn-caus] 106.0	[f1-caus] 0.0	+-0(0.0)
+				[tp] 0	[fp] 0	[tn] 0	[fn] 0	[f1] 1	+-0(0.0)
+				[jacc] 0.0	[ari] 0.0	[ami] 0.0

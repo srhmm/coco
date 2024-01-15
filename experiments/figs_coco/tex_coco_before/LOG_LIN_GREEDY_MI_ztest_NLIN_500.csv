@@ -1,0 +1,5 @@
+
+
+EXPERIMENT: BIVARIATE, inc. confd shifts
+METHOD: MI_ztest x LIN_GREEDY
+FUN_FORM: NLIN

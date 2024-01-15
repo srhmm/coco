@@ -1,0 +1,16 @@
+
+
+EXPERIMENT: BIVARIATE, inc. confd shifts
+METHOD: MI_ztest x LIN
+FUN_FORM: LIN
+4_0_1
+	METRIC:mi
+		oracle:			[tp-pairs] 2.0	[fp-pairs] 0.0	[tn-pairs] 3.0	[fn-pairs] 0.0	[f1-pairs] 1.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 2.0	[fp-adj] 0.0	[tn-adj] 0.0	[fn-adj] 0.0	[f1-adj] 1.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 10.0	[fp] 0.0	[tn] 0.0	[fn] 0.0	[f1] 1.0	[f1stdev] 0.0	[f1sig] 0.0	[jacc] 1.0	[ari] 1.0	[ami] 1.0	
+		cocoracle:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 3.0	[fn-pairs] 2.0	[f1-pairs] 0.6	[f1stdev-pairs] 0.55	[f1sig-pairs] 0.3	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 0.0	[fn-adj] 2.0	[f1-adj] 0.6	[f1stdev-adj] 0.55	[f1sig-adj] 0.3	
+						[tp] 10.0	[fp] 0.0	[tn] 0.0	[fn] 0.0	[f1] 1.0	[f1stdev] 0.0	[f1sig] 0.0	[jacc] 0.6	[ari] 1.0	[ami] 1.0	
+		coco:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 3.0	[fn-pairs] 2.0	[f1-pairs] 0.6	[f1stdev-pairs] 0.55	[f1sig-pairs] 0.3	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 0.0	[fn-adj] 2.0	[f1-adj] 0.6	[f1stdev-adj] 0.55	[f1sig-adj] 0.3	
+						[tp] 10.0	[fp] 0.0	[tn] 0.0	[fn] 0.0	[f1] 1.0	[f1stdev] 0.0	[f1sig] 0.0	[jacc] 0.6	[ari] 1.0	[ami] 1.0	

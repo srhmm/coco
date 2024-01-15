@@ -1,0 +1,414 @@
+
+
+EXPERIMENT: exp
+METHOD: MI_ztest x SKIP
+FUN_FORM: NLIN
+10_1_2_0_1
+	METRIC:mi
+		oracle:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 222.0	[fn-pairs] 228.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 174.0	[fn-adj] 228.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 552.0	[fp] 348.0	[tn] 0.0	[fn] 0.0	[f1] 0.74	[f1stdev] 0.16	[f1sig] 0.03	[jacc] 0.13	[ari] 0.2	[ami] 0.2	
+		cocoracle:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 222.0	[fn-pairs] 228.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 174.0	[fn-adj] 228.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 552.0	[fp] 348.0	[tn] 0.0	[fn] 0.0	[f1] 0.74	[f1stdev] 0.16	[f1sig] 0.03	[jacc] 0.13	[ari] 0.2	[ami] 0.2	
+		coco:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 222.0	[fn-pairs] 228.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 174.0	[fn-adj] 228.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 552.0	[fp] 348.0	[tn] 0.0	[fn] 0.0	[f1] 0.74	[f1stdev] 0.16	[f1sig] 0.03	[jacc] 0.13	[ari] 0.2	[ami] 0.2	
+10_1_3_0_1
+	METRIC:mi
+		oracle:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 222.0	[fn-pairs] 228.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 174.0	[fn-adj] 228.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 552.0	[fp] 348.0	[tn] 0.0	[fn] 0.0	[f1] 0.74	[f1stdev] 0.16	[f1sig] 0.03	[jacc] 0.13	[ari] 0.2	[ami] 0.2	
+		cocoracle:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 222.0	[fn-pairs] 228.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 174.0	[fn-adj] 228.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 552.0	[fp] 348.0	[tn] 0.0	[fn] 0.0	[f1] 0.74	[f1stdev] 0.16	[f1sig] 0.03	[jacc] 0.13	[ari] 0.2	[ami] 0.2	
+		coco:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 222.0	[fn-pairs] 228.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 174.0	[fn-adj] 228.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 552.0	[fp] 348.0	[tn] 0.0	[fn] 0.0	[f1] 0.74	[f1stdev] 0.16	[f1sig] 0.03	[jacc] 0.13	[ari] 0.2	[ami] 0.2	
+10_1_4_0_1
+	METRIC:mi
+		oracle:			[tp-pairs] 228.0	[fp-pairs] 0.0	[tn-pairs] 222.0	[fn-pairs] 0.0	[f1-pairs] 1.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 228.0	[fp-adj] 0.0	[tn-adj] 174.0	[fn-adj] 0.0	[f1-adj] 1.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 552.0	[fp] 0.0	[tn] 348.0	[fn] 0.0	[f1] 1.0	[f1stdev] 0.0	[f1sig] 0.0	[jacc] 1.0	[ari] 1.0	[ami] 1.0	
+		cocoracle:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 222.0	[fn-pairs] 228.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 174.0	[fn-adj] 228.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 552.0	[fp] 348.0	[tn] 0.0	[fn] 0.0	[f1] 0.74	[f1stdev] 0.16	[f1sig] 0.03	[jacc] 0.13	[ari] 0.2	[ami] 0.2	
+		coco:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 222.0	[fn-pairs] 228.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 174.0	[fn-adj] 228.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 552.0	[fp] 348.0	[tn] 0.0	[fn] 0.0	[f1] 0.74	[f1stdev] 0.16	[f1sig] 0.03	[jacc] 0.13	[ari] 0.2	[ami] 0.2	
+10_1_5_0_1
+	METRIC:mi
+		oracle:			[tp-pairs] 228.0	[fp-pairs] 0.0	[tn-pairs] 222.0	[fn-pairs] 0.0	[f1-pairs] 1.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 228.0	[fp-adj] 0.0	[tn-adj] 174.0	[fn-adj] 0.0	[f1-adj] 1.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 552.0	[fp] 0.0	[tn] 348.0	[fn] 0.0	[f1] 1.0	[f1stdev] 0.0	[f1sig] 0.0	[jacc] 1.0	[ari] 1.0	[ami] 1.0	
+		cocoracle:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 222.0	[fn-pairs] 228.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 174.0	[fn-adj] 228.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 552.0	[fp] 348.0	[tn] 0.0	[fn] 0.0	[f1] 0.74	[f1stdev] 0.16	[f1sig] 0.03	[jacc] 0.13	[ari] 0.2	[ami] 0.2	
+		coco:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 222.0	[fn-pairs] 228.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 174.0	[fn-adj] 228.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 552.0	[fp] 348.0	[tn] 0.0	[fn] 0.0	[f1] 0.74	[f1stdev] 0.16	[f1sig] 0.03	[jacc] 0.13	[ari] 0.2	[ami] 0.2	
+10_1_6_0_1
+	METRIC:mi
+		oracle:			[tp-pairs] 228.0	[fp-pairs] 0.0	[tn-pairs] 222.0	[fn-pairs] 0.0	[f1-pairs] 1.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 228.0	[fp-adj] 0.0	[tn-adj] 174.0	[fn-adj] 0.0	[f1-adj] 1.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 552.0	[fp] 0.0	[tn] 348.0	[fn] 0.0	[f1] 1.0	[f1stdev] 0.0	[f1sig] 0.0	[jacc] 1.0	[ari] 1.0	[ami] 1.0	
+		cocoracle:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 222.0	[fn-pairs] 228.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 174.0	[fn-adj] 228.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 552.0	[fp] 348.0	[tn] 0.0	[fn] 0.0	[f1] 0.74	[f1stdev] 0.16	[f1sig] 0.03	[jacc] 0.13	[ari] 0.2	[ami] 0.2	
+		coco:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 222.0	[fn-pairs] 228.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 174.0	[fn-adj] 228.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 552.0	[fp] 348.0	[tn] 0.0	[fn] 0.0	[f1] 0.74	[f1stdev] 0.16	[f1sig] 0.03	[jacc] 0.13	[ari] 0.2	[ami] 0.2	
+10_1_7_0_1
+	METRIC:mi
+		oracle:			[tp-pairs] 228.0	[fp-pairs] 0.0	[tn-pairs] 222.0	[fn-pairs] 0.0	[f1-pairs] 1.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 228.0	[fp-adj] 0.0	[tn-adj] 174.0	[fn-adj] 0.0	[f1-adj] 1.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 552.0	[fp] 0.0	[tn] 348.0	[fn] 0.0	[f1] 1.0	[f1stdev] 0.0	[f1sig] 0.0	[jacc] 1.0	[ari] 1.0	[ami] 1.0	
+		cocoracle:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 222.0	[fn-pairs] 228.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 174.0	[fn-adj] 228.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 552.0	[fp] 348.0	[tn] 0.0	[fn] 0.0	[f1] 0.74	[f1stdev] 0.16	[f1sig] 0.03	[jacc] 0.13	[ari] 0.2	[ami] 0.2	
+		coco:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 222.0	[fn-pairs] 228.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 174.0	[fn-adj] 228.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 552.0	[fp] 348.0	[tn] 0.0	[fn] 0.0	[f1] 0.74	[f1stdev] 0.16	[f1sig] 0.03	[jacc] 0.13	[ari] 0.2	[ami] 0.2	
+10_1_8_0_1
+	METRIC:mi
+		oracle:			[tp-pairs] 228.0	[fp-pairs] 0.0	[tn-pairs] 222.0	[fn-pairs] 0.0	[f1-pairs] 1.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 228.0	[fp-adj] 0.0	[tn-adj] 174.0	[fn-adj] 0.0	[f1-adj] 1.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 552.0	[fp] 0.0	[tn] 348.0	[fn] 0.0	[f1] 1.0	[f1stdev] 0.0	[f1sig] 0.0	[jacc] 1.0	[ari] 1.0	[ami] 1.0	
+		cocoracle:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 222.0	[fn-pairs] 228.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 174.0	[fn-adj] 228.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 552.0	[fp] 348.0	[tn] 0.0	[fn] 0.0	[f1] 0.74	[f1stdev] 0.16	[f1sig] 0.03	[jacc] 0.13	[ari] 0.2	[ami] 0.2	
+		coco:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 222.0	[fn-pairs] 228.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 174.0	[fn-adj] 228.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 552.0	[fp] 348.0	[tn] 0.0	[fn] 0.0	[f1] 0.74	[f1stdev] 0.16	[f1sig] 0.03	[jacc] 0.13	[ari] 0.2	[ami] 0.2	
+10_1_9_0_1
+	METRIC:mi
+		oracle:			[tp-pairs] 228.0	[fp-pairs] 0.0	[tn-pairs] 222.0	[fn-pairs] 0.0	[f1-pairs] 1.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 228.0	[fp-adj] 0.0	[tn-adj] 174.0	[fn-adj] 0.0	[f1-adj] 1.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 552.0	[fp] 0.0	[tn] 348.0	[fn] 0.0	[f1] 1.0	[f1stdev] 0.0	[f1sig] 0.0	[jacc] 1.0	[ari] 1.0	[ami] 1.0	
+		cocoracle:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 222.0	[fn-pairs] 228.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 174.0	[fn-adj] 228.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 552.0	[fp] 348.0	[tn] 0.0	[fn] 0.0	[f1] 0.74	[f1stdev] 0.16	[f1sig] 0.03	[jacc] 0.13	[ari] 0.2	[ami] 0.2	
+		coco:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 222.0	[fn-pairs] 228.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 174.0	[fn-adj] 228.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 552.0	[fp] 348.0	[tn] 0.0	[fn] 0.0	[f1] 0.74	[f1stdev] 0.16	[f1sig] 0.03	[jacc] 0.13	[ari] 0.2	[ami] 0.2	
+10_1_10_0_1
+	METRIC:mi
+		oracle:			[tp-pairs] 228.0	[fp-pairs] 0.0	[tn-pairs] 222.0	[fn-pairs] 0.0	[f1-pairs] 1.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 228.0	[fp-adj] 0.0	[tn-adj] 174.0	[fn-adj] 0.0	[f1-adj] 1.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 552.0	[fp] 0.0	[tn] 348.0	[fn] 0.0	[f1] 1.0	[f1stdev] 0.0	[f1sig] 0.0	[jacc] 1.0	[ari] 1.0	[ami] 1.0	
+		cocoracle:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 222.0	[fn-pairs] 228.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 174.0	[fn-adj] 228.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 552.0	[fp] 348.0	[tn] 0.0	[fn] 0.0	[f1] 0.74	[f1stdev] 0.16	[f1sig] 0.03	[jacc] 0.13	[ari] 0.2	[ami] 0.2	
+		coco:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 222.0	[fn-pairs] 228.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 174.0	[fn-adj] 228.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 552.0	[fp] 348.0	[tn] 0.0	[fn] 0.0	[f1] 0.74	[f1stdev] 0.16	[f1sig] 0.03	[jacc] 0.13	[ari] 0.2	[ami] 0.2	
+
+EXPERIMENT: exp
+METHOD: MI_ztest x SKIP
+FUN_FORM: NLIN
+5_1_6_0_0
+	METRIC:mi
+		oracle:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 39.0	[fn-pairs] 61.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 132.0	[fp] 68.0	[tn] 0.0	[fn] 0.0	[f1] 0.77	[f1stdev] 0.18	[f1sig] 0.03	[jacc] 0.08	[ari] 0.3	[ami] 0.3	
+		cocoracle:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 39.0	[fn-pairs] 61.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 132.0	[fp] 68.0	[tn] 0.0	[fn] 0.0	[f1] 0.77	[f1stdev] 0.18	[f1sig] 0.03	[jacc] 0.08	[ari] 0.3	[ami] 0.3	
+		coco:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 39.0	[fn-pairs] 61.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 132.0	[fp] 68.0	[tn] 0.0	[fn] 0.0	[f1] 0.77	[f1stdev] 0.18	[f1sig] 0.03	[jacc] 0.08	[ari] 0.3	[ami] 0.3	
+5_1_6_0_1
+	METRIC:mi
+		oracle:			[tp-pairs] 61.0	[fp-pairs] 0.0	[tn-pairs] 39.0	[fn-pairs] 0.0	[f1-pairs] 1.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 61.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 0.0	[f1-adj] 1.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 132.0	[fp] 0.0	[tn] 68.0	[fn] 0.0	[f1] 1.0	[f1stdev] 0.0	[f1sig] 0.0	[jacc] 1.0	[ari] 1.0	[ami] 1.0	
+		cocoracle:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 39.0	[fn-pairs] 61.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 132.0	[fp] 68.0	[tn] 0.0	[fn] 0.0	[f1] 0.77	[f1stdev] 0.18	[f1sig] 0.03	[jacc] 0.08	[ari] 0.3	[ami] 0.3	
+		coco:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 39.0	[fn-pairs] 61.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 132.0	[fp] 68.0	[tn] 0.0	[fn] 0.0	[f1] 0.77	[f1stdev] 0.18	[f1sig] 0.03	[jacc] 0.08	[ari] 0.3	[ami] 0.3	
+5_1_6_0_2
+	METRIC:mi
+		oracle:			[tp-pairs] 61.0	[fp-pairs] 0.0	[tn-pairs] 39.0	[fn-pairs] 0.0	[f1-pairs] 1.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 61.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 0.0	[f1-adj] 1.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 132.0	[fp] 0.0	[tn] 68.0	[fn] 0.0	[f1] 1.0	[f1stdev] 0.0	[f1sig] 0.0	[jacc] 1.0	[ari] 1.0	[ami] 1.0	
+		cocoracle:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 39.0	[fn-pairs] 61.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 132.0	[fp] 68.0	[tn] 0.0	[fn] 0.0	[f1] 0.77	[f1stdev] 0.18	[f1sig] 0.03	[jacc] 0.08	[ari] 0.3	[ami] 0.3	
+		coco:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 39.0	[fn-pairs] 61.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 132.0	[fp] 68.0	[tn] 0.0	[fn] 0.0	[f1] 0.77	[f1stdev] 0.18	[f1sig] 0.03	[jacc] 0.08	[ari] 0.3	[ami] 0.3	
+5_1_6_0_3
+	METRIC:mi
+		oracle:			[tp-pairs] 61.0	[fp-pairs] 0.0	[tn-pairs] 39.0	[fn-pairs] 0.0	[f1-pairs] 1.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 61.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 0.0	[f1-adj] 1.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 132.0	[fp] 0.0	[tn] 68.0	[fn] 0.0	[f1] 1.0	[f1stdev] 0.0	[f1sig] 0.0	[jacc] 1.0	[ari] 1.0	[ami] 1.0	
+		cocoracle:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 39.0	[fn-pairs] 61.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 132.0	[fp] 68.0	[tn] 0.0	[fn] 0.0	[f1] 0.77	[f1stdev] 0.18	[f1sig] 0.03	[jacc] 0.08	[ari] 0.3	[ami] 0.3	
+		coco:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 39.0	[fn-pairs] 61.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 132.0	[fp] 68.0	[tn] 0.0	[fn] 0.0	[f1] 0.77	[f1stdev] 0.18	[f1sig] 0.03	[jacc] 0.08	[ari] 0.3	[ami] 0.3	
+5_1_6_0_4
+	METRIC:mi
+		oracle:			[tp-pairs] 61.0	[fp-pairs] 0.0	[tn-pairs] 39.0	[fn-pairs] 0.0	[f1-pairs] 1.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 61.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 0.0	[f1-adj] 1.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 132.0	[fp] 0.0	[tn] 68.0	[fn] 0.0	[f1] 1.0	[f1stdev] 0.0	[f1sig] 0.0	[jacc] 1.0	[ari] 1.0	[ami] 1.0	
+		cocoracle:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 39.0	[fn-pairs] 61.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 132.0	[fp] 68.0	[tn] 0.0	[fn] 0.0	[f1] 0.77	[f1stdev] 0.18	[f1sig] 0.03	[jacc] 0.08	[ari] 0.3	[ami] 0.3	
+		coco:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 39.0	[fn-pairs] 61.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 132.0	[fp] 68.0	[tn] 0.0	[fn] 0.0	[f1] 0.77	[f1stdev] 0.18	[f1sig] 0.03	[jacc] 0.08	[ari] 0.3	[ami] 0.3	
+
+EXPERIMENT: exp
+METHOD: MI_ztest x SKIP
+FUN_FORM: NLIN
+10_1_6_0_1
+	METRIC:mi
+		oracle:			[tp-pairs] 228.0	[fp-pairs] 0.0	[tn-pairs] 222.0	[fn-pairs] 0.0	[f1-pairs] 1.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 228.0	[fp-adj] 0.0	[tn-adj] 174.0	[fn-adj] 0.0	[f1-adj] 1.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 552.0	[fp] 0.0	[tn] 348.0	[fn] 0.0	[f1] 1.0	[f1stdev] 0.0	[f1sig] 0.0	[jacc] 1.0	[ari] 1.0	[ami] 1.0	
+		cocoracle:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 222.0	[fn-pairs] 228.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 174.0	[fn-adj] 228.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 552.0	[fp] 348.0	[tn] 0.0	[fn] 0.0	[f1] 0.74	[f1stdev] 0.16	[f1sig] 0.03	[jacc] 0.13	[ari] 0.2	[ami] 0.2	
+		coco:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 222.0	[fn-pairs] 228.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 174.0	[fn-adj] 228.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 552.0	[fp] 348.0	[tn] 0.0	[fn] 0.0	[f1] 0.74	[f1stdev] 0.16	[f1sig] 0.03	[jacc] 0.13	[ari] 0.2	[ami] 0.2	
+10_2_6_0_1
+	METRIC:mi
+		oracle:			[tp-pairs] 125.0	[fp-pairs] 20.0	[tn-pairs] 305.0	[fn-pairs] 0.0	[f1-pairs] 0.94	[f1stdev-pairs] 0.13	[f1sig-pairs] 0.02	
+						[tp-adj] 112.0	[fp-adj] 11.0	[tn-adj] 276.0	[fn-adj] 13.0	[f1-adj] 0.89	[f1stdev-adj] 0.24	[f1sig-adj] 0.06	
+						[tp] 300.0	[fp] 22.0	[tn] 552.0	[fn] 26.0	[f1] 0.91	[f1stdev] 0.19	[f1sig] 0.04	[jacc] 0.64	[ari] 0.87	[ami] 0.9	
+		cocoracle:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 325.0	[fn-pairs] 125.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 287.0	[fn-adj] 125.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 326.0	[fp] 574.0	[tn] 0.0	[fn] 0.0	[f1] 0.52	[f1stdev] 0.12	[f1sig] 0.01	[jacc] 0.1	[ari] 0.0	[ami] 0.0	
+		coco:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 325.0	[fn-pairs] 125.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 287.0	[fn-adj] 125.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 326.0	[fp] 574.0	[tn] 0.0	[fn] 0.0	[f1] 0.52	[f1stdev] 0.12	[f1sig] 0.01	[jacc] 0.1	[ari] 0.0	[ami] 0.0	
+10_3_6_0_1
+	METRIC:mi
+		oracle:			[tp-pairs] 98.0	[fp-pairs] 40.0	[tn-pairs] 306.0	[fn-pairs] 6.0	[f1-pairs] 0.82	[f1stdev-pairs] 0.13	[f1sig-pairs] 0.02	
+						[tp-adj] 36.0	[fp-adj] 35.0	[tn-adj] 321.0	[fn-adj] 36.0	[f1-adj] 0.46	[f1stdev-adj] 0.2	[f1sig-adj] 0.04	
+						[tp] 116.0	[fp] 90.0	[tn] 622.0	[fn] 72.0	[f1] 0.59	[f1stdev] 0.1	[f1sig] 0.01	[jacc] 0.38	[ari] 0.48	[ami] 0.51	
+		cocoracle:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 346.0	[fn-pairs] 104.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 356.0	[fn-adj] 72.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 188.0	[fp] 712.0	[tn] 0.0	[fn] 0.0	[f1] 0.34	[f1stdev] 0.04	[f1sig] 0.0	[jacc] 0.07	[ari] 0.0	[ami] 0.0	
+		coco:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 346.0	[fn-pairs] 104.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 356.0	[fn-adj] 72.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 188.0	[fp] 712.0	[tn] 0.0	[fn] 0.0	[f1] 0.34	[f1stdev] 0.04	[f1sig] 0.0	[jacc] 0.07	[ari] 0.0	[ami] 0.0	
+10_4_6_0_1
+	METRIC:mi
+		oracle:			[tp-pairs] 57.0	[fp-pairs] 17.0	[tn-pairs] 365.0	[fn-pairs] 11.0	[f1-pairs] 0.78	[f1stdev-pairs] 0.15	[f1sig-pairs] 0.02	
+						[tp-adj] 17.0	[fp-adj] 18.0	[tn-adj] 373.0	[fn-adj] 18.0	[f1-adj] 0.44	[f1stdev-adj] 0.35	[f1sig-adj] 0.12	
+						[tp] 82.0	[fp] 54.0	[tn] 728.0	[fn] 36.0	[f1] 0.65	[f1stdev] 0.17	[f1sig] 0.03	[jacc] 0.36	[ari] 0.59	[ami] 0.58	
+		cocoracle:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 382.0	[fn-pairs] 68.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 391.0	[fn-adj] 35.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 118.0	[fp] 782.0	[tn] 0.0	[fn] 0.0	[f1] 0.23	[f1stdev] 0.03	[f1sig] 0.0	[jacc] 0.07	[ari] 0.0	[ami] 0.0	
+		coco:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 382.0	[fn-pairs] 68.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 391.0	[fn-adj] 35.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 118.0	[fp] 782.0	[tn] 0.0	[fn] 0.0	[f1] 0.23	[f1stdev] 0.03	[f1sig] 0.0	[jacc] 0.07	[ari] 0.0	[ami] 0.0	
+
+EXPERIMENT: exp
+METHOD: MI_ztest x SKIP
+FUN_FORM: NLIN
+20_1_6_0_1
+	METRIC:mi
+		oracle:			[tp-pairs] 532.0	[fp-pairs] 0.0	[tn-pairs] 1368.0	[fn-pairs] 0.0	[f1-pairs] 1.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 532.0	[fp-adj] 0.0	[tn-adj] 798.0	[fn-adj] 0.0	[f1-adj] 1.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 2204.0	[fp] 0.0	[tn] 1596.0	[fn] 0.0	[f1] 1.0	[f1stdev] 0.0	[f1sig] 0.0	[jacc] 1.0	[ari] 1.0	[ami] 1.0	
+		cocoracle:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 1368.0	[fn-pairs] 532.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 798.0	[fn-adj] 532.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 2204.0	[fp] 1596.0	[tn] 0.0	[fn] 0.0	[f1] 0.73	[f1stdev] 0.08	[f1sig] 0.01	[jacc] 0.31	[ari] 0.0	[ami] 0.0	
+		coco:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 1368.0	[fn-pairs] 532.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 798.0	[fn-adj] 532.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 2204.0	[fp] 1596.0	[tn] 0.0	[fn] 0.0	[f1] 0.73	[f1stdev] 0.08	[f1sig] 0.01	[jacc] 0.31	[ari] 0.0	[ami] 0.0	
+20_2_6_0_1
+	METRIC:mi
+		oracle:			[tp-pairs] 696.0	[fp-pairs] 111.0	[tn-pairs] 1093.0	[fn-pairs] 0.0	[f1-pairs] 0.96	[f1stdev-pairs] 0.11	[f1sig-pairs] 0.01	
+						[tp-adj] 592.0	[fp-adj] 60.0	[tn-adj] 1018.0	[fn-adj] 104.0	[f1-adj] 0.91	[f1stdev-adj] 0.19	[f1sig-adj] 0.03	
+						[tp] 1436.0	[fp] 120.0	[tn] 2036.0	[fn] 208.0	[f1] 0.91	[f1stdev] 0.18	[f1sig] 0.03	[jacc] 0.57	[ari] 0.83	[ami] 0.86	
+		cocoracle:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 1204.0	[fn-pairs] 696.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 1078.0	[fn-adj] 696.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 1644.0	[fp] 2156.0	[tn] 0.0	[fn] 0.0	[f1] 0.59	[f1stdev] 0.12	[f1sig] 0.01	[jacc] 0.07	[ari] 0.0	[ami] 0.0	
+		coco:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 1204.0	[fn-pairs] 696.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 1078.0	[fn-adj] 696.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 1644.0	[fp] 2156.0	[tn] 0.0	[fn] 0.0	[f1] 0.59	[f1stdev] 0.12	[f1sig] 0.01	[jacc] 0.07	[ari] 0.0	[ami] 0.0	
+20_3_6_0_1
+	METRIC:mi
+		oracle:			[tp-pairs] 573.0	[fp-pairs] 102.0	[tn-pairs] 1215.0	[fn-pairs] 10.0	[f1-pairs] 0.91	[f1stdev-pairs] 0.13	[f1sig-pairs] 0.02	
+						[tp-adj] 371.0	[fp-adj] 119.0	[tn-adj] 1169.0	[fn-adj] 122.0	[f1-adj] 0.71	[f1stdev-adj] 0.15	[f1sig-adj] 0.02	
+						[tp] 980.0	[fp] 288.0	[tn] 2288.0	[fn] 244.0	[f1] 0.78	[f1stdev] 0.09	[f1sig] 0.01	[jacc] 0.52	[ari] 0.67	[ami] 0.68	
+		cocoracle:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 1317.0	[fn-pairs] 583.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 1288.0	[fn-adj] 493.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 1224.0	[fp] 2576.0	[tn] 0.0	[fn] 0.0	[f1] 0.48	[f1stdev] 0.1	[f1sig] 0.01	[jacc] 0.07	[ari] 0.0	[ami] 0.0	
+		coco:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 1317.0	[fn-pairs] 583.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 1288.0	[fn-adj] 493.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 1224.0	[fp] 2576.0	[tn] 0.0	[fn] 0.0	[f1] 0.48	[f1stdev] 0.1	[f1sig] 0.01	[jacc] 0.07	[ari] 0.0	[ami] 0.0	
+20_4_6_0_1
+	METRIC:mi
+		oracle:			[tp-pairs] 523.0	[fp-pairs] 172.0	[tn-pairs] 1195.0	[fn-pairs] 10.0	[f1-pairs] 0.84	[f1stdev-pairs] 0.11	[f1sig-pairs] 0.01	
+						[tp-adj] 180.0	[fp-adj] 148.0	[tn-adj] 1272.0	[fn-adj] 209.0	[f1-adj] 0.47	[f1stdev-adj] 0.13	[f1sig-adj] 0.02	
+						[tp] 542.0	[fp] 344.0	[tn] 2496.0	[fn] 418.0	[f1] 0.58	[f1stdev] 0.1	[f1sig] 0.01	[jacc] 0.34	[ari] 0.45	[ami] 0.52	
+		cocoracle:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 1367.0	[fn-pairs] 533.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 1420.0	[fn-adj] 389.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 960.0	[fp] 2840.0	[tn] 0.0	[fn] 0.0	[f1] 0.4	[f1stdev] 0.08	[f1sig] 0.01	[jacc] 0.06	[ari] 0.0	[ami] 0.0	
+		coco:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 1367.0	[fn-pairs] 533.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 1420.0	[fn-adj] 389.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 960.0	[fp] 2840.0	[tn] 0.0	[fn] 0.0	[f1] 0.4	[f1stdev] 0.08	[f1sig] 0.01	[jacc] 0.06	[ari] 0.0	[ami] 0.0	
+20_5_6_0_1
+	METRIC:mi
+		oracle:			[tp-pairs] 449.0	[fp-pairs] 152.0	[tn-pairs] 1289.0	[fn-pairs] 10.0	[f1-pairs] 0.84	[f1stdev-pairs] 0.11	[f1sig-pairs] 0.01	
+						[tp-adj] 134.0	[fp-adj] 137.0	[tn-adj] 1376.0	[fn-adj] 163.0	[f1-adj] 0.45	[f1stdev-adj] 0.13	[f1sig-adj] 0.02	
+						[tp] 448.0	[fp] 314.0	[tn] 2712.0	[fn] 326.0	[f1] 0.59	[f1stdev] 0.08	[f1sig] 0.01	[jacc] 0.36	[ari] 0.48	[ami] 0.5	
+		cocoracle:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 1441.0	[fn-pairs] 459.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 1513.0	[fn-adj] 297.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 774.0	[fp] 3026.0	[tn] 0.0	[fn] 0.0	[f1] 0.34	[f1stdev] 0.06	[f1sig] 0.0	[jacc] 0.06	[ari] 0.0	[ami] 0.0	
+		coco:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 1441.0	[fn-pairs] 459.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 1513.0	[fn-adj] 297.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 774.0	[fp] 3026.0	[tn] 0.0	[fn] 0.0	[f1] 0.34	[f1stdev] 0.06	[f1sig] 0.0	[jacc] 0.06	[ari] 0.0	[ami] 0.0	
+20_6_6_0_1
+	METRIC:mi
+		oracle:			[tp-pairs] 267.0	[fp-pairs] 173.0	[tn-pairs] 1444.0	[fn-pairs] 16.0	[f1-pairs] 0.75	[f1stdev-pairs] 0.15	[f1sig-pairs] 0.02	
+						[tp-adj] 35.0	[fp-adj] 88.0	[tn-adj] 1481.0	[fn-adj] 101.0	[f1-adj] 0.28	[f1stdev-adj] 0.14	[f1sig-adj] 0.02	
+						[tp] 460.0	[fp] 224.0	[tn] 2914.0	[fn] 202.0	[f1] 0.66	[f1stdev] 0.17	[f1sig] 0.03	[jacc] 0.42	[ari] 0.6	[ami] 0.54	
+		cocoracle:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 1617.0	[fn-pairs] 283.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 1569.0	[fn-adj] 136.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 662.0	[fp] 3138.0	[tn] 0.0	[fn] 0.0	[f1] 0.3	[f1stdev] 0.05	[f1sig] 0.0	[jacc] 0.11	[ari] 0.0	[ami] 0.0	
+		coco:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 1617.0	[fn-pairs] 283.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 1569.0	[fn-adj] 136.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 662.0	[fp] 3138.0	[tn] 0.0	[fn] 0.0	[f1] 0.3	[f1stdev] 0.05	[f1sig] 0.0	[jacc] 0.11	[ari] 0.0	[ami] 0.0	
+20_7_6_0_1
+	METRIC:mi
+		oracle:			[tp-pairs] 155.0	[fp-pairs] 131.0	[tn-pairs] 1589.0	[fn-pairs] 25.0	[f1-pairs] 0.65	[f1stdev-pairs] 0.09	[f1sig-pairs] 0.01	
+						[tp-adj] 23.0	[fp-adj] 67.0	[tn-adj] 1522.0	[fn-adj] 60.0	[f1-adj] 0.24	[f1stdev-adj] 0.2	[f1sig-adj] 0.04	
+						[tp] 502.0	[fp] 192.0	[tn] 2986.0	[fn] 120.0	[f1] 0.75	[f1stdev] 0.13	[f1sig] 0.02	[jacc] 0.39	[ari] 0.7	[ami] 0.61	
+		cocoracle:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 1720.0	[fn-pairs] 180.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 1589.0	[fn-adj] 83.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 622.0	[fp] 3178.0	[tn] 0.0	[fn] 0.0	[f1] 0.28	[f1stdev] 0.06	[f1sig] 0.0	[jacc] 0.13	[ari] 0.0	[ami] 0.0	
+		coco:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 1720.0	[fn-pairs] 180.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 1589.0	[fn-adj] 83.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 622.0	[fp] 3178.0	[tn] 0.0	[fn] 0.0	[f1] 0.28	[f1stdev] 0.06	[f1sig] 0.0	[jacc] 0.13	[ari] 0.0	[ami] 0.0	
+20_8_6_0_1
+	METRIC:mi
+		oracle:			[tp-pairs] 125.0	[fp-pairs] 130.0	[tn-pairs] 1615.0	[fn-pairs] 30.0	[f1-pairs] 0.61	[f1stdev-pairs] 0.15	[f1sig-pairs] 0.02	
+						[tp-adj] 16.0	[fp-adj] 51.0	[tn-adj] 1579.0	[fn-adj] 54.0	[f1-adj] 0.22	[f1stdev-adj] 0.19	[f1sig-adj] 0.03	
+						[tp] 434.0	[fp] 186.0	[tn] 3074.0	[fn] 106.0	[f1] 0.73	[f1stdev] 0.11	[f1sig] 0.01	[jacc] 0.38	[ari] 0.68	[ami] 0.6	
+		cocoracle:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 1745.0	[fn-pairs] 155.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 1630.0	[fn-adj] 70.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 540.0	[fp] 3260.0	[tn] 0.0	[fn] 0.0	[f1] 0.25	[f1stdev] 0.06	[f1sig] 0.0	[jacc] 0.12	[ari] 0.0	[ami] 0.0	
+		coco:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 1745.0	[fn-pairs] 155.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 1630.0	[fn-adj] 70.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 540.0	[fp] 3260.0	[tn] 0.0	[fn] 0.0	[f1] 0.25	[f1stdev] 0.06	[f1sig] 0.0	[jacc] 0.12	[ari] 0.0	[ami] 0.0	
+20_9_6_0_1
+	METRIC:mi
+		oracle:			[tp-pairs] 78.0	[fp-pairs] 131.0	[tn-pairs] 1651.0	[fn-pairs] 40.0	[f1-pairs] 0.49	[f1stdev-pairs] 0.11	[f1sig-pairs] 0.01	
+						[tp-adj] 7.0	[fp-adj] 69.0	[tn-adj] 1550.0	[fn-adj] 42.0	[f1-adj] 0.09	[f1stdev-adj] 0.11	[f1sig-adj] 0.01	
+						[tp] 480.0	[fp] 240.0	[tn] 2998.0	[fn] 82.0	[f1] 0.74	[f1stdev] 0.09	[f1sig] 0.01	[jacc] 0.37	[ari] 0.69	[ami] 0.57	
+		cocoracle:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 1782.0	[fn-pairs] 118.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 1619.0	[fn-adj] 49.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 562.0	[fp] 3238.0	[tn] 0.0	[fn] 0.0	[f1] 0.25	[f1stdev] 0.1	[f1sig] 0.01	[jacc] 0.13	[ari] 0.0	[ami] 0.0	
+		coco:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 1782.0	[fn-pairs] 118.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 1619.0	[fn-adj] 49.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 562.0	[fp] 3238.0	[tn] 0.0	[fn] 0.0	[f1] 0.25	[f1stdev] 0.1	[f1sig] 0.01	[jacc] 0.13	[ari] 0.0	[ami] 0.0	
+
+EXPERIMENT: exp
+METHOD: MI_ztest x SKIP
+FUN_FORM: NLIN
+5_1_6_5_1
+	METRIC:mi
+		oracle:			[tp-pairs] 17.0	[fp-pairs] 0.0	[tn-pairs] 39.0	[fn-pairs] 44.0	[f1-pairs] 0.31	[f1stdev-pairs] 0.34	[f1sig-pairs] 0.12	
+						[tp-adj] 17.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 44.0	[f1-adj] 0.31	[f1stdev-adj] 0.34	[f1sig-adj] 0.12	
+						[tp] 82.0	[fp] 50.0	[tn] 18.0	[fn] 50.0	[f1] 0.62	[f1stdev] 0.16	[f1sig] 0.02	[jacc] 0.45	[ari] 0.11	[ami] 0.1	
+		cocoracle:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 39.0	[fn-pairs] 61.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 132.0	[fp] 68.0	[tn] 0.0	[fn] 0.0	[f1] 0.77	[f1stdev] 0.18	[f1sig] 0.03	[jacc] 0.08	[ari] 0.3	[ami] 0.3	
+		coco:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 39.0	[fn-pairs] 61.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 132.0	[fp] 68.0	[tn] 0.0	[fn] 0.0	[f1] 0.77	[f1stdev] 0.18	[f1sig] 0.03	[jacc] 0.08	[ari] 0.3	[ami] 0.3	
+
+EXPERIMENT: exp
+METHOD: MI_ztest x SKIP
+FUN_FORM: NLIN
+5_1_6_5_1
+	METRIC:mi
+		oracle:			[tp-pairs] 17.0	[fp-pairs] 0.0	[tn-pairs] 39.0	[fn-pairs] 44.0	[f1-pairs] 0.31	[f1stdev-pairs] 0.34	[f1sig-pairs] 0.12	
+						[tp-adj] 17.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 44.0	[f1-adj] 0.31	[f1stdev-adj] 0.34	[f1sig-adj] 0.12	
+						[tp] 82.0	[fp] 50.0	[tn] 18.0	[fn] 50.0	[f1] 0.62	[f1stdev] 0.16	[f1sig] 0.02	[jacc] 0.45	[ari] 0.11	[ami] 0.1	
+		cocoracle:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 39.0	[fn-pairs] 61.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 132.0	[fp] 68.0	[tn] 0.0	[fn] 0.0	[f1] 0.77	[f1stdev] 0.18	[f1sig] 0.03	[jacc] 0.08	[ari] 0.3	[ami] 0.3	
+		coco:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 39.0	[fn-pairs] 61.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 132.0	[fp] 68.0	[tn] 0.0	[fn] 0.0	[f1] 0.77	[f1stdev] 0.18	[f1sig] 0.03	[jacc] 0.08	[ari] 0.3	[ami] 0.3	
+
+EXPERIMENT: exp
+METHOD: MI_ztest x SKIP
+FUN_FORM: NLIN
+5_1_6_1_0
+	METRIC:mi
+		oracle:			[tp-pairs] 4.0	[fp-pairs] 0.0	[tn-pairs] 39.0	[fn-pairs] 57.0	[f1-pairs] 0.11	[f1stdev-pairs] 0.17	[f1sig-pairs] 0.03	
+						[tp-adj] 4.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 57.0	[f1-adj] 0.11	[f1stdev-adj] 0.17	[f1sig-adj] 0.03	
+						[tp] 96.0	[fp] 56.0	[tn] 12.0	[fn] 36.0	[f1] 0.64	[f1stdev] 0.17	[f1sig] 0.03	[jacc] 0.26	[ari] 0.1	[ami] 0.12	
+		cocoracle:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 39.0	[fn-pairs] 61.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 132.0	[fp] 68.0	[tn] 0.0	[fn] 0.0	[f1] 0.77	[f1stdev] 0.18	[f1sig] 0.03	[jacc] 0.08	[ari] 0.3	[ami] 0.3	
+		coco:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 39.0	[fn-pairs] 61.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 132.0	[fp] 68.0	[tn] 0.0	[fn] 0.0	[f1] 0.77	[f1stdev] 0.18	[f1sig] 0.03	[jacc] 0.08	[ari] 0.3	[ami] 0.3	
+5_1_6_1_1
+	METRIC:mi
+		oracle:			[tp-pairs] 49.0	[fp-pairs] 0.0	[tn-pairs] 39.0	[fn-pairs] 12.0	[f1-pairs] 0.89	[f1stdev-pairs] 0.15	[f1sig-pairs] 0.02	
+						[tp-adj] 58.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 3.0	[f1-adj] 0.97	[f1stdev-adj] 0.11	[f1sig-adj] 0.01	
+						[tp] 126.0	[fp] 2.0	[tn] 66.0	[fn] 6.0	[f1] 0.96	[f1stdev] 0.13	[f1sig] 0.02	[jacc] 0.97	[ari] 0.92	[ami] 0.91	
+		cocoracle:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 39.0	[fn-pairs] 61.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 132.0	[fp] 68.0	[tn] 0.0	[fn] 0.0	[f1] 0.77	[f1stdev] 0.18	[f1sig] 0.03	[jacc] 0.08	[ari] 0.3	[ami] 0.3	
+		coco:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 39.0	[fn-pairs] 61.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 132.0	[fp] 68.0	[tn] 0.0	[fn] 0.0	[f1] 0.77	[f1stdev] 0.18	[f1sig] 0.03	[jacc] 0.08	[ari] 0.3	[ami] 0.3	
+5_1_6_1_2
+	METRIC:mi
+		oracle:			[tp-pairs] 51.0	[fp-pairs] 3.0	[tn-pairs] 36.0	[fn-pairs] 10.0	[f1-pairs] 0.86	[f1stdev-pairs] 0.22	[f1sig-pairs] 0.05	
+						[tp-adj] 61.0	[fp-adj] 3.0	[tn-adj] 32.0	[fn-adj] 0.0	[f1-adj] 0.97	[f1stdev-adj] 0.11	[f1sig-adj] 0.01	
+						[tp] 130.0	[fp] 6.0	[tn] 62.0	[fn] 2.0	[f1] 0.96	[f1stdev] 0.13	[f1sig] 0.02	[jacc] 0.96	[ari] 0.92	[ami] 0.91	
+		cocoracle:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 39.0	[fn-pairs] 61.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 132.0	[fp] 68.0	[tn] 0.0	[fn] 0.0	[f1] 0.77	[f1stdev] 0.18	[f1sig] 0.03	[jacc] 0.08	[ari] 0.3	[ami] 0.3	
+		coco:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 39.0	[fn-pairs] 61.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 132.0	[fp] 68.0	[tn] 0.0	[fn] 0.0	[f1] 0.77	[f1stdev] 0.18	[f1sig] 0.03	[jacc] 0.08	[ari] 0.3	[ami] 0.3	
+5_1_6_1_3
+	METRIC:mi
+		oracle:			[tp-pairs] 51.0	[fp-pairs] 3.0	[tn-pairs] 36.0	[fn-pairs] 10.0	[f1-pairs] 0.87	[f1stdev-pairs] 0.13	[f1sig-pairs] 0.02	
+						[tp-adj] 58.0	[fp-adj] 3.0	[tn-adj] 32.0	[fn-adj] 3.0	[f1-adj] 0.93	[f1stdev-adj] 0.14	[f1sig-adj] 0.02	
+						[tp] 124.0	[fp] 8.0	[tn] 60.0	[fn] 8.0	[f1] 0.92	[f1stdev] 0.17	[f1sig] 0.03	[jacc] 0.94	[ari] 0.85	[ami] 0.83	
+		cocoracle:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 39.0	[fn-pairs] 61.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 132.0	[fp] 68.0	[tn] 0.0	[fn] 0.0	[f1] 0.77	[f1stdev] 0.18	[f1sig] 0.03	[jacc] 0.08	[ari] 0.3	[ami] 0.3	
+		coco:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 39.0	[fn-pairs] 61.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 132.0	[fp] 68.0	[tn] 0.0	[fn] 0.0	[f1] 0.77	[f1stdev] 0.18	[f1sig] 0.03	[jacc] 0.08	[ari] 0.3	[ami] 0.3	
+5_1_6_1_4
+	METRIC:mi
+		oracle:			[tp-pairs] 46.0	[fp-pairs] 2.0	[tn-pairs] 37.0	[fn-pairs] 15.0	[f1-pairs] 0.83	[f1stdev-pairs] 0.27	[f1sig-pairs] 0.07	
+						[tp-adj] 46.0	[fp-adj] 4.0	[tn-adj] 30.0	[fn-adj] 15.0	[f1-adj] 0.82	[f1stdev-adj] 0.27	[f1sig-adj] 0.07	
+						[tp] 106.0	[fp] 14.0	[tn] 54.0	[fn] 26.0	[f1] 0.83	[f1stdev] 0.23	[f1sig] 0.05	[jacc] 0.84	[ari] 0.61	[ami] 0.6	
+		cocoracle:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 39.0	[fn-pairs] 61.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 132.0	[fp] 68.0	[tn] 0.0	[fn] 0.0	[f1] 0.77	[f1stdev] 0.18	[f1sig] 0.03	[jacc] 0.08	[ari] 0.3	[ami] 0.3	
+		coco:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 39.0	[fn-pairs] 61.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 132.0	[fp] 68.0	[tn] 0.0	[fn] 0.0	[f1] 0.77	[f1stdev] 0.18	[f1sig] 0.03	[jacc] 0.08	[ari] 0.3	[ami] 0.3	
+5_1_6_1_5
+	METRIC:mi
+		oracle:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 39.0	[fn-pairs] 61.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 132.0	[fp] 68.0	[tn] 0.0	[fn] 0.0	[f1] 0.77	[f1stdev] 0.18	[f1sig] 0.03	[jacc] 0.08	[ari] 0.3	[ami] 0.3	
+		cocoracle:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 39.0	[fn-pairs] 61.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 132.0	[fp] 68.0	[tn] 0.0	[fn] 0.0	[f1] 0.77	[f1stdev] 0.18	[f1sig] 0.03	[jacc] 0.08	[ari] 0.3	[ami] 0.3	
+		coco:			[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 39.0	[fn-pairs] 61.0	[f1-pairs] 0.0	[f1stdev-pairs] 0.0	[f1sig-pairs] 0.0	
+						[tp-adj] 0.0	[fp-adj] 0.0	[tn-adj] 34.0	[fn-adj] 61.0	[f1-adj] 0.0	[f1stdev-adj] 0.0	[f1sig-adj] 0.0	
+						[tp] 132.0	[fp] 68.0	[tn] 0.0	[fn] 0.0	[f1] 0.77	[f1stdev] 0.18	[f1sig] 0.03	[jacc] 0.08	[ari] 0.3	[ami] 0.3	

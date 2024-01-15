@@ -1,0 +1,44 @@
+
+
+EXPERIMENT: Increasing the number of mechanism shifts (of observed and latent variables, sparse shifts)
+METHOD: MI_ztest x SKIP
+FUN_FORM: NLIN
+5_0_1
+	METRIC:mi
+
+		oracle:			[tp] 126.0	[fp] 40.0	[tfp] 40.0	[ffp] 0.0	[tn] 284.0	[fn] 0.0	[f1a] 0.86	[f1b] 1.0	
+		coco:			[tp] 0.0	[fp] 0.0	[tfp] 0.0	[ffp] 0.0	[tn] 324.0	[fn] 126.0	[f1a] 0.0	[f1b] 0.0	
+5_0_3
+	METRIC:mi
+
+		oracle:			[tp] 126.0	[fp] 20.0	[tfp] 20.0	[ffp] 0.0	[tn] 304.0	[fn] 0.0	[f1a] 0.93	[f1b] 1.0	
+		coco:			[tp] 0.0	[fp] 0.0	[tfp] 0.0	[ffp] 0.0	[tn] 324.0	[fn] 126.0	[f1a] 0.0	[f1b] 0.0	
+5_2_3
+	METRIC:mi
+
+		oracle:			[tp] 77.0	[fp] 27.0	[tfp] 25.0	[ffp] 2.0	[tn] 297.0	[fn] 49.0	[f1a] 0.67	[f1b] 0.8	
+		coco:			[tp] 0.0	[fp] 0.0	[tfp] 0.0	[ffp] 0.0	[tn] 324.0	[fn] 126.0	[f1a] 0.0	[f1b] 0.0	
+
+EXPERIMENT: Increasing the number of contexts (while keeping shifts fixed)
+METHOD: MI_ztest x SKIP
+FUN_FORM: NLIN
+4_1_2
+	METRIC:mi
+
+		oracle:			[tp] 100.0	[fp] 22.0	[tfp] 21.0	[ffp] 1.0	[tn] 302.0	[fn] 26.0	[f1a] 0.81	[f1b] 0.9	
+		coco:			[tp] 0.0	[fp] 0.0	[tfp] 0.0	[ffp] 0.0	[tn] 324.0	[fn] 126.0	[f1a] 0.0	[f1b] 0.0	
+8_3_5
+	METRIC:mi
+
+		oracle:			[tp] 83.0	[fp] 17.0	[tfp] 15.0	[ffp] 2.0	[tn] 307.0	[fn] 43.0	[f1a] 0.73	[f1b] 0.81	
+		coco:			[tp] 0.0	[fp] 0.0	[tfp] 0.0	[ffp] 0.0	[tn] 324.0	[fn] 126.0	[f1a] 0.0	[f1b] 0.0	
+10_4_6
+	METRIC:mi
+
+		oracle:			[tp] 106.0	[fp] 43.0	[tfp] 41.0	[ffp] 2.0	[tn] 281.0	[fn] 20.0	[f1a] 0.77	[f1b] 0.93	
+		coco:			[tp] 0.0	[fp] 0.0	[tfp] 0.0	[ffp] 0.0	[tn] 324.0	[fn] 126.0	[f1a] 0.0	[f1b] 0.0	
+15_3_6
+	METRIC:mi
+
+		oracle:			[tp] 126.0	[fp] 126.0	[tfp] 120.0	[ffp] 6.0	[tn] 198.0	[fn] 0.0	[f1a] 0.67	[f1b] 0.99	
+		coco:			[tp] 0.0	[fp] 0.0	[tfp] 0.0	[ffp] 0.0	[tn] 324.0	[fn] 126.0	[f1a] 0.0	[f1b] 0.0	

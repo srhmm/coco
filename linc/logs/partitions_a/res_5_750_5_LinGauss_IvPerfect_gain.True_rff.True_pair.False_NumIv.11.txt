@@ -1,0 +1,344 @@
+
+----------
+[NUM] Contexts: 5 Samples: 750 Nodes: 5 Seed: 142 Iters: 15 
+[VSN] Regr/Group (GP): False 
+[VSN] Regr/Pair (ILP): False 
+[TYPES] FunType: LinGauss 
+[TYPES] IntervType: IvPerfect Intervs: 1 up to 1 
+----------
+Assignment context pairs -> groups:
+
+----------
+[NUM] Contexts: 5 Samples: 750 Nodes: 5 Seed: 142 Iters: 15 
+[VSN] Regr/Group (GP): False 
+[VSN] Regr/Pair (ILP): False 
+[TYPES] FunType: LinGauss 
+[TYPES] IntervType: IvPerfect Intervs: 1 up to 1 
+----------
+Assignment context pairs -> groups:
+
+----------
+[NUM] Contexts: 5 Samples: 750 Nodes: 5 Seed: 142 Iters: 15 
+[VSN] Regr/Group (GP): False 
+[VSN] Regr/Pair (ILP): False 
+[TYPES] FunType: LinGauss 
+[TYPES] IntervType: IvPerfect Intervs: 1 up to 1 
+----------
+Assignment context pairs -> groups:
+
+----------
+[NUM] Contexts: 5 Samples: 750 Nodes: 5 Seed: 142 Iters: 15 
+[VSN] Regr/Group (GP): False 
+[VSN] Regr/Pair (ILP): False 
+[TYPES] FunType: LinGauss 
+[TYPES] IntervType: IvPerfect Intervs: 1 up to 1 
+----------
+Assignment context pairs -> groups:
+
+----------
+[NUM] Contexts: 5 Samples: 750 Nodes: 5 Seed: 142 Iters: 15 
+[VSN] Regr/Group (GP): False 
+[VSN] Regr/Pair (ILP): False 
+[TYPES] FunType: LinGauss 
+[TYPES] IntervType: IvPerfect Intervs: 1 up to 1 
+----------
+Assignment context pairs -> groups:
+
+----------
+[NUM] Contexts: 5 Samples: 750 Nodes: 5 Seed: 142 Iters: 15 
+[VSN] Regr/Group (GP): False 
+[VSN] Regr/Pair (ILP): False 
+[TYPES] FunType: LinGauss 
+[TYPES] IntervType: IvPerfect Intervs: 1 up to 1 
+----------
+Assignment context pairs -> groups:
+
+----------
+[NUM] Contexts: 5 Samples: 750 Nodes: 5 Seed: 142 Iters: 15 
+[VSN] Regr/Group (GP): False 
+[VSN] Regr/Pair (ILP): False 
+[TYPES] FunType: LinGauss 
+[TYPES] IntervType: IvPerfect Intervs: 1 up to 1 
+----------
+Assignment context pairs -> groups:
+
+----------
+[NUM] Contexts: 5 Samples: 750 Nodes: 5 Seed: 142 Iters: 15 
+[VSN] Regr/Group (GP): False 
+[VSN] Regr/Pair (ILP): False 
+[TYPES] FunType: LinGauss 
+[TYPES] IntervType: IvPerfect Intervs: 1 up to 1 
+----------
+Assignment context pairs -> groups:
+
+----------
+[NUM] Contexts: 5 Samples: 750 Nodes: 5 Seed: 142 Iters: 15 
+[VSN] Regr/Group (GP): False 
+[VSN] Regr/Pair (ILP): False 
+[TYPES] FunType: LinGauss 
+[TYPES] IntervType: IvPerfect Intervs: 1 up to 1 
+----------
+Assignment context pairs -> groups:
+
+----------
+[NUM] Contexts: 5 Samples: 750 Nodes: 5 Seed: 142 Iters: 15 
+[VSN] Regr/Group (GP): False 
+[VSN] Regr/Pair (ILP): False 
+[TYPES] FunType: LinGauss 
+[TYPES] IntervType: IvPerfect Intervs: 1 up to 1 
+----------
+Assignment context pairs -> groups:
+
+----------
+[NUM] Contexts: 5 Samples: 750 Nodes: 5 Seed: 142 Iters: 15 
+[VSN] Regr/Group (GP): False 
+[VSN] Regr/Pair (ILP): False 
+[TYPES] FunType: LinGauss 
+[TYPES] IntervType: IvPerfect Intervs: 1 up to 1 
+----------
+Assignment context pairs -> groups:
+
+----------
+[NUM] Contexts: 5 Samples: 750 Nodes: 5 Seed: 142 Iters: 15 
+[VSN] Regr/Group (GP): False 
+[VSN] Regr/Pair (ILP): False 
+[TYPES] FunType: LinGauss 
+[TYPES] IntervType: IvPerfect Intervs: 1 up to 1 
+----------
+Assignment context pairs -> groups:
+
+----------
+[NUM] Contexts: 5 Samples: 750 Nodes: 5 Seed: 142 Iters: 15 
+[VSN] Regr/Group (GP): False 
+[VSN] Regr/Pair (ILP): False 
+[TYPES] FunType: LinGauss 
+[TYPES] IntervType: IvPerfect Intervs: 1 up to 1 
+----------
+Assignment context pairs -> groups:
+
+----------
+[NUM] Contexts: 5 Samples: 750 Nodes: 5 Seed: 142 Iters: 15 
+[VSN] Regr/Group (GP): False 
+[VSN] Regr/Pair (ILP): False 
+[TYPES] FunType: LinGauss 
+[TYPES] IntervType: IvPerfect Intervs: 1 up to 1 
+----------
+Assignment context pairs -> groups:
+
+----------
+[NUM] Contexts: 5 Samples: 750 Nodes: 5 Seed: 142 Iters: 15 
+[VSN] Regr/Group (GP): False 
+[VSN] Regr/Pair (ILP): False 
+[TYPES] FunType: LinGauss 
+[TYPES] IntervType: IvPerfect Intervs: 1 up to 1 
+----------
+Assignment context pairs -> groups:
+	 Vario : F1:  0.15 ( 644 , 703 , 7297 , 6356 )
+	 Wasserstein_ILP : F1:  0 ( 0 , 0 , 0 , 0 )
+	 MDL_linear : F1:  0.02 ( 84 , 64 , 7936 , 6916 )
+	 MDL_GP : F1:  0 ( 0 , 0 , 0 , 0 )
+	 MDL_GP(exact) : F1:  0 ( 0 , 0 , 0 , 0 )
+	 MDL_ILP_gain : F1:  0 ( 0 , 0 , 0 , 0 )
+	 MDL_ILP_dist : F1:  0 ( 0 , 0 , 0 , 0 )
+	 guess_together : F1:  0.64 ( 7000 , 8000 , 0 , 0 )
+	 guess_separate : F1:  0.0 ( 0 , 0 , 8000 , 7000 )
+
+Assignment context -> obs/interv group:
+	 Vario : 909 / 7500
+	 Wasserstein_ILP : 0 / 0
+	 Wasserstein_ILP(exact) : 0 / 0
+	 MDL_linear : 228 / 7500
+	 MDL_GP : 0 / 0
+	 MDL_GP(exact) : 0 / 0
+	 MDL_ILP_gain : 0 / 0
+	 MDL_ILP_dist : 0 / 0
+	 guess_together : 3200 / 7500
+	 guess_separate : 200 / 7500
+
+Exact partition matching: 
+	 Vario: 18 / 1500 	preds: [0, 165, 102, 322, 911]
+	 Wasserstein_ILP: 0 / 0 	preds: [0, 0, 0, 0, 0]
+	 Wasserstein_ILP(exact): 0 / 0 	preds: [0, 0, 0, 0, 0]
+	 MDL_linear: 0 / 1500 	preds: [0, 0, 1, 146, 1353]
+	 MDL_GP: 0 / 0 	preds: [0, 0, 0, 0, 0]
+	 MDL_GP(exact): 0 / 0 	preds: [0, 0, 0, 0, 0]
+	 MDL_ILP_gain: 0 / 0 	preds: [0, 0, 0, 0, 0]
+	 MDL_ILP_dist: 0 / 0 	preds: [0, 0, 0, 0, 0]
+	 guess_together: 0 / 1500 	preds: [1500, 0, 0, 0, 0]
+	 guess_separate: 0 / 1500 	preds: [0, 0, 0, 0, 1500]
+
+Time: 66.0088 seconds
+
+At: Thu Dec  8 15:34:00 2022
+
+----------
+[NUM] Contexts: 5 Samples: 750 Nodes: 5 Seed: 142 Iters: 15 
+[VSN] Regr/Group (GP): False 
+[VSN] Regr/Pair (ILP): False 
+[TYPES] FunType: LinGauss 
+[TYPES] IntervType: IvPerfect Intervs: 1 up to 1 
+----------
+Assignment context pairs -> groups:
+
+----------
+[NUM] Contexts: 5 Samples: 750 Nodes: 5 Seed: 142 Iters: 15 
+[VSN] Regr/Group (GP): False 
+[VSN] Regr/Pair (ILP): False 
+[TYPES] FunType: LinGauss 
+[TYPES] IntervType: IvPerfect Intervs: 1 up to 1 
+----------
+Assignment context pairs -> groups:
+
+----------
+[NUM] Contexts: 5 Samples: 750 Nodes: 5 Seed: 142 Iters: 15 
+[VSN] Regr/Group (GP): False 
+[VSN] Regr/Pair (ILP): False 
+[TYPES] FunType: LinGauss 
+[TYPES] IntervType: IvPerfect Intervs: 1 up to 1 
+----------
+Assignment context pairs -> groups:
+
+----------
+[NUM] Contexts: 5 Samples: 750 Nodes: 5 Seed: 142 Iters: 15 
+[VSN] Regr/Group (GP): False 
+[VSN] Regr/Pair (ILP): False 
+[TYPES] FunType: LinGauss 
+[TYPES] IntervType: IvPerfect Intervs: 1 up to 1 
+----------
+Assignment context pairs -> groups:
+
+----------
+[NUM] Contexts: 5 Samples: 750 Nodes: 5 Seed: 142 Iters: 15 
+[VSN] Regr/Group (GP): False 
+[VSN] Regr/Pair (ILP): False 
+[TYPES] FunType: LinGauss 
+[TYPES] IntervType: IvPerfect Intervs: 1 up to 1 
+----------
+Assignment context pairs -> groups:
+
+----------
+[NUM] Contexts: 5 Samples: 750 Nodes: 5 Seed: 142 Iters: 15 
+[VSN] Regr/Group (GP): False 
+[VSN] Regr/Pair (ILP): False 
+[TYPES] FunType: LinGauss 
+[TYPES] IntervType: IvPerfect Intervs: 1 up to 1 
+----------
+Assignment context pairs -> groups:
+
+----------
+[NUM] Contexts: 5 Samples: 750 Nodes: 5 Seed: 142 Iters: 15 
+[VSN] Regr/Group (GP): False 
+[VSN] Regr/Pair (ILP): False 
+[TYPES] FunType: LinGauss 
+[TYPES] IntervType: IvPerfect Intervs: 1 up to 1 
+----------
+Assignment context pairs -> groups:
+
+----------
+[NUM] Contexts: 5 Samples: 750 Nodes: 5 Seed: 142 Iters: 15 
+[VSN] Regr/Group (GP): False 
+[VSN] Regr/Pair (ILP): False 
+[TYPES] FunType: LinGauss 
+[TYPES] IntervType: IvPerfect Intervs: 1 up to 1 
+----------
+Assignment context pairs -> groups:
+
+----------
+[NUM] Contexts: 5 Samples: 750 Nodes: 5 Seed: 142 Iters: 15 
+[VSN] Regr/Group (GP): False 
+[VSN] Regr/Pair (ILP): False 
+[TYPES] FunType: LinGauss 
+[TYPES] IntervType: IvPerfect Intervs: 1 up to 1 
+----------
+Assignment context pairs -> groups:
+
+----------
+[NUM] Contexts: 5 Samples: 750 Nodes: 5 Seed: 142 Iters: 15 
+[VSN] Regr/Group (GP): False 
+[VSN] Regr/Pair (ILP): False 
+[TYPES] FunType: LinGauss 
+[TYPES] IntervType: IvPerfect Intervs: 1 up to 1 
+----------
+Assignment context pairs -> groups:
+
+----------
+[NUM] Contexts: 5 Samples: 750 Nodes: 5 Seed: 142 Iters: 15 
+[VSN] Regr/Group (GP): False 
+[VSN] Regr/Pair (ILP): False 
+[TYPES] FunType: LinGauss 
+[TYPES] IntervType: IvPerfect Intervs: 1 up to 1 
+----------
+Assignment context pairs -> groups:
+
+----------
+[NUM] Contexts: 5 Samples: 750 Nodes: 5 Seed: 142 Iters: 15 
+[VSN] Regr/Group (GP): False 
+[VSN] Regr/Pair (ILP): False 
+[TYPES] FunType: LinGauss 
+[TYPES] IntervType: IvPerfect Intervs: 1 up to 1 
+----------
+Assignment context pairs -> groups:
+
+----------
+[NUM] Contexts: 5 Samples: 750 Nodes: 5 Seed: 142 Iters: 15 
+[VSN] Regr/Group (GP): False 
+[VSN] Regr/Pair (ILP): False 
+[TYPES] FunType: LinGauss 
+[TYPES] IntervType: IvPerfect Intervs: 1 up to 1 
+----------
+Assignment context pairs -> groups:
+
+----------
+[NUM] Contexts: 5 Samples: 750 Nodes: 5 Seed: 142 Iters: 15 
+[VSN] Regr/Group (GP): False 
+[VSN] Regr/Pair (ILP): False 
+[TYPES] FunType: LinGauss 
+[TYPES] IntervType: IvPerfect Intervs: 1 up to 1 
+----------
+Assignment context pairs -> groups:
+
+----------
+[NUM] Contexts: 5 Samples: 750 Nodes: 5 Seed: 142 Iters: 15 
+[VSN] Regr/Group (GP): False 
+[VSN] Regr/Pair (ILP): False 
+[TYPES] FunType: LinGauss 
+[TYPES] IntervType: IvPerfect Intervs: 1 up to 1 
+----------
+Assignment context pairs -> groups:
+	 Vario : F1:  0.16 ( 67 , 70 , 730 , 633 )
+	 Wasserstein_ILP : F1:  0.64 ( 700 , 800 , 0 , 0 )
+	 MDL_linear : F1:  0.01 ( 4 , 10 , 790 , 696 )
+	 MDL_GP : F1:  0 ( 0 , 0 , 0 , 0 )
+	 MDL_GP(exact) : F1:  0 ( 0 , 0 , 0 , 0 )
+	 MDL_ILP_gain : F1:  0.64 ( 700 , 800 , 0 , 0 )
+	 MDL_ILP_dist : F1:  0.0 ( 0 , 0 , 800 , 700 )
+	 guess_together : F1:  0.64 ( 700 , 800 , 0 , 0 )
+	 guess_separate : F1:  0.0 ( 0 , 0 , 800 , 700 )
+
+Assignment context -> obs/interv group:
+	 Vario : 82 / 750
+	 Wasserstein_ILP : 320 / 750
+	 Wasserstein_ILP(exact) : 0 / 0
+	 MDL_linear : 21 / 750
+	 MDL_GP : 0 / 0
+	 MDL_GP(exact) : 0 / 0
+	 MDL_ILP_gain : 320 / 750
+	 MDL_ILP_dist : 20 / 750
+	 guess_together : 320 / 750
+	 guess_separate : 20 / 750
+
+Exact partition matching: 
+	 Vario: 1 / 150 	preds: [0, 14, 17, 37, 82]
+	 Wasserstein_ILP: 0 / 150 	preds: [150, 0, 0, 0, 0]
+	 Wasserstein_ILP(exact): 0 / 0 	preds: [0, 0, 0, 0, 0]
+	 MDL_linear: 0 / 150 	preds: [0, 0, 0, 14, 136]
+	 MDL_GP: 0 / 0 	preds: [0, 0, 0, 0, 0]
+	 MDL_GP(exact): 0 / 0 	preds: [0, 0, 0, 0, 0]
+	 MDL_ILP_gain: 0 / 150 	preds: [150, 0, 0, 0, 0]
+	 MDL_ILP_dist: 0 / 150 	preds: [0, 0, 0, 0, 150]
+	 guess_together: 0 / 150 	preds: [150, 0, 0, 0, 0]
+	 guess_separate: 0 / 150 	preds: [0, 0, 0, 0, 150]
+
+Time: 213.51055 seconds
+
+At: Thu Dec  8 16:09:40 2022

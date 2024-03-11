@@ -4,15 +4,38 @@ import numpy as np
 from sklearn import preprocessing
 from sklearn.linear_model import LinearRegression
 
-from dag_gen import gen_random_directed_er, gen_group_maps, gen_group_maps_nodeset, _random_nonlinearity, \
+from coco.dag_gen import gen_random_directed_er, gen_group_maps, gen_group_maps_nodeset, _random_nonlinearity, \
     cantor_pairing, _separable_coefficients, _random_gp, gen_confounded_random_directed_er
-from utils import confound_partition, f1_score, map_to_partition
+from coco.utils import confound_partition, f1_score, map_to_partition
 
+
+def sample_confounded_nodes(n_nodes, n_confounders, n_shifts_observed, n_shifts_confounders, exact_shifts=False):
+    remaining = n_nodes - n_confounders * 2
+    remaining_nodes = n_nodes
+    if remaining < 0:
+        raise ValueError('More confounders than node pairs')
+    list_n_confounded_nodes = []
+    for _ in range(n_confounders):
+        if remaining <= 0:
+            size = 2
+        else:
+            size = 2 + np.random.choice([i for i in range(remaining + 1)], 1)[0]
+        list_n_confounded_nodes.append(size)
+        remaining = remaining - size
+        remaining_nodes = remaining_nodes - size
+    list_n_shifts_observed = [0, n_shifts_observed]
+    if exact_shifts:
+        list_n_shifts_observed = [n_shifts_observed]
+    list_n_shifts_confounders = [n_shifts_confounders]
+    return list_n_confounded_nodes, list_n_shifts_confounders, list_n_shifts_observed
 
 class DAGConfounded:
     def __init__(self, seed,
-                 n_contexts, n_observed_nodes, n_confounders, list_n_confounded_nodes,
-                 list_n_causal_mechanisms_per_node, list_n_causal_mechanisms_per_confounder,  is_bivariate,
+                 n_contexts,
+                 n_observed_nodes, n_confounders,
+                 n_shifts_observed, n_shifts_confounders,
+                 #list_n_confounded_nodes, list_n_causal_mechanisms_per_node, list_n_causal_mechanisms_per_confounder,
+                 is_bivariate,
                  from_adj=None
                  #test: CoCoTestType,
                  #sampler=None,
@@ -25,10 +48,12 @@ class DAGConfounded:
         self.n_nodes = n_observed_nodes
         self.n_confounders = n_confounders
         self.confounders = range(self.n_confounders)
-        self.n_confounded = list_n_confounded_nodes
 
-        self.n_groups = list_n_causal_mechanisms_per_node
-        self.n_groups_confounder = list_n_causal_mechanisms_per_confounder
+        list_n_confounded_nodes, n_groups_confounder, n_groups\
+            = sample_confounded_nodes(n_observed_nodes, n_confounders, n_shifts_observed, n_shifts_confounders)
+        self.n_confounded = list_n_confounded_nodes
+        self.n_groups = n_groups
+        self.n_groups_confounder = n_groups_confounder
 
         self._gen_partitions()
 

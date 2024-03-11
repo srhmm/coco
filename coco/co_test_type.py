@@ -12,6 +12,8 @@ class CoCoTestType(Enum):
     AMI = 4
     VI = 5
 
+    def __eq__(self, other):
+        return self.value==other.value
 
 class CoDAGType(Enum):
     ''' Method for discovering a causal DAG
@@ -19,20 +21,17 @@ class CoDAGType(Enum):
     SKIP = 0 # oracle
     MSS = 1
 
+    def __eq__(self, other):
+        return self.value==other.value
+
 class CoShiftTestType(Enum):
     ''' Test for mechanism shifts between pairs of contexts
     '''
-    #skip (e.g. if we only need oracle results)
     SKIP = 0
-    # clustering
     VARIO = 1
     VARIO_GREEDY = 2
     LINC = 3
-    # KCI pairwise- main used
     PI_KCI = 4
-    #PI_GP = 5
-    #PI_LINEAR = 6
-    #SOFT_KCI = 7
-    #SOFT_GP = 8
-    #SOFT_OT = 9
-    #SOFT_CMMD = 10
+
+    def __eq__(self, other):
+        return self.value==other.value

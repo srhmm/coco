@@ -1,0 +1,50 @@
+
+
+EXPERIMENT: CoShiftTestType.PI_KCI_CoCoTestType.MI_ZTEST_biv_False_known_n_z_True_NLIN_500
+TESTS: CoCoTestType.MI_ZTEST x CoShiftTestType.PI_KCI
+METHODS: ['MethodType.MSS']
+
+MethodType.MSS
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			5_1_6_1_1			[f1-p] 0.0 	+-0.0 (0.0) 			[f1-cau] 0.9 	+-0.14 (0.02) 			[f1-clu] 0.0 	+-0.0 (0) 			[jacc] 0 			[f1-a] 0.0 	+-0.0 (0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 0.0	[fp-pairs] 0.0	[tn-pairs] 16.0	[fn-pairs] 4.0	[f1-pairs] 0.0	+-0.0(0.0)
+				[tp-adj] 0	[fp-adj] 0	[tn-adj] 0	[fn-adj] 0	[f1-adj] 1	+-0(0.0)
+				[tp-caus] 5.0	[fp-caus] 1.0	[tn-caus] 33.0	[fn-caus] 1.0	[f1-caus] 0.83	+-0(0.0)
+				[tp] 0	[fp] 0	[tn] 0	[fn] 0	[f1] 1	+-0(0.0)
+				[jacc] 0.0	[ari] 0.0	[ami] 0.0
+
+EXPERIMENT: CoShiftTestType.PI_KCI_CoCoTestType.MI_ZTEST_biv_False_known_n_z_True_NLIN_500
+TESTS: CoCoTestType.MI_ZTEST x CoShiftTestType.PI_KCI
+METHODS: ['MethodType.MSS']
+
+EXPERIMENT: CoShiftTestType.PI_KCI_CoCoTestType.MI_ZTEST_biv_False_known_n_z_True_NLIN_500
+TESTS: CoCoTestType.MI_ZTEST x CoShiftTestType.PI_KCI
+METHODS: ['MethodType.COCO']
+
+MethodType.COCO
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			5_1_6_1_1			[f1-p] 1.0 	+-0.0 (0.0) 			[f1-cau] 0.9 	+-0.14 (0.02) 			[f1-clu] 1.0 	+-0.0 (0.0) 			[jacc] 1.0 			[f1-a] 1.0 	+-0.0 (0.0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 4.0	[fp-pairs] 0.0	[tn-pairs] 16.0	[fn-pairs] 0.0	[f1-pairs] 1.0	+-0.0(0.0)
+				[tp-adj] 4.0	[fp-adj] 0.0	[tn-adj] 12.0	[fn-adj] 0.0	[f1-adj] 1.0	+-0.0(0.0)
+				[tp-caus] 5.0	[fp-caus] 1.0	[tn-caus] 33.0	[fn-caus] 1.0	[f1-caus] 0.83	+-0.0(0.0)
+				[tp] 16.0	[fp] 0.0	[tn] 24.0	[fn] 0.0	[f1] 1.0	+-0.0(0.0)
+				[jacc] 1.0	[ari] 1.0	[ami] 1.0
+
+EXPERIMENT: CoShiftTestType.PI_KCI_CoCoTestType.MI_ZTEST_biv_False_known_n_z_True_NLIN_500
+TESTS: CoCoTestType.MI_ZTEST x CoShiftTestType.PI_KCI
+METHODS: ['MethodType.COCO']
+
+MethodType.COCO
+CONTEXTS_OBSSHIFT_CFDSHIFT
+	METRIC:mi
+			5_1_6_1_1			[f1-p] 0.9 	+-0.14 (0.02) 			[f1-cau] 0.5 	+-0.71 (0.5) 			[f1-clu] 1.0 	+-0.0 (0.0) 			[jacc] 1.0 			[f1-a] 1.0 	+-0.0 (0.0) 	
+	OVERALL
+		x_x_x	[tp-pairs] 3.0	[fp-pairs] 0.0	[tn-pairs] 16.0	[fn-pairs] 1.0	[f1-pairs] 0.86	+-0.02(0.14)
+				[tp-adj] 4.0	[fp-adj] 0.0	[tn-adj] 12.0	[fn-adj] 0.0	[f1-adj] 1.0	+-0.0(0.0)
+				[tp-caus] 5.0	[fp-caus] 1.0	[tn-caus] 33.0	[fn-caus] 1.0	[f1-caus] 0.83	+-0.0(0.0)
+				[tp] 16.0	[fp] 0.0	[tn] 24.0	[fn] 0.0	[f1] 1.0	+-0.0(0.0)
+				[jacc] 1.0	[ari] 1.0	[ami] 1.0

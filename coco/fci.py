@@ -1,16 +1,12 @@
-from collections import defaultdict
-from enum import Enum
-
 import numpy as np
 from causallearn.graph.GraphNode import GraphNode
 from causallearn.search.ConstraintBased.FCI import fci
 from causallearn.utils.PCUtils.BackgroundKnowledge import BackgroundKnowledge
 
-from coco.dag_confounded import DAGConfounded
 from coco.utils import data_to_jci, f1_score
 
 #TODO st. from known mec
-from experiments.exp_coco.results_coco import MethodType
+from experiments.results_coco import MethodType
 from sparse_shift import dag2cpdag
 
 

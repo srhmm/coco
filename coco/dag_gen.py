@@ -8,7 +8,7 @@ from sklearn import preprocessing
 
 from linc.function_types import kernel_rbf, kernel_exponentiated_quadratic
 from sparse_shift import cpdag2dags, dag2cpdag
-from utils import data_sub, partition_to_map
+from coco.utils import data_sub, partition_to_map
 from sparse_shift.kcd import KCD
 # from sklearn.linear_model import Ridge
 import datetime

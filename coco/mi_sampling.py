@@ -7,9 +7,9 @@ from sklearn.metrics import mutual_info_score
 from sklearn.metrics.cluster import contingency_matrix, entropy, expected_mutual_information
 from sklearn.metrics.cluster._supervised import check_clusterings, _generalized_average
 
-from dag_gen import gen_partition
-from mi import mutual_info_scores
-from utils import partition_to_map
+from coco.dag_gen import gen_partition
+from coco.mi import mutual_info_scores
+from coco.utils import partition_to_map
 
 
 class Sampler:

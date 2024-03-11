@@ -9,10 +9,9 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import GridSearchCV
 from sklearn.svm import SVR
 
-from gaussian_process_RFF import GaussianProcessRFF
-
-from gaussian_process_regularized import GaussianProcessRegularized
-from utils import data_scale
+from coco.gaussian_process_RFF import GaussianProcessRFF
+from coco.gaussian_process_regularized import GaussianProcessRegularized
+from coco.utils import data_scale
 
 def lin_regression(X,y):
     return LinearRegression().fit(X, y)

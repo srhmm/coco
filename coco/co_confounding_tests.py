@@ -3,9 +3,9 @@ import math
 import numpy as np
 import scipy
 
-from co_test_type import CoCoTestType
-from mi_sampling import Sampler
-from mi import mutual_info_scores
+from coco.co_test_type import CoCoTestType
+from coco.mi_sampling import Sampler
+from coco.mi import mutual_info_scores
 
 #TODO store all of the returns from sampler in sampler and return sampler (to pass it to test_causal and access mi and stdev_cent there).
 #TODO instead of test_confounded_Z_mi_sampling, use the analytical expression for stdev.

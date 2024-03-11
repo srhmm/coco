@@ -8,15 +8,13 @@ import scipy.special as scsp
 from sklearn.linear_model import LinearRegression
 
 from linc.vsn import Vsn
-from utils import data_sub, logg, partition_to_map, pval_to_map
-from co_test_type import CoShiftTestType
-from gaussian_process_regression import gp_regression, lin_regression
-from utils import data_group
+from coco.utils import data_sub, logg, partition_to_map, pval_to_map
+from coco.gaussian_process_regression import gp_regression, lin_regression
 
 from sparse_shift.testing import test_mechanism, test_dag_shifts
 from scipy.stats import t
 import statsmodels.api as sm
-from co_test_type import CoShiftTestType
+from coco.co_test_type import CoShiftTestType
 from linc.pi_mechanism_search import pi_partition_search
 from vario.causal_mechanism_search import causal_mechanism_search
 

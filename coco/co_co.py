@@ -5,49 +5,57 @@ import numpy as np
 import sklearn
 from sklearn.metrics import pair_confusion_matrix
 
-from co_shift_tests import co_pair_grouped, co_shift_test
-from co_test_type import CoCoTestType, CoShiftTestType, CoDAGType
-from co_causal_tests import test_causal
+from coco.co_shift_tests import co_pair_grouped, co_shift_test
+from coco.co_test_type import CoCoTestType, CoShiftTestType, CoDAGType
+from coco.co_causal_tests import test_causal
 from coco.eval import eval_confounded, eval_causal_confounded
 from coco.utils_coco import to_affinity_mat, graph_cuts
 
 from coco.utils_coco import node_similarities
-from dag_confounded import DAGConfounded, clus_sim_spectral
-from mi import mutual_info_scores
-from mi_sampling import Sampler
-from co_confounding_tests import test_confounded_ami, test_confounded_Z_mi_sampling, test_confounded_Z_ami_sampling, \
+from coco.dag_confounded import DAGConfounded, clus_sim_spectral
+from coco.mi import mutual_info_scores
+from coco.mi_sampling import Sampler
+from coco.co_confounding_tests import test_confounded_ami, test_confounded_Z_mi_sampling, test_confounded_Z_ami_sampling, \
     test_confounded
 from sparse_shift import MinChange, cpdag2dags, dag2cpdag
-from utils import shifts_to_map, map_to_shifts, partition_to_map, f1_score
+from coco.utils import shifts_to_map, map_to_shifts, partition_to_map, f1_score
 
 
 class CoCo:
-    def __init__(self, D, observed_nodes,
-                 co_test: CoCoTestType,
-                 shift_test: CoShiftTestType,
-                 dag_discovery: CoDAGType,
-                 sampler:Sampler,
+    def __init__(self,
+                 D,
+                 observed_nodes,
+                 sampler: Sampler,
                  #oracle args
+                 co_test=CoCoTestType.MI_ZTEST,
+                 shift_test=CoShiftTestType.PI_KCI,
+                 dag_discovery=CoDAGType.MSS,
                  n_components=None,
                  dag=None,#Provide dag if oracle stuff should be computed
                  node_nms=None, #debug, remove
-                 alpha_shift_test=0.5):
+                 alpha_shift_test=0.5,
+                 verbosity=0):
         self.node_nms = node_nms
         self.alpha_shift_test = alpha_shift_test
         self.nodes = observed_nodes #G.nodes
         self.n_contexts = D.shape[0]
-
         self.D = D
+
+        self.known_number_confounders = True if n_components is not None else False
+        self.co_test = co_test
+        self.shift_test = shift_test
+        self.dag_discovery = dag_discovery
+        self.sampler = sampler
+        self.verbosity = verbosity
+
         self.maps_estimated = defaultdict(list) #partitions for each node, resp. to the true dag
         self.pval_estimated = defaultdict(list) #pvals of mechanism shift tests btw each pair of contexts
         self.maps_estimated_dag = defaultdict(list)  #for the last dag that _score_dag was called on
-        self.co_test = co_test
-        self.shift_test = shift_test
-        self.sampler = sampler
 
         if dag_discovery.value == CoDAGType.SKIP.value:
             G_ = dag.G
-            print(f"(COCO-dag) Oracle")
+            if self.verbosity > 0:
+                print(f"(COCO-dag) Oracle")
         else:
             G_ = self._discover_dag(dag.G, dag_discovery)
         self.G_ = G_
@@ -57,13 +65,22 @@ class CoCo:
         if dag is not None:
             self._oracle_similarities(dag)
             self._oracle_graph_cuts()
-            if n_components is not None:
+            if self.known_number_confounders:
                 self._oracle_graph_cuts_n(n_components)
 
         self._estimated_graph_cuts()
-        if n_components is not None:
-            self._estimated_graph_cuts_n(n_components)  # TODO select n. components
+        if self.known_number_confounders:
+            self._estimated_graph_cuts_n(n_components)
 
+    def __str__(self):
+        nm = 'coco'
+        if self.known_number_confounders:
+            nm = nm + '_oZ'
+        if self.dag_discovery==CoDAGType.SKIP:
+            nm = nm + '_oG'
+        if self.shift_test==CoShiftTestType.SKIP:
+            nm = nm + '_oPi'
+        return nm
 
     def _discover_dag(self, G, dag_discovery, soft=True):
         adj = np.array([np.zeros(len(G.nodes)) for _ in range(len(G.nodes))])
@@ -83,13 +100,15 @@ class CoCo:
                 "KernelY": "GaussianKernel",
                 "KernelZ": "GaussianKernel",
             })
-        print(f"(COCO-dag) Discovering a causal DAG w MSS (Perry et al. 2022)")
+        if self.verbosity > 0:
+            print(f"(COCO-dag) Discovering a causal DAG w MSS (Perry et al. 2022)")
         for n_env, X in enumerate(self.D):
             mch_kci.add_environment(np.array(X.T)) #.T)
 
         min_cpdag = mch_kci.get_min_cpdag(soft)
-        print(
-            f"(COCO-dag)  MEC size: { len(cpdag2dags(true_cpdag))}, unoriented: { np.sum((true_cpdag + true_cpdag.T) == 2) // 2}, left unoriented: {np.sum((min_cpdag + min_cpdag.T) == 2) // 2}")
+        if self.verbosity > 0:
+            print(
+                f"(COCO-dag)  MEC size: { len(cpdag2dags(true_cpdag))}, unoriented: { np.sum((true_cpdag + true_cpdag.T) == 2) // 2}, left unoriented: {np.sum((min_cpdag + min_cpdag.T) == 2) // 2}")
 
         import networkx as nx
         G_ = nx.DiGraph([])
@@ -115,7 +134,8 @@ class CoCo:
         :param G: true DAG or DAG inferred with MSS.
         :return: self.maps_estimated, self.pval_estimated: partitions showing mechanism shifts;
         '''
-        print(f"(COCO-shift) Discovering causal mechanism shifts w {self.shift_test}")
+        if self.verbosity > 0:
+            print(f"(COCO-shift) Discovering causal mechanism shifts w {self.shift_test}")
         for node_i in self.nodes:
             pa_i = [n for n in G.predecessors(node_i)]
             map_i, pval_mat_i = co_shift_test(self.D, node_i, pa_i, self.shift_test, self.alpha_shift_test)
@@ -151,16 +171,17 @@ class CoCo:
 
     def _estimated_similarities(self):
 
-        print(f"(COCO-confounding) Discovering confounding w {self.co_test}")
+        if self.verbosity > 0:
+            print(f"(COCO-confounding) Discovering confounding w {self.co_test}")
         maps_estimated = self.maps_estimated
         self.sim_mi, self.sim_01, self.sim_pval, self.sim_cent, self.sim_causal_01, self.sim_causal_pval = \
             node_similarities(maps_estimated, self.nodes, self.co_test, self.sampler)
 
     def _oracle_similarities(self, dag):
-
-        print(f"(COCO-dag) Oracle")
-        print(f"(COCO-shift) Oracle")
-        print(f"(COCO-confounding) Discovering confounding w {self.co_test}")
+        if self.verbosity > 0:
+            print(f"(COCO-dag) Oracle")
+            print(f"(COCO-shift) Oracle")
+            print(f"(COCO-confounding) Discovering confounding w {self.co_test}")
         maps_dependent = dag.maps_nodes
         self.o_sim_mi, self.o_sim_01, self.o_sim_pval, self.o_sim_cent, self.o_sim_causal_01, self.o_sim_causal_pval = \
             node_similarities(maps_dependent, self.nodes, self.co_test, self.sampler)
@@ -169,16 +190,16 @@ class CoCo:
             node_similarities(maps_independent, self.nodes, self.co_test, self.sampler)
 
     def _oracle_graph_cuts(self):
-        self.oracle_cuts = graph_cuts(self.nodes, self.o_sim_mi, self.o_sim_01, self.o_sim_pval, n_components=None)
+        self.oracle_cuts = graph_cuts(self.nodes, self.o_sim_mi, self.o_sim_01, self.o_sim_pval, n_components=None, verbosity=self.verbosity)
 
     def _oracle_graph_cuts_n(self, n_components):
-        self.oracle_cuts = graph_cuts(self.nodes, self.o_sim_mi, self.o_sim_01, self.o_sim_pval, n_components=n_components)
+        self.oracle_cuts = graph_cuts(self.nodes, self.o_sim_mi, self.o_sim_01, self.o_sim_pval, n_components=n_components, verbosity=self.verbosity)
 
     def _estimated_graph_cuts(self):
-        self.estimated_cuts = graph_cuts(self.nodes, self.sim_mi, self.sim_01, self.sim_pval, n_components=None)
+        self.estimated_cuts = graph_cuts(self.nodes, self.sim_mi, self.sim_01, self.sim_pval, n_components=None, verbosity=self.verbosity)
 
     def _estimated_graph_cuts_n(self, n_components):
-        self.estimated_cuts = graph_cuts(self.nodes, self.sim_mi, self.sim_01, self.sim_pval, n_components=n_components)
+        self.estimated_cuts = graph_cuts(self.nodes, self.sim_mi, self.sim_01, self.sim_pval, n_components=n_components, verbosity=self.verbosity)
 
     def confounded_components_to_labels(self, confounded_components):
         ''' Converts a list of confounded subsets to labels

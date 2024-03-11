@@ -142,7 +142,7 @@ def graph_cuts_n(n_components, nodes, sim_mi, sim_01, sim_pval, soft=True):
     return confounder_list, eval_n 
 '''
 
-def graph_cuts(nodes, sim_mi, sim_01, sim_pval, n_components=None, soft=False):
+def graph_cuts(nodes, sim_mi, sim_01, sim_pval, n_components=None, soft=False,verbosity=0):
 
     mat_mi, mat_01, mat_pval, node_lookup, \
     mat_mi_sub, mat_01_sub, mat_pval_sub, confounded_lookup = to_affinity_mat(nodes, sim_mi, sim_01, sim_pval)
@@ -164,7 +164,8 @@ def graph_cuts(nodes, sim_mi, sim_01, sim_pval, n_components=None, soft=False):
         except:  #empty mat(?) kmeans: ValueError( f"n_samples={X.shape[0]} should be >= n_clusters={self.n_clusters}.")
             pass
 
-        print(f"(COCO-confounding) Known components: {len(np.unique(labels))} confounded sets")
+        if verbosity > 0:
+            print(f"(COCO-confounding) Known components: {len(np.unique(labels))} confounded sets")
     else:
         def graph_cuts_sqsum(n_i, n_j, labels, sim):
             if labels[n_i] == labels[n_j]:
@@ -194,7 +195,8 @@ def graph_cuts(nodes, sim_mi, sim_01, sim_pval, n_components=None, soft=False):
         #if np.min(eval_N) > 0:  # oterwise all clusterings are invalid (incl case <0 or not?)
         labels = labels_N[np.argmin(eval_N)]
 
-        print(f"(COCO-confounding) *** Discovered {len(np.unique(labels))} confounded sets ({[e for e in eval_N]})")
+        if verbosity > 0:
+            print(f"(COCO-confounding) *** Discovered {len(np.unique(labels))} confounded sets ({[e for e in eval_N]})")
     confounder_list = []
 
     for g in np.unique(labels):

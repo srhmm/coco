@@ -1,9 +1,4 @@
-from experiments.exp_coco.examples import example_small
-from experiments.exp_coco.reproduce_fig2 import reproduce_fig2
-from experiments.exp_coco.reproduce_fig3 import reproduce_fig3
-from experiments.exp_coco.reproduce_supporting import reproduce_supporting_sparse_shifts, \
-    reproduce_supporting_emp_significance_power, reproduce_supporting_causal, reproduce_supporting_clustering
-from experiments.exp_coco.results_coco import MethodType
+from experiments.reproduce_supporting import reproduce_supporting_clustering
 
 if __name__ == "__main__":
 

@@ -1,7 +1,7 @@
 import numpy as np#
 import scipy
 
-from mi import mutual_info_scores
+from coco.mi import mutual_info_scores
 
 def test_causal(h1, h2, mi, stdev_cent_sampling, t=1.96):
 

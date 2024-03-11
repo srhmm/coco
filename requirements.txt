@@ -1,7 +1,7 @@
 networkx~=3.0
 numpy~=1.23.5
-scipy~=1.10.0
 pandas~=1.5.3
+scipy~=1.10.0
 scikit-learn~=1.2.1
 cdt~=0.6.0
 matplotlib~=3.6.3
@@ -64,3 +64,9 @@ pyparsing~=3.0.9
 kiwisolver~=1.4.4
 einops~=0.6.0
 zipp~=3.12.0
+more_itertools
+importlib_resources
+causallearn
+causaldag
+cdt
+more_itertools

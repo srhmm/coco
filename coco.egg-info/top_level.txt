@@ -1,5 +1,0 @@
-coco
-experiments
-linc
-sparse_shift
-vario

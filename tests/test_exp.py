@@ -5,8 +5,8 @@ from experiments.reproduce_fig2 import reproduce_fig2
 def test_example_coco():
     example_coco()
 
-#def test_example_coco_and_oracles():
-#    example_coco_and_oracles()
+def test_example_coco_and_oracles():
+    example_coco_and_oracles()
 
 #def test_example_run():
 #    example_run()

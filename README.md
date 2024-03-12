@@ -1,5 +1,6 @@
 ## Identifying Confounding from Causal Mechanism Shifts (CoCo)
-[![flow](https://github.com/srhmm/coco/actions/workflows/flow.yml/badge.svg)](https://github.com/srhmm/coco/actions/workflows/flow.yml)
+[![compat](https://github.com/srhmm/coco/actions/workflows/compat.yml/badge.svg)](https://github.com/srhmm/coco/actions/workflows/compat.yml)
+[![exp](https://github.com/srhmm/coco/actions/workflows/exp.yml/badge.svg)](https://github.com/srhmm/coco/actions/workflows/exp.yml)
 ![version](https://img.shields.io/python/required-version-toml?tomlFilePath=https%3A%2F%2Fraw.githubusercontent.com%2Fsrhmm%coco%2main%2Fpyproject.toml)
 [![license](https://img.shields.io/github/license/machine-teaching-group/checkmate.svg)](https://github.com/srhmm/coco/blob/main/LICENSE)
 

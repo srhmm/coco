@@ -5,7 +5,7 @@
 
 ### Setup
 ``` 
-conda create -n "coco" python=3.8
+conda create -n "coco"
 conda activate coco
 pip install -r requirements.txt 
 pip install -e . 

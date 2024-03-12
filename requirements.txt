@@ -34,7 +34,7 @@ pytz~=2022.7.1
 numba
 autograd~=1.5
 hyppo~=0.3.2
-llvmlite~=0.39.1
+llvmlite
 Pygments~=2.14.0
 setuptools~=57.0.0
 pexpect~=4.8.0

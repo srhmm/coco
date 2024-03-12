@@ -31,7 +31,7 @@ parso~=0.8.3
 jedi~=0.18.2
 PuLP~=2.7.0
 pytz~=2022.7.1
-numba~=0.56.4
+numba
 autograd~=1.5
 hyppo~=0.3.2
 llvmlite~=0.39.1

@@ -1,15 +1,13 @@
-networkx~=3.0 
-numpy
+networkx~=3.0
+numpy~=1.23.5
 pandas~=1.5.3
-scipy
-scikit-learn~=1.2.1
 cdt~=0.6.0
 matplotlib~=3.6.3
 pydot~=1.4.2
 seaborn~=0.12.2
-statsmodels
+statsmodels~=0.13.5
 requests~=2.28.2
-torch
+torch~=1.13.1
 joblib~=1.2.0
 GPUtil~=1.4.0
 tqdm~=4.64.1
@@ -31,10 +29,10 @@ parso~=0.8.3
 jedi~=0.18.2
 PuLP~=2.7.0
 pytz~=2022.7.1
-numba
+numba~=0.56.4
 autograd~=1.5
 hyppo~=0.3.2
-llvmlite
+llvmlite~=0.39.1
 Pygments~=2.14.0
 setuptools~=57.0.0
 pexpect~=4.8.0
@@ -67,3 +65,4 @@ zipp~=3.12.0
 more_itertools
 importlib_resources
 causal-learn
+more_itertools

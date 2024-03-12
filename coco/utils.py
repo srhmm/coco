@@ -4,8 +4,6 @@ import warnings
 import numpy as np
 from sklearn import preprocessing
 
-from linc.utils_pi import pi_map_to_pi
-
 
 def logg(x):
     if x == 0:
@@ -45,7 +43,11 @@ def partition_to_map(part):
 
 
 def map_to_partition(mp):
-    return pi_map_to_pi(mp)
+    num_groups = max(mp) + 1
+    pi = [[] for _ in range(num_groups)]
+    for i in range(len(mp)):
+        pi[mp[i]].append(i)
+    return pi
 
 
 def map_to_shifts(mp):

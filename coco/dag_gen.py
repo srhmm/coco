@@ -1,18 +1,13 @@
 from collections import defaultdict, OrderedDict
 import numpy as np
 import networkx as nx
-import itertools
-from sklearn.metrics import adjusted_mutual_info_score
-import matplotlib.pyplot as plt
 from sklearn import preprocessing
+from sklearn.gaussian_process.kernels import RBF
 
-from linc.function_types import kernel_rbf, kernel_exponentiated_quadratic
+from statsmodels.compat import scipy
+
 from sparse_shift import cpdag2dags, dag2cpdag
-from coco.utils import data_sub, partition_to_map
-from sparse_shift.kcd import KCD
-# from sklearn.linear_model import Ridge
-import datetime
-from causallearn.utils.cit import CIT
+from coco.utils import partition_to_map
 
 def _random_nonlinearity():
     return np.random.choice([lambda x: x**2, np.sinc, np.tanh], 1)[0]
@@ -23,7 +18,16 @@ def _linearity():
 def _random_poly():
     return np.random.choice([lambda x: x**2, lambda x: x**3], 1)[0]
 
-def _random_gp(X, n_functions, noise_scale=0.1, kernel_function=kernel_exponentiated_quadratic):
+def kernel_rbf(X1, X2, length_scale=1):
+    return RBF(length_scale=length_scale).__call__(X1, eval_gradient=False)
+
+def kernel_exponentiated_quadratic(X1, X2):
+    # as in https://peterroelants.github.io/posts/gaussian-process-tutorial/
+    sq_norm = -0.5 * scipy.spatial.distance.cdist(X1, X2, 'sqeuclidean')
+    return np.exp(sq_norm)
+
+def _random_gp(X, n_functions, noise_scale=0.1,
+               kernel_function=kernel_exponentiated_quadratic):
     # Independent variable samples
     #X = np.expand_dims(np.linspace(-4, 4, nb_of_samples), 1)
     if len(X.shape)==1:

@@ -2,21 +2,16 @@ import itertools
 
 import numpy as np
 from numpy.linalg import LinAlgError
-from scipy.stats import wasserstein_distance, ks_2samp, stats, norm
+from scipy.stats import wasserstein_distance, ks_2samp
 import scipy
 import scipy.special as scsp
 from sklearn.linear_model import LinearRegression
 
-from linc.vsn import Vsn
 from coco.utils import data_sub, logg, partition_to_map, pval_to_map
 from coco.gaussian_process_regression import gp_regression, lin_regression
 
-from sparse_shift.testing import test_mechanism, test_dag_shifts
-from scipy.stats import t
-import statsmodels.api as sm
+from sparse_shift.testing import test_mechanism
 from coco.co_test_type import CoShiftTestType
-from linc.pi_mechanism_search import pi_partition_search
-from vario.causal_mechanism_search import causal_mechanism_search
 
 
 def co_shift_test(Dc: list, node_i:int, pa_i: list, shift_test: CoShiftTestType, alpha=0.5):
@@ -30,30 +25,29 @@ def co_shift_test(Dc: list, node_i:int, pa_i: list, shift_test: CoShiftTestType,
     '''
 
     n_c = Dc.shape[0]
-    #n_nodes = Dc.shape[2] - 1
-
     D_up, pa_up_i = Dc, pa_i
 
     n_pairs = len([i for i in itertools.combinations(range(n_c), 2)])
     pval_mat = np.ones((n_pairs, n_pairs))
-    #if len(pa_i) == 0:
-    #    D_up, pa_up_i = _augment(Dc)
 
     if shift_test.value == CoShiftTestType.SKIP.value:
         map = [0 for _ in range(n_c)]
 
     elif shift_test.value == CoShiftTestType.VARIO.value:
-        pistar, _, _ = causal_mechanism_search(D_up, node_i, pa_up_i, greedy=False)
-        map = partition_to_map(pistar)
+        raise ValueError('Vario currently not supported')
+        #pistar, _, _ = causal_mechanism_search(D_up, node_i, pa_up_i, greedy=False)
+        #map = partition_to_map(pistar)
 
     elif shift_test.value == CoShiftTestType.VARIO_GREEDY.value:
-        pistar, _, _ = causal_mechanism_search(D_up, node_i, pa_up_i, greedy=True)
-        map = partition_to_map(pistar)
+        raise ValueError('Vario currently not supported')
+        #pistar, _, _ = causal_mechanism_search(D_up, node_i, pa_up_i, greedy=True)
+        #map = partition_to_map(pistar)
         
     elif shift_test.value == CoShiftTestType.LINC.value:
-        vsn = Vsn(rff=True, ilp=True, clus=False)
-        pistar, _ = pi_partition_search(D_up, node_i, pa_up_i, vsn)
-        map = partition_to_map(pistar)
+        raise ValueError('Linc currently not supported')
+        #vsn = Vsn(rff=True, ilp=True, clus=False)
+        #pistar, _ = pi_partition_search(D_up, node_i, pa_up_i, vsn)
+        #map = partition_to_map(pistar)
         
     elif shift_test.value == CoShiftTestType.PI_KCI.value:
         parents = [1 if node_i in pa_i else 0 for node_i in range(Dc.shape[2])]
@@ -63,22 +57,24 @@ def co_shift_test(Dc: list, node_i:int, pa_i: list, shift_test: CoShiftTestType,
         raise ValueError()
     return map, pval_mat
 
+
 def _augment(Dc):
     n = Dc.shape[2]+1
     D = np.random.normal(size=(Dc.shape[0], Dc.shape[1], n ))
     D[:,:,range(n-1)] = Dc
     return D, [n]
 
-#TODO update
+
+'''
 def co_pair_grouped(Dc: list, j: int, pa: list, test: CoShiftTestType):
-    ''' Tests for each context pair whether it is in the same group or not
+     Tests for each context pair whether it is in the same group or not
 
     :param Dc: data per context
     :param j: target node
     :param pa: causal parents
     :param test: test type
     :return:
-    '''
+    
     contexts = range(len(Dc))
 
     # Kernel Conditional Independence
@@ -257,10 +253,10 @@ def co_pair_linear_old(Xc, yc, ci, cj):
     return p_value[0]
 
 def co_pair_compression(Xc, yc, ci, cj, rand_fourier_features):
-    ''' Discrepancy (MDL Gain) between Conditional Distributions using Gaussian Process Modelling
+     Discrepancy (MDL Gain) between Conditional Distributions using Gaussian Process Modelling
 
         :return: f_i =|= f_j where f_i : X_i -> y_i on data in context i
-    '''
+
     Xi, yi = Xc[ci], yc[ci]
     Xj, yj = Xc[cj], yc[cj]
 
@@ -281,10 +277,9 @@ def co_pair_compression(Xc, yc, ci, cj, rand_fourier_features):
 
 
 def co_pair_opttransport(Xc, yc, ci, cj, rand_fourier_features):
-    ''' Discrepancy (Wasserstein Distance) between Conditional Distributions using Gaussian Process Modelling
+    Discrepancy (Wasserstein Distance) between Conditional Distributions using Gaussian Process Modelling
 
         :return: f_i =|= f_j where f_i : X_i -> y_i on data in context i
-    '''
     Xi, yi = Xc[ci], yc[ci]
     Xj, yj = Xc[cj], yc[cj]
 
@@ -312,3 +307,4 @@ def co_pair_opttransport(Xc, yc, ci, cj, rand_fourier_features):
 def opt_transport(resid_i, resid_j):
     #TODO check out Wass for GP paper
     return wasserstein_distance(resid_i, resid_j)
+'''

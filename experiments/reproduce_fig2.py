@@ -2,11 +2,13 @@ from experiments.method_types import all_methods
 from experiments.run_coco import run_coco
 
 
-def reproduce_fig2(path, METHODS=None):
+def reproduce_fig2(path, METHODS=None, testing=False):
+    reps = 20
+    if testing:
+        reps = 2
     if METHODS is None:
         METHODS = all_methods()
     base_n_nodes, base_n_confounders, base_n_contexts, base_shift_X, base_shift_Z = (5, 1, 10, 1, 2)
-    reps = 20
     c_min, c_max = 3, 10
     show_result = ""
 

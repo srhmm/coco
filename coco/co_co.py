@@ -5,7 +5,7 @@ import numpy as np
 import sklearn
 from sklearn.metrics import pair_confusion_matrix
 
-from coco.co_shift_tests import co_pair_grouped, co_shift_test
+from coco.co_shift_tests import co_shift_test
 from coco.co_test_type import CoCoTestType, CoShiftTestType, CoDAGType
 from coco.co_causal_tests import test_causal
 from coco.eval import eval_confounded, eval_causal_confounded

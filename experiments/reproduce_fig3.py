@@ -9,7 +9,7 @@ from coco.mi_sampling import Sampler
 def show_raf_mek(path):
     node_raf, node_mek, node_pkc = 0, 1, 8
     show_sachs_nodes(0, 1,  path)
-def show_sachs_nodes(node_x, node_y , nms, path="../data_cytometry"):
+def show_sachs_nodes(node_x, node_y , nms, path="/data_cytometry"):
     Dc = [
         np.log(
             pd.read_csv(f'{path}/dataset_{i}.csv')
@@ -41,7 +41,7 @@ def show_sachs_nodes(node_x, node_y , nms, path="../data_cytometry"):
     plt.ylabel(str(nms[node_y]))
     plt.title('Edge ' + str(nms[node_x]) + ' -> ' + str(nms[node_y]))
 
-def reproduce_fig3(path="../data_cytometry"):
+def reproduce_fig3(path="/data_cytometry"):
 
     #standard params for coco
     SHIFT_TEST = CoShiftTestType.PI_KCI

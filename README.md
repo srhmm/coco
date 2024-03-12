@@ -1,4 +1,5 @@
 ## Identifying Confounding from Causal Mechanism Shifts (CoCo)
+[![CI](https://github.com/srhmm/coco/tree/main/.github/workflows/badge.svg)](https://github.com/srhmm/coco/tree/main/.github/workflows)
 
 ### Setup
 ``` 

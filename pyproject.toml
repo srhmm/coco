@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "coco"
+version = "0.1.0"
+description = "Identifying Confounding from Causal Mechanism Shifts"
+authors = ["Sarah Mameche <sarah.mameche@cispa.de>"]
+license = "MIT license"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

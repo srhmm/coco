@@ -28,7 +28,6 @@ def reproduce_supporting_causal(path):
     METHODS = [MethodType.ORACLE]# [MethodType.COCO]
     base_n_nodes, base_n_confounders, base_n_contexts, base_shift_X, base_shift_Z = (10, 1, 10, 1, 2)
 
-
     show_result = ""
     identifier= f'{base_n_nodes}_{base_n_confounders}_{base_n_contexts}_{base_shift_X}_{base_shift_Z}'
     CASE = {identifier:

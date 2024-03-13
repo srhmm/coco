@@ -9,6 +9,7 @@ from coco.mi_sampling import Sampler
 def show_raf_mek(path):
     node_raf, node_mek, node_pkc = 0, 1, 8
     show_sachs_nodes(0, 1,  path)
+
 def show_sachs_nodes(node_x, node_y , nms, path="/data_cytometry"):
     Dc = [
         np.log(

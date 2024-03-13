@@ -31,11 +31,11 @@ def run_coco(reps,
 
     for fun_form, fun_str in FUN_FORMS:
         exp_identifier = str(SHIFT_TEST) + '_' + str(CONFOUNDING_TEST)  + "_biv_"+ str(bivariate)+'_known_n_z_' + str(known_componets) + '_' + fun_str + '_' + str(D_n)
-        fl = f"{path}/out_coco/"
+        fl = path # f"{path}/out_coco/"
         if not os.path.exists(fl):
             os.makedirs(fl)
         write_file = open(f'{fl}{exp_identifier}_log.csv', "a+")
-        write_final_file = open(f"{path}/out_coco/{exp_identifier}_res.csv", "a+")
+        write_final_file = open(f"{path}{exp_identifier}_res.csv", "a+")#/out_coco/"
 
         for fl in [write_file, write_final_file]:
             fl.write("\n\nEXPERIMENT: " + exp_identifier)

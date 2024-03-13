@@ -304,10 +304,10 @@ class ResultsCoCo:
         show = ""
         for causal in [True, False]:
             if causal:
-                write_file= open(f"{path}/tex_causal_{fscore}_{identifier}.csv", "a+")
+                write_file= open(f"{path}tex_causal_{fscore}_{identifier}.csv", "a+")
                 show += '\nCAUSAL_DIRECTIONS\n'
             else:
-                write_file= open(f"{path}/tex_confounded_{fscore}_{identifier}.csv", "a+")
+                write_file= open(f"{path}tex_confounded_{fscore}_{identifier}.csv", "a+")
                 show += '\nCONFOUNDED_PAIRS\n'
             write_file.write('X')
             show += 'X'
@@ -350,10 +350,10 @@ class ResultsCoCo:
         show = ""
         for causal in [True, False]:
             if causal:
-                write_file= open(f"{path}/tex_causal_{fscore}_{identifier}.csv", "a+")
+                write_file= open(f"{path}tex_causal_{fscore}_{identifier}.csv", "a+")
                 show += '\nCAUSAL_DIRECTIONS\n'
             else:
-                write_file= open(f"{path}/tex_confounded_{fscore}_{identifier}.csv", "a+")
+                write_file= open(f"{path}tex_confounded_{fscore}_{identifier}.csv", "a+")
                 show += '\nCONFOUNDED_PAIRS\n'
             write_file.write('X')
             show += 'X'

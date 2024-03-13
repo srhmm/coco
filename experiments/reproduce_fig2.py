@@ -24,7 +24,8 @@ def reproduce_fig2(path, METHODS=None, testing=False):
                    METHODS, path=path)
     for identifier in CASES_CONTEXTS:
         show_result +=  "\n" +identifier +"\n"
-        show_result += res.write_methods_tex(identifier, path + "/tex_coco", CASES_CONTEXTS[identifier], METHODS)
+        show_result += res.write_methods_tex(identifier, path, #todo can use subdir: + "/tex_coco",
+                                             CASES_CONTEXTS[identifier], METHODS)
 
 
     # b) Number of nodes in G
@@ -41,7 +42,8 @@ def reproduce_fig2(path, METHODS=None, testing=False):
     res = run_coco(reps, CASES_NODES, METHODS, path=path)
     for identifier in CASES_NODES:
         show_result += "\n" +identifier +"\n"
-        show_result += res.write_methods_tex(identifier, path + "/tex_fci", CASES_NODES[identifier], METHODS)
+        show_result += res.write_methods_tex(identifier, path, # + "/tex_fci",
+                                             CASES_NODES[identifier], METHODS)
 
 
 
@@ -60,7 +62,8 @@ def reproduce_fig2(path, METHODS=None, testing=False):
     res = run_coco(reps, CASES_SHIFTX, METHODS, path=path)
     for identifier in CASES_SHIFTX:
         show_result += "\n" + identifier + "\n"
-        show_result += res.write_methods_tex(identifier, path + "/tex_coco", CASES_SHIFTX[identifier], METHODS)
+        show_result += res.write_methods_tex(identifier, path, #+ "/tex_coco",
+                                             CASES_SHIFTX[identifier], METHODS)
     print(show_result)
 
     #d) Number of shifts (latent variables)
@@ -73,4 +76,5 @@ def reproduce_fig2(path, METHODS=None, testing=False):
     res = run_coco(reps, CASES_SHIFTZ, METHODS, path=path)
     for identifier in CASES_SHIFTZ:
         show_result += "\n" +identifier +"\n"
-        show_result += res.write_methods_tex(identifier, path + "/tex_coco", CASES_SHIFTZ[identifier], METHODS)
+        show_result += res.write_methods_tex(identifier, path, # + "/tex_coco",
+                                             CASES_SHIFTZ[identifier], METHODS)

@@ -104,9 +104,9 @@ def run_coco(reps,
                             list_n_shifts_observed = [n_shifts_observed]
                         list_n_shifts_confounders = [n_shifts_confounders]
 
-                        dag = DAGConfounded(seed, n_contexts, n_nodes, n_confounders, list_n_confounded_nodes,
-                                            list_n_shifts_observed,
-                                            list_n_shifts_confounders, is_bivariate=False
+                        dag = DAGConfounded(seed, n_contexts, n_nodes, n_confounders, #list_n_confounded_nodes, list_n_shifts_observed, list_n_shifts_confounders,
+                                            n_shifts_observed, n_shifts_confounders,
+                                            is_bivariate=False
                                             )
 
                         D, Dobs = dag.gen_data(seed, D_n, _functional_form=fun_form, oracle_partition=True,

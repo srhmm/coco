@@ -82,14 +82,15 @@ class ResultsCoCo:
                         caus = coco_results[metric][str(method)].eval_causal(dag)
                     else:
                         assert (method.is_fci())
-                        components = 0, 0, 0, 0, 0, 0,0, 0, 0, 0, 0, 0, 0
-                        pairs = coco_results[metric][str(method)].eval_confounded(dag, method)
-                        caus = coco_results[metric][str(method)].eval_causal(dag, method)
+                        components = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+                        tp, fp, tn, fn, f1 = coco_results[metric][str(method)].eval_confounded(dag, method)
+                        pairs = (tp, fp, tn, fn, f1, 0, 0)
+                        tp, fp, tn, fn, f1 = coco_results[metric][str(method)].eval_causal(dag, method)
+                        caus = (tp, fp, tn, fn, f1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
 
                 self.eval_pairs[key][metric][method].loc[len(self.eval_pairs[key][metric][method])] = pairs
-                self.eval_causal[key][metric][method].loc[len(self.eval_pairs[key][metric][method])] = caus
-                self.eval_components[key][metric][method].loc[
-                    len(self.eval_pairs[key][metric][method])] = components
+                self.eval_causal[key][metric][method].loc[len(self.eval_causal[key][metric][method])] = caus
+                self.eval_components[key][metric][method].loc[len(self.eval_components[key][metric][method])] = components
 
     def get_result(self, metric, method=MethodType.ORACLE):
         for key in self.eval_causal:
@@ -117,9 +118,9 @@ class ResultsCoCo:
 
             self.result_causal[key][metric][method] =\
                 {'tp': tpc, 'fp': fpc, 'tn': tnc, 'fn': fnc,
-                 'f1': f1c,'f1sig': f1sigc, 'f1stdev': f1stdevc,
-                 'tpr': tprc,'tprsig': tprsigc, 'tprstdev': tprstdevc,
-                 'fpr': fprc,'fprsig': fprsigc, 'fprstdev': fprstdevc
+                 'f1': f1c, 'f1sig': f1sigc, 'f1stdev': f1stdevc,
+                 'tpr': tprc, 'tprsig': tprsigc, 'tprstdev': tprstdevc,
+                 'fpr': fprc, 'fprsig': fprsigc, 'fprstdev': fprstdevc
                 }
 
         for key in self.eval_components:

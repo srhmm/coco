@@ -49,7 +49,7 @@ def reproduce_supporting_emp_significance_power(path,
                                                 show_sx=True,
                                                 show_nz=True,
                                                 show_sz=True, testing=False):
-    reps = 20 if not testing else 2
+    reps = 2 if testing else 20
     METHODS = [MethodType.ORACLE]
     base_n_nodes, base_n_confounders, base_n_contexts, base_shift_X, base_shift_Z = (10, 1, 10, 1, 2)
     show_result = ""

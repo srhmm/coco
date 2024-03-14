@@ -22,8 +22,11 @@ def f1_score(tp, fp, fn):
         return 1
     return divv(tp, tp + 1 / 2 * (fp + fn))
 
+
 def fpr(fp, tn):
     return divv(fp, fp+tn)
+
+
 def tpr(tp, fn):
     return divv(tp, tp+fn)
 
@@ -67,6 +70,7 @@ def shifts_to_map(shifts, n_c):
             else:
                 mp[c2] = cur_idx + 1
     return mp
+
 
 def pval_to_map(pval_mat, alpha=0.05):
     n_c = pval_mat.shape[0]
@@ -112,6 +116,7 @@ def pi_join(map_1, map_2):
     map = [map_1[ci] + map_2[ci] * (max(map_1) + 1) for ci in range(len(map_1))]
     return pi_decrease_naming(map)
 
+
 def confound_partition(map:tuple, map_confounder:tuple, N:int):
     assert(len(map) == len(map_confounder))
     assert(len(map) == N)
@@ -120,6 +125,7 @@ def confound_partition(map:tuple, map_confounder:tuple, N:int):
     assert(max(map_confounded) < len(map_confounded))
 
     return map_confounded
+
 
 ### From mechanism shifts between context pairs (that do not necessarily agree in practice) to partitions
 def shifts_to_singleton_map(shifts, n_c):
@@ -134,7 +140,7 @@ def shifts_to_singleton_map(shifts, n_c):
                 ci = c1
             else:
                 continue
-                #assign all contexts different from c1 to their own new group
+                # assign all contexts different from c1 to their own new group
             if shifts[ind] == 0:
                 mp[ci] = 0
             else:
@@ -143,7 +149,6 @@ def shifts_to_singleton_map(shifts, n_c):
     return mp
 
 
-# TODO TEST : map_to_partition(shifts_to_map(shifts_resolve_disagreements(map_to_shifts(partition_to_map([[0],[1],[2],[3]])), 4), 4))
 # and map_to_partition(shifts_to_map(map_to_shifts(partition_to_map([[0],[1],[2],[3]])), 4))
 # and when not starting from an agreeing partition
 
@@ -174,6 +179,7 @@ def shifts_resolve_disagreements(shifts, n_c):
                     new_shifts[sub2_ind] = 1
     return new_shifts
 
+
 def G_to_adj(G, G_true, n_c_vars):
     index = [i for i in G.nodes]
     index_true = [i for i in G_true.nodes]
@@ -200,6 +206,7 @@ def G_to_adj(G, G_true, n_c_vars):
                     A_gaps[ind_j][ind_i] = False
                     A_edges[ind_j][ind_i] = True
     return A, A_gaps, A_edges, A_true
+
 
 def data_to_jci(D, seed, n_confounders):
     n_nodes = D.shape[2]
@@ -235,6 +242,7 @@ def data_to_jci(D, seed, n_confounders):
     json_args["seed"] =  seed
 
     return Djci, Dpooled, json_args
+
 
 def data_scale(X):
     scaler = preprocessing.StandardScaler().fit(X)
@@ -278,4 +286,3 @@ def data_check_soft(X, allow_nan=False, allow_inf=False):
         if X[c_i].shape[0] < X[c_i].shape[1]:
             warnings.warn("Num variables greater than num samples, p>n.")
     return check
-

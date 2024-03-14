@@ -2,7 +2,7 @@
 [![compat](https://github.com/srhmm/coco/actions/workflows/compat.yml/badge.svg)](https://github.com/srhmm/coco/actions/workflows/compat.yml)
 [![exp](https://github.com/srhmm/coco/actions/workflows/exp.yml/badge.svg)](https://github.com/srhmm/coco/actions/workflows/exp.yml)
 ![Static Badge](https://img.shields.io/badge/python-%3E%3D3.8-blue?logo=python&label=python)
-#[![license](https://img.shields.io/github/license/machine-teaching-group/checkmate.svg)](https://github.com/srhmm/coco/blob/main/LICENSE)
+[![license](https://img.shields.io/github/license/machine-teaching-group/checkmate.svg)](https://github.com/srhmm/coco/blob/main/LICENSE)
 
 ### Setup
 ``` 

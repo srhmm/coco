@@ -1,4 +1,5 @@
 import os
+import sys
 from collections import defaultdict
 from statistics import mean, stdev, variance
 import numpy as np
@@ -8,8 +9,9 @@ from coco.utils import f1_score
 from experiments.method_types import MethodType
 
 
+
 class ResultsCoCo:
-    def __init__(self):
+    def __init__(self, writing):
         self.eval_pairs = defaultdict(defaultdict) #confounded edges
         self.eval_causal = defaultdict(defaultdict) #causal edges
         self.eval_components = defaultdict(defaultdict) #clustering metrics
@@ -17,6 +19,16 @@ class ResultsCoCo:
         self.result_pairs = {}
         self.result_causal = {}
         self.result_components = {}
+
+        self.writing = writing
+
+    def _write(self, path, st):
+        if self.writing:
+            write_file = open(path, "a+")
+            write_file.write(st)
+            write_file.close()
+        else:
+            sys.stdout.write(st)
 
     def get_key(self, NO, NCO, N,  NAstar, NC):
         return str(NO) + '_' + str(NCO) + '_' + str(N) + '_' + str(NAstar) + '_' + str(NC)
@@ -27,10 +39,6 @@ class ResultsCoCo:
         for dic in [self.eval_causal, self.eval_pairs, self.eval_components]:
             if not dic[key].__contains__(metric):
                 dic[key][metric] = {}
-        #if not self.eval_causal[key].__contains__(metric):
-        #    self.eval_causal[key][metric] = {}
-        #if not self.eval_components[key].__contains__(metric):
-        #    self.eval_components[key][metric] = {}
 
         if not self.eval_pairs[key][metric].__contains__(method):
             self.eval_pairs[key][metric][method] = pd.DataFrame(
@@ -181,34 +189,36 @@ class ResultsCoCo:
              methods ):
 
         key = self.get_key(n_nodes, n_confounders, n_contexts, n_shifts_observed, n_shifts_confounders)
-        write_file.write("\n"+key)
+        self._write(write_file, "\n"+key)
+
         for metric in metrics:
-            write_file.write("\n\tMETRIC:"+metric)
+            self._write(write_file, "\n\tMETRIC:"+metric)
             for method in methods:
                 self.get_result(metric, method)
-                write_file.write("\n\t\t"+str(method)+":\t\t\t")
+                self._write(write_file, "\n\t\t"+str(method)+":\t\t\t")
+
                 for i in ['tp','fp', 'tn', 'fn', 'f1', 'f1stdev', 'f1sig']:
                     if self.result_pairs[key][metric][method].__contains__(i):
-                        write_file.write("[" + str(i) +"-pair] " + str(np.round(self.result_pairs[key][metric][method][i], 2)) + "\t")
-                write_file.write("\n\t\t\t\t\t\t")
+                        self._write(write_file, "[" + str(i) +"-pair] " + str(np.round(self.result_pairs[key][metric][method][i], 2)) + "\t")
+                self._write(write_file, "\n\t\t\t\t\t\t")
                 for i in ['tp','fp', 'tn', 'fn', 'f1', 'f1stdev', 'f1sig']:
                     if self.result_causal[key][metric][method].__contains__(i):
-                        write_file.write("[" + str(i) +"-cau] " + str(np.round(self.result_causal[key][metric][method][i], 2)) + "\t")
-                write_file.write("\n\t\t\t\t\t\t")
+                        self._write(write_file, "[" + str(i) +"-cau] " + str(np.round(self.result_causal[key][metric][method][i], 2)) + "\t")
+                self._write(write_file, "\n\t\t\t\t\t\t")
                 for i in ['tp-adj', 'fp-adj', 'tn-adj', 'fn-adj', 'f1-adj',  'f1stdev-adj', 'f1sig-adj' ]:
                     if self.result_components[key][metric][method].__contains__(i):
-                        write_file.write("[" + str(i) +"] " + str(np.round(self.result_components[key][metric][method][i], 2)) + "\t")
-                write_file.write("\n\t\t\t\t\t\t")
+                        self._write(write_file, "[" + str(i) +"] " + str(np.round(self.result_components[key][metric][method][i], 2)) + "\t")
+                self._write(write_file, "\n\t\t\t\t\t\t")
                 for i in ['tp', 'fp', 'tn', 'fn', 'f1', 'f1stdev', 'f1sig', 'jacc', 'ari', 'ami']: #, 'f1c']:
                     if self.result_components[key][metric][method].__contains__(i):
-                        write_file.write("[" + str(i) +"-clu] " + str(np.round(self.result_components[key][metric][method][i], 2)) + "\t")
-        write_file.flush()
+                        self._write(write_file, "[" + str(i) +"-clu] " + str(np.round(self.result_components[key][metric][method][i], 2)) + "\t")
+
 
     def write_final(self, write_file, metrics, methods):
         for method in methods:
             for metric in metrics:
                 self.get_result(metric, method)
-            write_file.write("\n\n"+str(method)+"\nCONTEXTS_OBSSHIFT_CFDSHIFT")
+            self._write(write_file, "\n\n"+str(method)+"\nCONTEXTS_OBSSHIFT_CFDSHIFT")
 
             for metric in metrics:
 
@@ -218,17 +228,17 @@ class ResultsCoCo:
                 TP_pairs, FP_pairs, TN_pairs, FN_pairs = 0, 0, 0, 0
                 TP_caus, FP_caus, TN_caus, FN_caus = 0, 0, 0, 0
                 JACC, ARI, AMI, ct = 0, 0, 0, 0
-                write_file.write("\n\tMETRIC:" + metric )
+                self._write(write_file, "\n\tMETRIC:" + metric )
                 for key in self.result_pairs:
-                    write_file.write("\n\t\t\t"+key+"\t")
-                    write_file.write(f"\t\t[f1-p] {str(np.round(self.result_pairs[key][metric][method]['f1'], 2))} \t+-{str(np.round(self.result_pairs[key][metric][method]['f1stdev'], 2))} ({str(np.round(self.result_pairs[key][metric][method]['f1sig'], 2))}) \t")
-                    write_file.write(
+                    self._write(write_file, "\n\t\t\t"+key+"\t")
+                    self._write(write_file, f"\t\t[f1-p] {str(np.round(self.result_pairs[key][metric][method]['f1'], 2))} \t+-{str(np.round(self.result_pairs[key][metric][method]['f1stdev'], 2))} ({str(np.round(self.result_pairs[key][metric][method]['f1sig'], 2))}) \t")
+                    self._write(write_file,
                         f"\t\t[f1-cau] {str(np.round(self.result_causal[key][metric][method]['f1'], 2))} \t+-{str(np.round(self.result_causal[key][metric][method]['f1stdev'], 2))} ({str(np.round(self.result_causal[key][metric][method]['f1sig'], 2))}) \t")
-                    write_file.write(
+                    self._write(write_file,
                         f"\t\t[f1-clu] {str(np.round(self.result_components[key][metric][method]['f1'], 2))} \t+-{str(np.round(self.result_components[key][metric][method]['f1stdev'], 2))} ({str(np.round(self.result_components[key][metric][method]['f1sig'], 2))}) \t")
-                    write_file.write(
+                    self._write(write_file,
                         f"\t\t[jacc] {str(np.round(self.result_components[key][metric][method]['jacc'], 2))} \t")
-                    write_file.write(
+                    self._write(write_file,
                         f"\t\t[f1-a] {str(np.round(self.result_components[key][metric][method]['f1-adj'], 2))} \t+-{str(np.round(self.result_components[key][metric][method]['f1stdev-adj'], 2))} ({str(np.round(self.result_components[key][metric][method]['f1sig-adj'], 2))}) \t")
 
                     # TODO mess
@@ -268,7 +278,7 @@ class ResultsCoCo:
                     ARI += self.result_components[key][metric][method]['ari']
                     AMI += self.result_components[key][metric][method]['ami']
                     ct = ct + 1
-                write_file.write("\n\tOVERALL\n\t\tx_x_x\t[tp-pairs] " + str(TP_pairs) + "\t[fp-pairs] " + str(FP_pairs) + "\t[tn-pairs] " + str(TN_pairs) + "\t[fn-pairs] " + str(FN_pairs) + "\t[f1-pairs] " + str(round(f1_score(TP_pairs, FP_pairs, FN_pairs), 2))+ "\t+-" + str(np.round(F1sig, 2))+ "(" + str(np.round(F1stdev, 2)) + ")"
+                self._write(write_file, "\n\tOVERALL\n\t\tx_x_x\t[tp-pairs] " + str(TP_pairs) + "\t[fp-pairs] " + str(FP_pairs) + "\t[tn-pairs] " + str(TN_pairs) + "\t[fn-pairs] " + str(FN_pairs) + "\t[f1-pairs] " + str(round(f1_score(TP_pairs, FP_pairs, FN_pairs), 2))+ "\t+-" + str(np.round(F1sig, 2))+ "(" + str(np.round(F1stdev, 2)) + ")"
                 + "\n\t\t\t\t[tp-adj] " + str(TPA) + "\t[fp-adj] " + str(FPA) + "\t[tn-adj] " + str(TNA) + "\t[fn-adj] " + str(FNA) + "\t[f1-adj] " + str(np.round(f1_score(TPA, FPA, FNA), 2)) + "\t+-" + str(np.round(F1Asig, 2))+ "("  + str(np.round(F1Astdev, 2))+ ")"
                                  + "\n\t\t\t\t[tp-caus] " + str(TP_caus) + "\t[fp-caus] " + str(FP_caus) + "\t[tn-caus] " + str(
                     TN_caus) + "\t[fn-caus] " + str(FN_caus) + "\t[f1-caus] " + str(np.round(f1_score(TP_caus, FP_caus, FN_caus), 2)) + "\t+-" + str(
@@ -276,9 +286,9 @@ class ResultsCoCo:
                 + "\n\t\t\t\t[tp] " + str(TP)  + "\t[fp] " + str(FP)  + "\t[tn] " + str(TN) + "\t[fn] " + str(FN) + "\t[f1] " + str(np.round(f1_score(TP, FP, FN),2))+ "\t+-" + str(np.round(F12sig, 2))+ "(" + str(np.round(F12stdev, 2))+ ")"
                                  + "\n\t\t\t\t[jacc] "+ str(round(JACC/ct,2)) + "\t[ari] "+ str(round(ARI/ct,2)) + "\t[ami] "+ str(round(AMI/ct,2)) )
 
-                write_file.flush()
 
-        write_file.flush()
+
+
 
 
     def write_methods_tex(self, identifier, path,
@@ -298,35 +308,37 @@ class ResultsCoCo:
         :param metric: mi
         :return:
         '''
-        #if not os.path.exists(path):
-        #    os.makedirs(path)
+        path = f"{path}/tex_coco/"
+        if self.writing and not os.path.exists(path):
+            os.makedirs(path)
 
         show = ""
         for causal in [True, False]:
             if causal:
-                write_file= open(f"{path}tex_causal_{fscore}_{identifier}.csv", "a+")
+                path= f"{path}tex_causal_{fscore}_{identifier}.csv"
                 show += '\nCAUSAL_DIRECTIONS\n'
             else:
-                write_file= open(f"{path}tex_confounded_{fscore}_{identifier}.csv", "a+")
+                path = f"{path}tex_confounded_{fscore}_{identifier}.csv"
                 show += '\nCONFOUNDED_PAIRS\n'
-            write_file.write('X')
+            if self.writing:
+                self._write(path, 'X')
             show += 'X'
 
             for entry in methods:
-                write_file.write('\t'+str(entry)+'\t'+str(entry)+"_conf")
+                self._write(path, '\t'+str(entry)+'\t'+str(entry)+"_conf")
                 show += str('\t'+str(entry)+'\t'+str(entry)+"_conf")
             for xnm in test_cases_entry:
                 (n_nodes, n_confounders, n_contexts, n_shifts_observed, n_shifts_confounders, nm) = test_cases_entry[str(xnm)]
                 key = self.get_key(n_nodes, n_confounders, n_contexts, n_shifts_observed, n_shifts_confounders)
 
-                write_file.write('\n'+str(xnm))
+                self._write(path, '\n'+str(xnm))
                 show+='\n'+str(nm)+str(xnm)
                 for method in methods:
                     if causal:
                         res = self.result_causal
                     else:
                         res = self.result_pairs
-                    write_file.write(
+                    self._write(path,
                         f"\t{str(np.round(res[key][metric][method][fscore], 2))}\t{str(np.round(res[key][metric][method][sigscore], 2))}")
                     show += f"\t{str(np.round(res[key][metric][method][fscore], 2))}\t{str(np.round(res[key][metric][method][sigscore], 2))}"
 
@@ -346,22 +358,25 @@ class ResultsCoCo:
         :param metric: mi
         :return:
         '''
+        path = f"{path}/tex_coco/"
+        if self.writing and not os.path.exists(path):
+            os.makedirs(path)
 
         show = ""
         for causal in [True, False]:
             if causal:
-                write_file= open(f"{path}tex_causal_{fscore}_{identifier}.csv", "a+")
+                path = f"{path}tex_causal_{fscore}_{identifier}.csv"
                 show += '\nCAUSAL_DIRECTIONS\n'
             else:
-                write_file= open(f"{path}tex_confounded_{fscore}_{identifier}.csv", "a+")
+                path = f"{path}tex_confounded_{fscore}_{identifier}.csv"
                 show += '\nCONFOUNDED_PAIRS\n'
-            write_file.write('X')
+            self._write(path, 'X')
             show += 'X'
             for entry in test_cases:
-                write_file.write('\t'+entry+'\t'+entry+"_conf")
+                self._write(path, '\t'+entry+'\t'+entry+"_conf")
                 show += str('\t\t'+entry+'\t'+entry+"_conf")
             for xnm in x_names:
-                write_file.write('\n'+str(xnm))
+                self._write(path, '\n'+str(xnm))
                 show +='\n'+str(xnm)
                 for case_key in test_cases:
 
@@ -373,8 +388,8 @@ class ResultsCoCo:
                                 res = self.result_causal
                             else:
                                 res = self.result_pairs
-                            write_file.write(
+                            self._write(path,
                                 f"\t{str(np.round(res[key][metric][method][fscore], 2))}\t{str(np.round(res[key][metric][method][sigscore], 2))}")
                             show += f"\t{key}:\t{str(np.round(res[key][metric][method][fscore], 2))}\t{str(np.round(res[key][metric][method][sigscore], 2))}"
-            write_file.close()
+
         return show

@@ -5,7 +5,6 @@ from sklearn.metrics.cluster import contingency_matrix, entropy, expected_mutual
 from sklearn.metrics.cluster._supervised import check_clusterings, _generalized_average
 
 
-
 def mutual_info_scores(labels_true, labels_pred):
     ''' Mutual information, adjusted mutual information, expected mutual information, and entropy over clusterings. (as in sklearn)
 
@@ -50,25 +49,11 @@ def mutual_info_scores(labels_true, labels_pred):
     return mi, ami, emi, h1, h2
 
 
-def variance_mutual_information():
-    pass
-
-
-###
 def entropy_score(labels):
     return entropy(labels)
+
+
 def entropy_score_2(labels):
-    '''
-    if contingency is None:
-        labels_true, labels_pred = check_clusterings(labels_true, labels_pred)
-        contingency = contingency_matrix(labels_true, labels_pred, sparse=True)
-    else:
-        contingency = check_array(
-            contingency,
-            accept_sparse=["csr", "csc", "coo"],
-            dtype=[int, np.int32, np.int64],
-        )
-'''
     contingency = contingency_matrix(labels, labels, sparse=True)
     if isinstance(contingency, np.ndarray):
         nzx, nzy = np.nonzero(contingency)
@@ -92,21 +77,3 @@ def entropy_score_2(labels):
     # count of elem per cluster
     # ai = [sum(nz_val[(np.where(nzx==i))]) for i in range(max(nzx)+1) => pi
     return -sum(pi / N * np.log(pi / N))
-
-    # def mut_inf(c1,c2, n_bins=8):
-    #     c_X = np.histogram(c1, n_bins)[0]
-    #     c_Y = np.histogram(c2, n_bins)[0]
-    #     c_XY = np.histogram2d(c1, c2, 5)[0]
-    #     H_X = shan_entropy(c_X)
-    #     H_Y = shan_entropy(c_Y)
-    #     H_XY = shan_entropy(c_XY)
-    #
-    #     MI = H_X + H_Y - H_XY
-    #     return MI
-    #
-    # def shan_entropy(c):
-    #     c_normalized = c / float(np.sum(c))
-    #     c_normalized = c_normalized[np.nonzero(c_normalized)]
-    #     H = -sum(c_normalized * np.log2(c_normalized))
-    #     return H
-

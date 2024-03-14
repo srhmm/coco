@@ -2,10 +2,6 @@ import math
 from statistics import mean, variance, stdev
 
 import numpy as np
-from scipy import sparse as sp
-from sklearn.metrics import mutual_info_score
-from sklearn.metrics.cluster import contingency_matrix, entropy, expected_mutual_information
-from sklearn.metrics.cluster._supervised import check_clusterings, _generalized_average
 
 from coco.dag_gen import gen_partition
 from coco.mi import mutual_info_scores

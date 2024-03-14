@@ -5,7 +5,7 @@ from coco.dag_confounded import DAGConfounded
 from coco.dag_gen import _random_nonlinearity
 from coco.mi_sampling import Sampler
 
-from coco.co_test_type import CoCoTestType, CoShiftTestType, CoDAGType
+from coco.co_test_types import CoCoTestType, CoShiftTestType, CoDAGType
 from experiments.method_types import MethodType
 from experiments.run_coco import run_coco, run_fci
 
@@ -229,7 +229,7 @@ def example_coco_and_oracles():
 
 
 
-def example_run(path):
+def example_run(path, testing=False):
     """ An example of running example_coco() repeatedly for different parameters (in CASES) and aggregating the results.
     """
     METHODS = [MethodType.COCO]
@@ -242,6 +242,6 @@ def example_run(path):
     reps = 2
     CASES = {'5_1_6_1_i': {'1': case1, '2': case2, '3': case3}}
 
-    res = run_coco(reps, CASES, METHODS, path=path)
+    res = run_coco(reps, CASES, METHODS, path=path, writing=not testing)
     for identifier in CASES:
         res.write_methods_tex(identifier, path + "/tex_coco", CASES[identifier], METHODS)

@@ -4,9 +4,9 @@ from collections import defaultdict
 
 import numpy as np
 
-from coco.co_causal_tests import test_causal
-from coco.co_confounding_tests import test_confounded
-from coco.co_test_type import CoCoTestType
+from coco.co_test_causal import test_causal
+from coco.co_test_confounding import test_confounded
+from coco.co_test_types import CoCoTestType
 from coco.dag_confounded import clus_sim_spectral
 from coco.mi import mutual_info_scores
 from coco.mi_sampling import Sampler
@@ -95,7 +95,7 @@ def node_similarities(maps_nodes, nodes, test: CoCoTestType, sampler:Sampler):
         mi, ami, emi, h1, h2 = mutual_info_scores(map_i, map_j)
         vi = h1 + h2 - 2*mi
 
-        decision_causal, pval_causal = test_causal(h1, h2, mi, stdev_cent_sampling) #sampler
+        decision_causal, pval_causal = test_causal(h1, mi, stdev_cent_sampling) #sampler
 
         similarity_mi[n_i][n_j] = mi-emi
         similarity_01[n_i][n_j] = decision_mi

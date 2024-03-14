@@ -2,14 +2,13 @@ import os
 
 import numpy as np
 
-from coco.co_test_type import CoCoTestType, CoShiftTestType, CoDAGType
+from coco.co_test_types import CoCoTestType, CoShiftTestType, CoDAGType
 from coco.co_co import CoCo
 from coco.dag_gen import _random_nonlinearity
 from coco.fci import FCI_JCI
 from coco.dag_confounded import DAGConfounded
 from coco.mi_sampling import Sampler
 from experiments.results_coco import ResultsCoCo, MethodType
-
 
 
 def run_coco(reps,
@@ -20,29 +19,37 @@ def run_coco(reps,
              bivariate=False,
              exact_shifts=False,
              known_componets=True,
-             path=''):
+             path='',
+             writing=True):
 
     CONFOUNDING_TEST = CoCoTestType.MI_ZTEST
     FUN_FORMS = [(_random_nonlinearity(), "NLIN")]
-
 
     sampler = Sampler()
     D_n = 500
 
     for fun_form, fun_str in FUN_FORMS:
         exp_identifier = str(SHIFT_TEST) + '_' + str(CONFOUNDING_TEST)  + "_biv_"+ str(bivariate)+'_known_n_z_' + str(known_componets) + '_' + fun_str + '_' + str(D_n)
-        fl = path # f"{path}/out_coco/"
-        #if not os.path.exists(fl):
-        #    os.makedirs(fl)
-        write_file = open(f'{fl}{exp_identifier}_log.csv', "a+")
-        write_final_file = open(f"{path}{exp_identifier}_res.csv", "a+")#/out_coco/"
+        fl = f"{path}/out_coco/"
 
-        for fl in [write_file, write_final_file]:
-            fl.write("\n\nEXPERIMENT: " + exp_identifier)
-            fl.write("\nTESTS: " + str(CONFOUNDING_TEST) + " x " + str(SHIFT_TEST))
-            fl.write("\nMETHODS: " + str([str(m) for m in METHODS]))
-            fl.flush()
-        res = ResultsCoCo()
+        path_write = f'{fl}{exp_identifier}_log.csv'
+        path_final = f'{path}{exp_identifier}_res.csv'
+
+        if writing:
+            if not os.path.exists(fl):
+                os.makedirs(fl)
+
+            write_file = open(path_write, "a+")
+            write_final_file = open(path_final, "a+")
+
+            for fl in [write_file, write_final_file]:
+                fl.write("\n\nEXPERIMENT: " + exp_identifier)
+                fl.write("\nTESTS: " + str(CONFOUNDING_TEST) + " x " + str(SHIFT_TEST))
+                fl.write("\nMETHODS: " + str([str(m) for m in METHODS]))
+                fl.flush()
+            write_file.close()
+            write_final_file.close()
+        res = ResultsCoCo(writing)
 
         # Each metric, could try other tests for confounding here, but MI_ZTEST works well
         metric = 'mi'
@@ -159,22 +166,22 @@ def run_coco(reps,
                             RESULTS[metric][str(MethodType.ORACLE)] = oracle
 
                     res.update(dag, n_nodes, n_confounders, n_contexts, n_shifts_observed, n_shifts_confounders, RESULTS, METHODS)
-                res.write(write_file, n_nodes, n_confounders, n_contexts, n_shifts_observed, n_shifts_confounders, [metric], METHODS)
-        res.write_final(write_final_file, [metric], METHODS)
+                res.write(path_write, n_nodes, n_confounders, n_contexts, n_shifts_observed, n_shifts_confounders, [metric], METHODS)
+        res.write_final(path_final, [metric], METHODS)
 
-        write_file.close()
-        write_final_file.close()
         return res
+
 
 def run_fci(dag, D, Dobs, D_n, fun_form, method,
             FCI_INDEP_TEST, seed):
+
     val_error = False
     try:
         fci_jci = FCI_JCI(Dobs, dag.G, dag.G_true, dag,
                                                independence_test=FCI_INDEP_TEST,
                                                method=method)
     except ValueError:
-        val_error= True
+        val_error = True
     it = 0
     while (val_error and it < 1000):
         it += 1
@@ -189,7 +196,7 @@ def run_fci(dag, D, Dobs, D_n, fun_form, method,
                                                    method=method)
         except ValueError:
             val_error = True
-    if (val_error):
+    if val_error:
         raise Exception("singular matrix")
 
     seed = seed + 1

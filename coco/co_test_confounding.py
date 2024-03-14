@@ -3,12 +3,10 @@ import math
 import numpy as np
 import scipy
 
-from coco.co_test_type import CoCoTestType
+from coco.co_test_types import CoCoTestType
 from coco.mi_sampling import Sampler
 from coco.mi import mutual_info_scores
 
-#TODO store all of the returns from sampler in sampler and return sampler (to pass it to test_causal and access mi and stdev_cent there).
-#TODO instead of test_confounded_Z_mi_sampling, use the analytical expression for stdev.
 
 def test_confounded(map_i, map_j, test: CoCoTestType, sampler: Sampler):
     if test.value == CoCoTestType.SKIP.value:

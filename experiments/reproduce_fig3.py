@@ -3,12 +3,14 @@ import numpy as np
 import pandas as pd
 
 from coco.co_co import CoCo
-from coco.co_test_type import CoShiftTestType, CoCoTestType, CoDAGType
+from coco.co_test_types import CoShiftTestType, CoCoTestType, CoDAGType
 from coco.mi_sampling import Sampler
+
 
 def show_raf_mek(path):
     node_raf, node_mek, node_pkc = 0, 1, 8
     show_sachs_nodes(0, 1,  path)
+
 
 def show_sachs_nodes(node_x, node_y , nms, path="/data_cytometry"):
     Dc = [
@@ -41,6 +43,7 @@ def show_sachs_nodes(node_x, node_y , nms, path="/data_cytometry"):
     plt.xlabel(str(nms[node_x]))
     plt.ylabel(str(nms[node_y]))
     plt.title('Edge ' + str(nms[node_x]) + ' -> ' + str(nms[node_y]))
+
 
 def reproduce_fig3(path="/data_cytometry"):
 

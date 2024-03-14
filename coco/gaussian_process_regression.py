@@ -16,9 +16,9 @@ from coco.utils import data_scale
 def lin_regression(X,y):
     return LinearRegression().fit(X, y)
 
-def gp_regression(X,y,rand_fourier_features):
-    gps = group_gaussianProcessRegression(np.array([X]),np.array([y]), rand_fourier_features=rand_fourier_features)
-    return gps[0]
+#def gp_regression(X,y,rand_fourier_features):
+#    gps = group_gaussianProcessRegression(np.array([X]),np.array([y]), rand_fourier_features=rand_fourier_features)
+#    return gps[0]
 
 def group_linearRegression(X, y, scale=False):
     """Given Data X,y in several contexts or groups, linear regression per group
@@ -34,27 +34,13 @@ def group_linearRegression(X, y, scale=False):
 
     return coef_k_x
 
-
+"""
 def group_gaussianProcessRegression(X, y,
                                     alpha=1.5, length_scale=1.0, length_scale_bounds=(1e-2, 1e2),
                                     scale=False, grid_search=False,
                                     rand_fourier_features=False,# True,
                                     pi_search=True,
-                                    show_plt=False):
-    """GP regression in contexts or groups thereof.
-    Example, GP in single contexts: X_c, y_c = gen_data_nonlinear(); GP_c = group_gaussianProcessRegression(X_c, y_c).
-    Example, in each group: Pi = [[0,1],[2,3,4]]; X_k, y_k = data_groupby_pi(X_c, y_c, Pi); GP_k  = ...(X_k, y_k).
-
-    :param X: X, list of context/group data
-    :param y: y
-    :param alpha: rbf kernel param
-    :param length_scale: rbf kernel param
-    :param length_scale_bounds: rbf kernel param
-    :param scale: whether scaling data beforehand
-    :param grid_search: kernel param tuning
-    :param show_plt: plot
-    :return: GP_k, gaussian process per context/group
-    """
+                                    show_plt=False): 
     #alpha= (1e-1)
     kernel = 1 * RBF(length_scale=length_scale, length_scale_bounds=length_scale_bounds)
     #kernel = RBFSampler(gamma=1, random_state=1)
@@ -137,7 +123,7 @@ def group_SVRegression(X, y, show_plt):
             plt.scatter(X[pi_k],predictions_kr,label=str(pi_k) + " Predict (SVR)",linewidth=.4,marker = "+")
     if show_plt: plt.legend()
     return(SVR_k)
-
+    """
 def coef_rescale(coef_c_x, C_n, X_n):
     if X_n == 1:
         coef_c_x = coef_c_x.reshape(-1,1)

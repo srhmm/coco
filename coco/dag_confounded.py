@@ -2,11 +2,9 @@ from collections import defaultdict
 
 import numpy as np
 from sklearn import preprocessing
-from sklearn.linear_model import LinearRegression
-
-from coco.dag_gen import gen_random_directed_er, gen_group_maps, gen_group_maps_nodeset, _random_nonlinearity, \
+from coco.dag_gen import gen_group_maps, gen_group_maps_nodeset, _random_nonlinearity, \
     cantor_pairing, _separable_coefficients, _random_gp, gen_confounded_random_directed_er
-from coco.utils import confound_partition, f1_score, map_to_partition
+from coco.utils import confound_partition, map_to_partition
 
 
 def sample_confounded_nodes(n_nodes, n_confounders, n_shifts_observed, n_shifts_confounders, exact_shifts=False):
@@ -28,6 +26,7 @@ def sample_confounded_nodes(n_nodes, n_confounders, n_shifts_observed, n_shifts_
         list_n_shifts_observed = [n_shifts_observed]
     list_n_shifts_confounders = [n_shifts_confounders]
     return list_n_confounded_nodes, list_n_shifts_confounders, list_n_shifts_observed
+
 
 class DAGConfounded:
     def __init__(self, seed,

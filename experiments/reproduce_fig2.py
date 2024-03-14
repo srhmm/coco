@@ -3,9 +3,8 @@ from experiments.run_coco import run_coco
 
 
 def reproduce_fig2(path, METHODS=None, testing=False):
-    reps = 20
-    if testing:
-        reps = 2
+    reps = 2 if testing else 20
+
     if METHODS is None:
         METHODS = all_methods()
     base_n_nodes, base_n_confounders, base_n_contexts, base_shift_X, base_shift_Z = (5, 1, 10, 1, 2)
@@ -21,10 +20,10 @@ def reproduce_fig2(path, METHODS=None, testing=False):
             {str(i): (base_n_nodes, base_n_confounders, i, 1, 2, 'n_c') for i in [15, 20]}
     }
     res = run_coco(reps, CASES_CONTEXTS,
-                   METHODS, path=path)
+                   METHODS, path=path, writing=not testing)
     for identifier in CASES_CONTEXTS:
         show_result +=  "\n" +identifier +"\n"
-        show_result += res.write_methods_tex(identifier, path, #todo can use subdir: + "/tex_coco",
+        show_result += res.write_methods_tex(identifier, path + "/tex_coco",
                                              CASES_CONTEXTS[identifier], METHODS)
 
 
@@ -39,10 +38,10 @@ def reproduce_fig2(path, METHODS=None, testing=False):
             str(i): (i, base_n_confounders, base_n_contexts, 1, 2, 'n_nodes_') for i in [15, 20]}
 
     }
-    res = run_coco(reps, CASES_NODES, METHODS, path=path)
+    res = run_coco(reps, CASES_NODES, METHODS, path=path, writing=not testing)
     for identifier in CASES_NODES:
         show_result += "\n" +identifier +"\n"
-        show_result += res.write_methods_tex(identifier, path, # + "/tex_fci",
+        show_result += res.write_methods_tex(identifier, path + "/tex_fci",
                                              CASES_NODES[identifier], METHODS)
 
 
@@ -59,10 +58,10 @@ def reproduce_fig2(path, METHODS=None, testing=False):
             str(9): (base_n_nodes, base_n_confounders, base_n_contexts, 9, 9, 'n_xzshift_')}
     }
 
-    res = run_coco(reps, CASES_SHIFTX, METHODS, path=path)
+    res = run_coco(reps, CASES_SHIFTX, METHODS, path=path, writing=not testing)
     for identifier in CASES_SHIFTX:
         show_result += "\n" + identifier + "\n"
-        show_result += res.write_methods_tex(identifier, path, #+ "/tex_coco",
+        show_result += res.write_methods_tex(identifier, path + "/tex_coco",
                                              CASES_SHIFTX[identifier], METHODS)
     print(show_result)
 
@@ -73,8 +72,8 @@ def reproduce_fig2(path, METHODS=None, testing=False):
                   range(0, base_n_contexts)}
       }
 
-    res = run_coco(reps, CASES_SHIFTZ, METHODS, path=path)
+    res = run_coco(reps, CASES_SHIFTZ, METHODS, path=path, writing=not testing)
     for identifier in CASES_SHIFTZ:
         show_result += "\n" +identifier +"\n"
-        show_result += res.write_methods_tex(identifier, path, # + "/tex_coco",
+        show_result += res.write_methods_tex(identifier, path + "/tex_coco",
                                              CASES_SHIFTZ[identifier], METHODS)

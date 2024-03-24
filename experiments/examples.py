@@ -9,6 +9,7 @@ from coco.co_test_types import CoCoTestType, CoShiftTestType, CoDAGType
 from experiments.method_types import MethodType
 from experiments.run_coco import run_coco, run_fci
 
+
 def example_mini():
     """ A fast example.
         """
@@ -34,7 +35,7 @@ def example_mini():
     D, Dobs = dag.gen_data(seed, n_samples, _functional_form=fun_form, oracle_partition=True, noise_iv=False)
 
     from coco.co_co import CoCo
-    from coco.co_test_type import CoCoTestType, CoShiftTestType, CoDAGType
+    from coco.co_test_types import CoCoTestType, CoShiftTestType, CoDAGType
     cocoO = CoCo(D, dag.G.nodes, sampler=sampler, n_components=None,
                     shift_test=CoShiftTestType.SKIP,
                     dag_discovery=CoDAGType.SKIP, dag=dag)
@@ -109,7 +110,7 @@ def example_coco():
     _show(res, coco, 'caus')
 
 
-    from coco.co_test_type import CoCoTestType, CoShiftTestType, CoDAGType
+    from coco.co_test_types import CoCoTestType, CoShiftTestType, CoDAGType
 
     # CoCo with known causal directions
     coco_oG = CoCo(D, dag.G.nodes, sampler=sampler, n_components=None,

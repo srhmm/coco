@@ -20,7 +20,7 @@ def reproduce_supporting_clustering(path, testing=False):
                    known_componets=False,
                    path=path, writing=not testing)
 
-    for metric in ['f1', 'tpr', 'fpr']:
+    for metric in ['f1']: #['f1', 'tpr', 'fpr']:
         show_result += res.write_methods_tex(identifier("i"), path, CASE[identifier], METHODS,
                                              fscore=metric, sigscore=f'{metric}sig')
 

@@ -75,7 +75,7 @@ _show(res, coco, 'caus')
 ##### CoCo with different oracles 
 
 ```
-from coco.co_test_type import CoCoTestType, CoShiftTestType, CoDAGType
+from coco.co_test_types import CoCoTestType, CoShiftTestType, CoDAGType
 
 # CoCo with known causal directions 
 coco_oG = CoCo(D, dag.G.nodes, sampler=sampler, n_components=None, 

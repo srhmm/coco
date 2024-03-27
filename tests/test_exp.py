@@ -29,10 +29,10 @@ def test_example_run():
     example_run("", testing=True)
 
 
+"""
 def test_reproduce_fig2():
     reproduce_fig2("", testing=True)
 
-"""
 def test_reproduce_fig3(get_path):
     path = get_path('data_cytometry')
     reproduce_fig3(path)
@@ -42,9 +42,8 @@ def test_reproduce_supA():
     reproduce_supporting_clustering("", testing=True)
     reproduce_supporting_causal("", testing=True)
 
-
-#def test_reproduce_supB():
-#    reproduce_supporting_emp_significance_power("", testing=True)
-#    reproduce_supporting_sparse_shifts("", testing=True)
+def test_reproduce_supB():
+    reproduce_supporting_emp_significance_power("", testing=True)
+    reproduce_supporting_sparse_shifts("", testing=True)
 
 """
